@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/Users/Prathyush/.m2/repository/org/seleniumhq/selenium/selenium-api/3.0.0/selenium-api-3.0.0.jar">
+		<attributes>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+			<attribute name="maven.artifactId" value="selenium-api"/>
+			<attribute name="maven.version" value="3.0.0"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Prathyush/Work/Automation/UdemyTutorial/Selenium3.4.0/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Prathyush/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.0.0/selenium-firefox-driver-3.0.0.jar">
+		<attributes>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+			<attribute name="maven.artifactId" value="selenium-firefox-driver"/>
+			<attribute name="maven.version" value="3.0.0"/>
+			<attribute name="maven.scope" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
