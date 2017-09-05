@@ -38,7 +38,8 @@ public class AvailableLinks {
 	public static List<WebElement> clickableLinks(WebDriver driver){
 		List<WebElement> licksToClick = new ArrayList<WebElement>();
 		List<WebElement> elements = driver.findElements(By.tagName("a"));
-		elements.addAll(driver.findElement(By.tagName("img")));
+		//elements.addAll(driver.findElement(By.tagName("img")));
+		return elements;
 	}
 
 	@After
