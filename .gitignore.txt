@@ -1,2 +1,9 @@
 .gitignore/
 test-output/
+apache-log4j-2.9.0-bin/
+json-path-3.0.3-dist/
+json-schema-validator-3.0.3-dist/
+rest-assured-3.0.3-dist/
+scala-support-3.0.3-dist/
+Selenium3.4.0/
+xml-path-3.0.3-dist/
