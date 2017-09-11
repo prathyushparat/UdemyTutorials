@@ -1,0 +1,12 @@
+<suite name="testSuit1"> 
+<test name="Application test 1">
+    <classes>
+        <class name="Regression.TestNG_Class2"></class>
+    </classes>
+</test>
+<test name="Application test 2">
+    <classes>
+        <class name="Regression.TestNG_Class1"></class>
+    </classes>
+</test>
+</suite>

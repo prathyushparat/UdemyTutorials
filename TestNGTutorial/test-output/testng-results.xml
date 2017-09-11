@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testSuit1" duration-ms="49" started-at="2017-09-11T05:24:56Z" finished-at="2017-09-11T05:24:57Z">
+    <groups>
+    </groups>
+    <test name="Application test 1" duration-ms="16" started-at="2017-09-11T05:24:56Z" finished-at="2017-09-11T05:24:57Z">
+      <class name="Regression.TestNG_Class2">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Regression.TestNG_Class2@5ae9a829]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-09-11T10:54:56Z" finished-at="2017-09-11T10:54:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Regression.TestNG_Class2@5ae9a829]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-09-11T10:54:57Z" finished-at="2017-09-11T10:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="tbeBeforeClass()[pri:0, instance:Regression.TestNG_Class2@5ae9a829]" name="tbeBeforeClass" is-config="true" duration-ms="0" started-at="2017-09-11T10:54:57Z" finished-at="2017-09-11T10:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tbeBeforeClass -->
+        <test-method status="PASS" signature="testMethod1()[pri:0, instance:Regression.TestNG_Class2@5ae9a829]" name="testMethod1" duration-ms="3" started-at="2017-09-11T10:54:57Z" finished-at="2017-09-11T10:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method status="PASS" signature="tbeBeforeTest()[pri:0, instance:Regression.TestNG_Class2@5ae9a829]" name="tbeBeforeTest" is-config="true" duration-ms="0" started-at="2017-09-11T10:54:57Z" finished-at="2017-09-11T10:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tbeBeforeTest -->
+        <test-method status="PASS" signature="tbeAfterTest()[pri:0, instance:Regression.TestNG_Class2@5ae9a829]" name="tbeAfterTest" is-config="true" duration-ms="0" started-at="2017-09-11T10:54:57Z" finished-at="2017-09-11T10:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tbeAfterTest -->
+        <test-method status="PASS" signature="tbeBeforeTest()[pri:0, instance:Regression.TestNG_Class2@5ae9a829]" name="tbeBeforeTest" is-config="true" duration-ms="0" started-at="2017-09-11T10:54:57Z" finished-at="2017-09-11T10:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tbeBeforeTest -->
+        <test-method status="PASS" signature="testMethod2()[pri:0, instance:Regression.TestNG_Class2@5ae9a829]" name="testMethod2" duration-ms="0" started-at="2017-09-11T10:54:57Z" finished-at="2017-09-11T10:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+        <test-method status="PASS" signature="tbeAfterTest()[pri:0, instance:Regression.TestNG_Class2@5ae9a829]" name="tbeAfterTest" is-config="true" duration-ms="0" started-at="2017-09-11T10:54:57Z" finished-at="2017-09-11T10:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tbeAfterTest -->
+        <test-method status="PASS" signature="tbeAfterClass()[pri:0, instance:Regression.TestNG_Class2@5ae9a829]" name="tbeAfterClass" is-config="true" duration-ms="0" started-at="2017-09-11T10:54:57Z" finished-at="2017-09-11T10:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tbeAfterClass -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Regression.TestNG_Class2@5ae9a829]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-09-11T10:54:57Z" finished-at="2017-09-11T10:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Regression.TestNG_Class2@5ae9a829]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-09-11T10:54:57Z" finished-at="2017-09-11T10:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Regression.TestNG_Class2 -->
+    </test> <!-- Application test 1 -->
+    <test name="Application test 2" duration-ms="6" started-at="2017-09-11T05:24:57Z" finished-at="2017-09-11T05:24:57Z">
+      <class name="Regression.TestNG_Class1">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Regression.TestNG_Class1@1753acfe]" name="beforeSuite" is-config="true" duration-ms="5" started-at="2017-09-11T10:54:56Z" finished-at="2017-09-11T10:54:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Regression.TestNG_Class1@1753acfe]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-09-11T10:54:57Z" finished-at="2017-09-11T10:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Regression.TestNG_Class1@1753acfe]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-09-11T10:54:57Z" finished-at="2017-09-11T10:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="tbeBeforeClass()[pri:0, instance:Regression.TestNG_Class1@1753acfe]" name="tbeBeforeClass" is-config="true" duration-ms="0" started-at="2017-09-11T10:54:57Z" finished-at="2017-09-11T10:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tbeBeforeClass -->
+        <test-method status="PASS" signature="testMethod1()[pri:0, instance:Regression.TestNG_Class1@1753acfe]" name="testMethod1" duration-ms="1" started-at="2017-09-11T10:54:57Z" finished-at="2017-09-11T10:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method status="PASS" signature="tbeBeforeTest()[pri:0, instance:Regression.TestNG_Class1@1753acfe]" name="tbeBeforeTest" is-config="true" duration-ms="0" started-at="2017-09-11T10:54:57Z" finished-at="2017-09-11T10:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tbeBeforeTest -->
+        <test-method status="PASS" signature="tbeBeforeTest()[pri:0, instance:Regression.TestNG_Class1@1753acfe]" name="tbeBeforeTest" is-config="true" duration-ms="0" started-at="2017-09-11T10:54:57Z" finished-at="2017-09-11T10:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tbeBeforeTest -->
+        <test-method status="PASS" signature="tbeAfterTest()[pri:0, instance:Regression.TestNG_Class1@1753acfe]" name="tbeAfterTest" is-config="true" duration-ms="0" started-at="2017-09-11T10:54:57Z" finished-at="2017-09-11T10:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tbeAfterTest -->
+        <test-method status="PASS" signature="testMethod2()[pri:0, instance:Regression.TestNG_Class1@1753acfe]" name="testMethod2" duration-ms="2" started-at="2017-09-11T10:54:57Z" finished-at="2017-09-11T10:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+        <test-method status="PASS" signature="tbeAfterTest()[pri:0, instance:Regression.TestNG_Class1@1753acfe]" name="tbeAfterTest" is-config="true" duration-ms="0" started-at="2017-09-11T10:54:57Z" finished-at="2017-09-11T10:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tbeAfterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Regression.TestNG_Class1@1753acfe]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-09-11T10:54:57Z" finished-at="2017-09-11T10:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tbeAfterClass()[pri:0, instance:Regression.TestNG_Class1@1753acfe]" name="tbeAfterClass" is-config="true" duration-ms="0" started-at="2017-09-11T10:54:57Z" finished-at="2017-09-11T10:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tbeAfterClass -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Regression.TestNG_Class1@1753acfe]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-09-11T10:54:57Z" finished-at="2017-09-11T10:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Regression.TestNG_Class1@1753acfe]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-09-11T10:54:57Z" finished-at="2017-09-11T10:54:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Regression.TestNG_Class1 -->
+    </test> <!-- Application test 2 -->
+  </suite> <!-- testSuit1 -->
+</testng-results>
