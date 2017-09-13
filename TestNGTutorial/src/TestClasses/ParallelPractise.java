@@ -2,8 +2,11 @@ package TestClasses;
 
 import org.testng.annotations.Test;
 
-public class NewTest {
+public class ParallelPractise {
+	
+	
   @Test
-  public void f() {
+  public void login() {
+	  
   }
 }
