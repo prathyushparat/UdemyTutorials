@@ -27,7 +27,7 @@ public class AllInOneLogin {
 		RestAssured.baseURI=prop.getProperty("HOST");
 		//RestAssured.baseURI="https://api.pc.enstage-sas.com";
 		Response res = given().
-		param("username",prop.getProperty("LoginMobileNumber")).
+		param("username",prop.getProperty("LoginMobileNumber")).log().all().
 		when().
 		post(resources.getSaltResource());
 		String response = res.asString();
@@ -42,7 +42,7 @@ public class AllInOneLogin {
 		RestAssured.baseURI=prop.getProperty("HOST1");
 		res=given().
 		param("password",prop.getProperty("PIN")).
-		param("key",salt).
+		param("key",salt).log().all().
 		when().
 		post(resources.getCReatePwdResource());
 		/*String pwd = res.asString();
@@ -55,7 +55,7 @@ public class AllInOneLogin {
 		System.out.println("======Login1=======");
 		RestAssured.baseURI=prop.getProperty("HOST");
 		res = given().
-				body(Payload.loginBody()).
+				body(Payload.loginBody()).log().all().
 				when().
 				post(resources.postLoginResource());
 		ReusableMethods.rawToJson(res);
