@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Extent suite">
+    <test name = "Combined report">
+    <classes>
+        <class name = "TestClasses.TestNG_Test1"></class>
+        <class name = "TestClasses.TestNG_Test2"></class>
+        
+    </classes>
+    </test>
+</suite>
+
