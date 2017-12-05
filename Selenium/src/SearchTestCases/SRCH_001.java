@@ -5,9 +5,8 @@ import java.util.List;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-import SearchPageObject.SearchPage;
-
 import com.relevantcodes.extentreports.LogStatus;
+import com.webpage.object.SearchPage;
 
 public class SRCH_001 extends BaseClass{
 	
