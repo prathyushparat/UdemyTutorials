@@ -1,5 +1,6 @@
 package SearchPageObject;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,85 +12,171 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
+
+import com.relevantcodes.extentreports.LogStatus;
 
 import JUnit.WebElementList1;
+import SearchTestCases.BaseClass;
 
-public class SearchPage {
-	
+public class SearchPage extends BaseClass {
+
 	public WebDriver driver;
 	List l1 = new ArrayList();
-	
-	/** ebay landing page product search filed*/
-	@FindBy(id="gh-ac")
+
+	/** ebay landing page product search filed */
+	@FindBy(id = "gh-ac")
 	private WebElement searchField;
-	
-	/** ebay landing page product search button*/
-	@FindBy(id="gh-btn")
+
+	/** ebay landing page product search button */
+	@FindBy(id = "gh-btn")
 	private WebElement searchButton;
-	
-	@FindBy(id="//ul[@id='ListViewInner']//li[@class='sresult lvresult clearfix li'][1]")
+
+	@FindBy(id = "//ul[@id='ListViewInner']//li[@class='sresult lvresult clearfix li'][1]")
 	private WebElementList1 resultList;
-	
-	@FindBy(id="DashSortByContainer")
-	private WebElement	sortOption;
-	
-	@FindBy(xpath="//li[@class='dropdown small']")
-	private WebElement	sortOption1;
-	
-	@FindBy(xpath="//ul[@id='ListViewInner']//h3[@class='lvtitle']")
+
+	@FindBy(id = "DashSortByContainer")
+	private WebElement sortOption;
+
+	@FindBy(xpath = "//li[@class='dropdown small']")
+	private WebElement sortOption1;
+
+	@FindBy(xpath = "//ul[@id='ListViewInner']//h3[@class='lvtitle']")
 	private WebElement productName;
-	
-	@FindBy(xpath="//ul[@class='lvprices left space-zero']//li[@class='lvprice prc']")
+
+	@FindBy(xpath = "//ul[@class='lvprices left space-zero']//li[@class='lvprice prc']")
 	private WebElement productPrice;
 
-	
-	@FindBy(linkText="https://www.ebay.com/sch/i.html?_from=R40&_sacat=0&_nkw=ipad&_sop=15\" value=\"15\"")
+	@FindBy(xpath = "//ul[@id='SortMenu']//li[3]")
 	private WebElement sortLowToHigh;
-	
-	JavascriptExecutor jse;
 
-	
+	@FindBy(xpath = "//ul[@id='SortMenu']//li[4]")
+	private WebElement sortHighToLow;
+
 	public SearchPage(WebDriver driver) {
 		{
-			this.driver=driver;
+			this.driver = driver;
 			PageFactory.initElements(driver, this);
 		}
 	}
 
-	public void searchItem(String itemName){
+	public void searchItem(String itemName) {
+
 		searchField.sendKeys(itemName);
 		searchButton.click();
 	}
-	
-	public void extractResult(int count){
-		//int no=9;
+
+	public List extractResult(int count, String order) {
 		String name;
 		String price;
-		
-		for(int i=1;i<=count;i++){
-			name=driver.findElement(By.xpath("//ul[@id='ListViewInner']//li[@class='sresult lvresult clearfix li']["+i+"]//h3[@class='lvtitle']")).getText();
-			price=driver.findElement(By.xpath("//ul[@id='ListViewInner']//li[@class='sresult lvresult clearfix li']["+i+"]//ul[@class='lvprices left space-zero']//li[@class='lvprice prc']")).getText();
+
+		for (int i = 1; i <= count; i++) {
+			name = driver
+					.findElement(
+							By.xpath("//ul[@id='ListViewInner']//li[@class='sresult lvresult clearfix li']["
+									+ i + "]//h3[@class='lvtitle']")).getText();
+			price = driver
+					.findElement(
+							By.xpath("//ul[@id='ListViewInner']//li[@class='sresult lvresult clearfix li']["
+									+ i
+									+ "]//ul[contains(@class,'lvprices left space-zero')]//li[@class='lvprice prc']"))
+					.getText();
 			l1.add(name);
 			l1.add(price);
+
 		}
-		
-		
-		System.out.println(l1);
-		
+		test.log(LogStatus.INFO, "length of list is " + l1.size());
+		// System.out.println("length of list is "+l1.size());
+		/*
+		 * double costOfPreviousItem , costCurrentItem; for(int
+		 * i=0;i<l1.size();i++){ if(l1.get(i).toString().contains("$")){
+		 * costCurrentItem=Double.parseDouble(l1.get(i).toString().replace("$",
+		 * "").replace(",", ""));
+		 * System.out.println("Current item cost is "+costCurrentItem); if(i>1){
+		 * costOfPreviousItem
+		 * =Double.parseDouble(l1.get(i-2).toString().replace("$",
+		 * "").replace(",", ""));
+		 * System.out.println("Previous item cost is "+costOfPreviousItem);
+		 * 
+		 * Assert.assertTrue(costOfPreviousItem>costCurrentItem,"Not in order");
+		 * } //System.out.println(cost);
+		 * 
+		 * } }
+		 */
+
+		// System.out.println(l1);
+		return l1;
+
 	}
-	
-	public void sortBy(/*String order*/) {
-		
-		//sortOption.click();
-		//sortLowToHigh.click();
-		jse = (JavascriptExecutor)driver;
-		Actions action = new Actions(driver);
-		
-		action.moveToElement(sortOption1).perform();
-		
-		WebElement subElement = driver.findElement(By.xpath("//ul[@id='SortMenu']//a[text()='Price + Shipping: lowest first']"));
-		action.moveToElement(subElement).click().perform();		
+
+	public void validateSorting(String order) {
+		double costOfPreviousItem = 0, costCurrentItem=0;
+
+		if (order.equals("HighToLow")) {
+			
+			for (int i = 0; i < l1.size(); i++) {
+				if (l1.get(i).toString().contains("$")) {
+					costCurrentItem = Double.parseDouble(l1.get(i).toString()
+							.replace("$", "").replace(",", ""));
+					System.out.println("Current item cost is "
+							+ costCurrentItem);
+					if (i > 1) {
+						costOfPreviousItem = Double.parseDouble(l1.get(i - 2)
+								.toString().replace("$", "").replace(",", ""));
+						System.out.println("Previous item cost is "
+								+ costOfPreviousItem);
+
+						Assert.assertTrue(costOfPreviousItem > costCurrentItem,
+								"Not in " + order + " order");
+					}
+					// System.out.println(cost);
+
+				}
+			}
+			/*}catch(Throwable a){
+				test.log(LogStatus.ERROR, costOfPreviousItem+" is less than "+costCurrentItem );
+
+			}*/
+		} else if (order.equals("LowToHigh")) {
+			try{
+			for (int i = 0; i < l1.size(); i++) {
+				if (l1.get(i).toString().contains("$")) {
+					costCurrentItem = Double.parseDouble(l1.get(i).toString()
+							.replace("$", "").replace(",", ""));
+					System.out.println("Current item cost is "
+							+ costCurrentItem);
+					if (i > 1) {
+						costOfPreviousItem = Double.parseDouble(l1.get(i - 2)
+								.toString().replace("$", "").replace(",", ""));
+						System.out.println("Previous item cost is "
+								+ costOfPreviousItem);
+
+						Assert.assertTrue(costOfPreviousItem<costCurrentItem, "Not in "+order+" order");
+
+					}
+					// System.out.println(cost);
+
+				}
+			}
+			}catch(Throwable a){
+				test.log(LogStatus.ERROR, costOfPreviousItem+" is greater than "+costCurrentItem );
+			}
+		}
+
 	}
-	
+
+	public String sortBy(String order) {
+		if (order.equalsIgnoreCase("LowToHigh")) {
+
+			sortOption.click();
+			sortLowToHigh.click();
+		} else if (order.equalsIgnoreCase("HighToLow")) {
+			sortOption.click();
+			sortHighToLow.click();
+		} else
+			return "No preferred sorting order";
+		return order;
+
+	}
 
 }

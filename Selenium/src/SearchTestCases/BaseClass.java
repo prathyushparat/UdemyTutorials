@@ -6,6 +6,7 @@ import java.lang.reflect.Method;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -39,7 +40,7 @@ public class BaseClass {
 	 static XSSFSheet wSheet;
 	 static XSSFCell testCaseNameCell , testCaseIdCell, testDataCell;
 
-	 static String testDataFile = "D:\\Prathyush\\Work\\Automation\\UdemyTutorial\\Ebay\\src\\TestData\\TestData.xlsx";
+	 static String testDataFile = ".\\TestData\\TestData.xlsx";
 	 static String sheetName = "Search";
 	 static String testCaseId=null;
 	 static String testCaseName=null, automationTestData=null;
@@ -122,8 +123,8 @@ public class BaseClass {
 	
 	
 	static ExtentReports report;
-	static ExtentTest test;
-	static String reportLocation="D:\\Prathyush\\Work\\Automation\\UdemyTutorial\\Ebay1\\TestReport\\TestReport.html";
+	public static ExtentTest test;
+	static String reportLocation=".\\TestReport\\TestReport.html";
 	JavascriptExecutor jse;
 	
 	public static void setProperties(){
@@ -148,7 +149,6 @@ public class BaseClass {
 	{
 		
 		test=report.startTest(getTestCase(testMethod.getName()));
-		//test.log(LogStatus.INFO, "Executing test "+testCaseName);
 	}
 	@BeforeTest
 	public void openBrowser(){
@@ -156,9 +156,8 @@ public class BaseClass {
 		System.setProperty("webdriver.firefox.bin", "D://Program Files (x86)//Mozilla Firefox//firefox.exe");
 		System.setProperty("webdriver.gecko.driver", "D://Prathyush//Work//Automation//UdemyTutorial/geckodriver.exe");
 		driver = new FirefoxDriver();
-		jse = (JavascriptExecutor)driver;
 
-		//test.log(LogStatus.INFO, "Open URL");
+		//test.log(LogStatus.INFO, "Open URL "+BaseURL);
 
 		driver.get(BaseURL);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -170,8 +169,13 @@ public class BaseClass {
 		int a=testResult.getStatus();
 		if(a==1)
 			test.log(LogStatus.PASS, "Test is passed");
-		else
+		else{
 			test.log(LogStatus.FAIL, "Test is failed");
+
+			test.log(LogStatus.FAIL, "Test is failed",testResult.getThrowable());
+			//test.log(LogStatus.FAIL,"stepName", ExceptionUtils.getStackTrace(testResult.getThrowable()));
+
+		}
 		report.endTest(test);
 		report.flush();
 		
