@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Functional test suite]">
+  <test name="functional test(failed)">
+    <classes>
+      <class name="DataDriving.Login_001">
+        <methods>
+          <include name="initOnce"/>
+          <include name="initializeReports"/>
+          <include name="updateTestResult"/>
+          <include name="Login_001"/>
+        </methods>
+      </class> <!-- DataDriving.Login_001 -->
+      <class name="DataDriving.Login_003">
+        <methods>
+          <include name="initOnce"/>
+          <include name="initializeReports"/>
+          <include name="updateTestResult"/>
+          <include name="Login_003"/>
+        </methods>
+      </class> <!-- DataDriving.Login_003 -->
+    </classes>
+  </test> <!-- functional test(failed) -->
+</suite> <!-- Failed suite [Functional test suite] -->
