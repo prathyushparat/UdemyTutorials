@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Functional" duration-ms="35208" started-at="2018-10-31T07:35:43Z" finished-at="2018-10-31T07:36:18Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17481" started-at="2018-10-31T07:35:43Z" finished-at="2018-10-31T07:36:00Z">
+      <class name="SearchTestCases.SRCH_001">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:SearchTestCases.SRCH_001@236e3f4e]" name="openBrowser" is-config="true" duration-ms="11504" started-at="2018-10-31T07:35:43Z" finished-at="2018-10-31T07:35:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="initializeReports(java.lang.reflect.Method)[pri:0, instance:SearchTestCases.SRCH_001@236e3f4e]" name="initializeReports" is-config="true" duration-ms="18" started-at="2018-10-31T07:35:55Z" finished-at="2018-10-31T07:35:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void SearchTestCases.SRCH_001.SRCH_001()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeReports -->
+        <test-method status="PASS" signature="SRCH_001()[pri:0, instance:SearchTestCases.SRCH_001@236e3f4e]" name="SRCH_001" duration-ms="5105" started-at="2018-10-31T07:35:55Z" finished-at="2018-10-31T07:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SRCH_001 -->
+        <test-method status="PASS" signature="updateTestResult(org.testng.ITestResult)[pri:0, instance:SearchTestCases.SRCH_001@236e3f4e]" name="updateTestResult" is-config="true" duration-ms="265" started-at="2018-10-31T07:36:00Z" finished-at="2018-10-31T07:36:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SRCH_001 status=SUCCESS method=SRCH_001.SRCH_001()[pri:0, instance:SearchTestCases.SRCH_001@236e3f4e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestResult -->
+        <test-method status="FAIL" signature="closeBrowser()[pri:0, instance:SearchTestCases.SRCH_001@236e3f4e]" name="closeBrowser" is-config="true" duration-ms="568" started-at="2018-10-31T07:36:00Z" finished-at="2018-10-31T07:36:00Z">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'WIB-DES-00121', ip: '172.31.11.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\PRATHY~1.PAR\AppData\Local\Temp\rust_mozprofile.DmI0qCBojjUc, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=12120.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 4d886c0d-2cdd-42b7-8747-8cb897bf8c65]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'WIB-DES-00121', ip: '172.31.11.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\PRATHY~1.PAR\AppData\Local\Temp\rust_mozprofile.DmI0qCBojjUc, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=12120.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 4d886c0d-2cdd-42b7-8747-8cb897bf8c65
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:533)
+at SearchTestCases.BaseClass.closeBrowser(BaseClass.java:184)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.afterRun(TestRunner.java:725)
+at org.testng.TestRunner.run(TestRunner.java:509)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SearchTestCases.SRCH_001 -->
+    </test> <!-- Test -->
+    <test name="Test2" duration-ms="17707" started-at="2018-10-31T07:36:01Z" finished-at="2018-10-31T07:36:18Z">
+      <class name="SearchTestCases.SRCH_002">
+        <test-method status="PASS" signature="initOnce()[pri:0, instance:SearchTestCases.SRCH_002@55b53d44]" name="initOnce" is-config="true" duration-ms="220" started-at="2018-10-31T07:35:43Z" finished-at="2018-10-31T07:35:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initOnce -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:SearchTestCases.SRCH_002@55b53d44]" name="openBrowser" is-config="true" duration-ms="12550" started-at="2018-10-31T07:36:01Z" finished-at="2018-10-31T07:36:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="initializeReports(java.lang.reflect.Method)[pri:0, instance:SearchTestCases.SRCH_002@55b53d44]" name="initializeReports" is-config="true" duration-ms="22" started-at="2018-10-31T07:36:13Z" finished-at="2018-10-31T07:36:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void SearchTestCases.SRCH_002.SRCH_002()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeReports -->
+        <test-method status="PASS" signature="SRCH_002()[pri:0, instance:SearchTestCases.SRCH_002@55b53d44]" name="SRCH_002" duration-ms="4597" started-at="2018-10-31T07:36:13Z" finished-at="2018-10-31T07:36:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SRCH_002 -->
+        <test-method status="PASS" signature="updateTestResult(org.testng.ITestResult)[pri:0, instance:SearchTestCases.SRCH_002@55b53d44]" name="updateTestResult" is-config="true" duration-ms="65" started-at="2018-10-31T07:36:18Z" finished-at="2018-10-31T07:36:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SRCH_002 status=SUCCESS method=SRCH_002.SRCH_002()[pri:0, instance:SearchTestCases.SRCH_002@55b53d44] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestResult -->
+        <test-method status="FAIL" signature="closeBrowser()[pri:0, instance:SearchTestCases.SRCH_002@55b53d44]" name="closeBrowser" is-config="true" duration-ms="456" started-at="2018-10-31T07:36:18Z" finished-at="2018-10-31T07:36:18Z">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'WIB-DES-00121', ip: '172.31.11.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\PRATHY~1.PAR\AppData\Local\Temp\rust_mozprofile.eQqe2VbCjkiv, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=11364.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: ef3dd0cb-5490-4c0c-b493-235b7bf2c0c4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'WIB-DES-00121', ip: '172.31.11.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\PRATHY~1.PAR\AppData\Local\Temp\rust_mozprofile.eQqe2VbCjkiv, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=11364.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: ef3dd0cb-5490-4c0c-b493-235b7bf2c0c4
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:533)
+at SearchTestCases.BaseClass.closeBrowser(BaseClass.java:184)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.afterRun(TestRunner.java:725)
+at org.testng.TestRunner.run(TestRunner.java:509)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SearchTestCases.SRCH_002 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Functional -->
+</testng-results>

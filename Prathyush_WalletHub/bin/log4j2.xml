@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Properties>
+        <Property name="basePath">./logs</Property>
+    </Properties>
+    <Appenders>
+        <RollingFile name="File" fileName="${basePath}/app.log" filePattern="${basePath}/app-%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %c{2} - %msg%n"/> <!-- category 1 means class 2 means package.class. It is just another depth in logging -->
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="100MB"/>
+            </Policies>
+        </RollingFile>
+        <Console name="Console">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %c{1} - %msg%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="Error"> <!-- change Error to what ever level -->
+        	<AppenderRef ref = "File"/>  <!-- ref name could be COnsole if logging is to be in console  -->
+        </Root>
+        <Logger name="LoggingDemo" level="info" additivity="false">
+            <AppenderRef ref="File"/>
+        </Logger>
+        <Logger name="LoggingDemo1" level="trace" additivity="false">
+            <AppenderRef ref="File"/>
+        </Logger>
+    </Loggers>
+</Configuration>

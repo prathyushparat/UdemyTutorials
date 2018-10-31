@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Functional]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="SearchTestCases.SRCH_001">
+        <methods>
+          <include name="SRCH_001"/>
+          <include name="initOnce"/>
+          <include name="updateTestResult"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="initializeReports"/>
+        </methods>
+      </class> <!-- SearchTestCases.SRCH_001 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Functional] -->

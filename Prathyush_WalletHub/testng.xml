@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Functional" >
+	<test name="Test">
+		<parameter name="browser" value="firefox"></parameter>
+
+		<classes>
+			<class name="SearchTestCases.SRCH_001" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test2">
+		<parameter name="browser" value="firefox"></parameter>
+
+		<classes>
+			<class name="SearchTestCases.SRCH_002" />
+		</classes>
+	</test>
+</suite> <!-- Functional -->
