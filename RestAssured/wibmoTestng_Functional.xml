@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Functional Test Suite">
+	<test thread-count="1" name="Functional Test">
+<!--   <test thread-count="2" parallel="classes" name="Functional Test">
+ -->    <classes>
+      <class name="com.wibmo.LoginAPI.tests.LGN_001"/>
+      <class name="com.wibmo.LoginAPI.tests.LGN_002"/>
+      <class name="com.wibmo.LoginAPI.tests.LGN_003"/>
+      <class name="com.wibmo.LoginAPI.tests.LGN_004"/>
+      <class name="com.wibmo.IAPV2.tests.IAPV2_001"/>
+      <class name="com.wibmo.IAPV2.tests.IAPV2_002"/>
+      <class name="com.wibmo.IAPV2.tests.IAPV2_003"/>
+      <class name="com.wibmo.LoadMoneyIAP.tests.LM_001"/>
+      <class name="com.wibmo.SendMoneyAPI.tests.SM_001"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

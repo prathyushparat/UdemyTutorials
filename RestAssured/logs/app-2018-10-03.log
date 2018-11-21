@@ -1,0 +1,174 @@
+16:14:22.195 INFO  library.BaseClass - Started
+16:14:22.456 INFO  library.BaseClass - === Starting getSalt ===
+16:14:22.456 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:16:28.000 INFO  library.BaseClass - Started
+16:16:28.262 INFO  library.BaseClass - === Starting getSalt ===
+16:16:28.262 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:16:29.530 INFO  library.BaseClass - Salt of 9986939965 is 0hH1zD7qY9oP9gA7gD9y
+16:16:29.541 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n1","version":"4.13.3.2"},"salt":"0hH1zD7qY9oP9gA7gD9y"}
+16:16:29.550 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:16:29.559 INFO  library.BaseClass - The salt for 9986939965 is 0hH1zD7qY9oP9gA7gD9y
+16:16:29.707 INFO  library.BaseClass - 
+
+{"pwd":"V0r+344prEVNUU+qt5iWogp6bHQ=", "key":"0hH1zD7qY9oP9gA7gD9y", "encPwd":"V0r%2B344prEVNUU%2Bqt5iWogp6bHQ%3D"}
+
+16:16:29.707 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"V0r+344prEVNUU+qt5iWogp6bHQ=", "key":"0hH1zD7qY9oP9gA7gD9y", "encPwd":"V0r%2B344prEVNUU%2Bqt5iWogp6bHQ%3D"}
+
+16:16:29.713 INFO  library.BaseClass - The encrypted PIN is V0r+344prEVNUU+qt5iWogp6bHQ=
+16:16:30.032 INFO  library.BaseClass - The start login response is {"resCode":"001","resDesc":"Your last session was terminated incorrectly or is currently active. Please try logging in again after some time.","userId":null,"userToken":null,"tempToken":null,"firstName":null,"middleName":null,"lastName":null,"lastLoginTime":null,"userAccessDataType":0,"profilePicAuthKey":null,"usersMobile":null,"hostDown":false,"userBankAc":null,"unClaimedFunds":null,"availableBankListUpdateTime":null,"inflowUpdateTime":null,"outflowUpdateTime":null,"userSfLastUpdatedTime":null,"userDfLastUpdatedTime":null,"isForce":false,"forceAction":0,"forceActionMsg":null,"appUpdateUrl":null,"gcmRegistered":false,"gcmB64Hash":null,"deviceTrusted":false,"currentTrustedPhone":null,"simProofValidationStatus":null,"simValidationEnabled":false,"simValidationToPhoneNumbers":null,"publicKeyForDevice":null,"aesKeyForDevice":null,"fingerprintRegistered":false,"fingerprintB64Hash":null,"customerId":null,"customerIdSetStatus":0,"p2MerchantStatus":0,"customOfferAvailable":false,"accountKycLevel":0,"kycParamVersion":null,"walletStatus":0,"bankKycUrl":null}
+16:16:30.050 INFO  library.BaseClass - The temp token for 9986939965 logging in is null
+16:16:30.063 INFO  library.BaseClass - The userId of 9986939965 is null
+16:16:30.201 INFO  library.BaseClass - OTP is 104113
+16:16:30.202 INFO  library.BaseClass - The DVC for 9986939965 logging in is 104113
+16:16:30.340 INFO  library.BaseClass - The complete login response : {"resCode":"051","resDesc":"INTERNAL ERROR","userId":null,"userToken":null,"tempToken":null,"firstName":null,"middleName":null,"lastName":null,"lastLoginTime":null,"userAccessDataType":0,"profilePicAuthKey":null,"usersMobile":null,"hostDown":false,"userBankAc":null,"unClaimedFunds":null,"availableBankListUpdateTime":null,"inflowUpdateTime":null,"outflowUpdateTime":null,"userSfLastUpdatedTime":null,"userDfLastUpdatedTime":null,"isForce":false,"forceAction":0,"forceActionMsg":null,"appUpdateUrl":null,"gcmRegistered":false,"gcmB64Hash":null,"deviceTrusted":false,"currentTrustedPhone":null,"simProofValidationStatus":null,"simValidationEnabled":false,"simValidationToPhoneNumbers":null,"publicKeyForDevice":null,"aesKeyForDevice":null,"fingerprintRegistered":false,"fingerprintB64Hash":null,"customerId":null,"customerIdSetStatus":0,"p2MerchantStatus":0,"customOfferAvailable":false,"accountKycLevel":0,"kycParamVersion":null,"walletStatus":0,"bankKycUrl":null}
+16:18:42.680 INFO  library.BaseClass - Started
+16:18:42.944 INFO  library.BaseClass - === Starting getSalt ===
+16:18:42.944 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:18:44.501 INFO  library.BaseClass - Salt of 9986939965 is 2zN4fL4qO3fH6hU9lL4u
+16:18:44.513 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n1","version":"4.13.3.2"},"salt":"2zN4fL4qO3fH6hU9lL4u"}
+16:18:44.521 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:18:44.530 INFO  library.BaseClass - The salt for 9986939965 is 2zN4fL4qO3fH6hU9lL4u
+16:18:44.681 INFO  library.BaseClass - 
+
+{"pwd":"mlEUMwmMu+0ICUCBwaGF6JV5kWs=", "key":"2zN4fL4qO3fH6hU9lL4u", "encPwd":"mlEUMwmMu%2B0ICUCBwaGF6JV5kWs%3D"}
+
+16:18:44.681 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"mlEUMwmMu+0ICUCBwaGF6JV5kWs=", "key":"2zN4fL4qO3fH6hU9lL4u", "encPwd":"mlEUMwmMu%2B0ICUCBwaGF6JV5kWs%3D"}
+
+16:18:44.689 INFO  library.BaseClass - The encrypted PIN is mlEUMwmMu+0ICUCBwaGF6JV5kWs=
+16:18:45.136 INFO  library.BaseClass - The start login response is {"resCode":"000","resDesc":"SUCCESS","userId":"87101","userToken":null,"tempToken":"201810IN6019P8NKsiQ9Ej3crxyoTW9T6","firstName":null,"middleName":null,"lastName":null,"lastLoginTime":null,"userAccessDataType":0,"profilePicAuthKey":null,"usersMobile":["7338190532","9986939965"],"hostDown":false,"userBankAc":null,"unClaimedFunds":[],"availableBankListUpdateTime":null,"inflowUpdateTime":"1370935498378","outflowUpdateTime":"1370935498375","userSfLastUpdatedTime":null,"userDfLastUpdatedTime":null,"isForce":true,"forceAction":21,"forceActionMsg":"This device is not in your trusted list. Please provide requested information to continue accessing from this device.","appUpdateUrl":null,"gcmRegistered":false,"gcmB64Hash":null,"deviceTrusted":false,"currentTrustedPhone":null,"simProofValidationStatus":null,"simValidationEnabled":true,"simValidationToPhoneNumbers":"+919220092200,+919243762535","publicKeyForDevice":null,"aesKeyForDevice":null,"fingerprintRegistered":false,"fingerprintB64Hash":null,"customerId":null,"customerIdSetStatus":0,"p2MerchantStatus":4,"customOfferAvailable":false,"accountKycLevel":0,"kycParamVersion":null,"walletStatus":0,"bankKycUrl":null}
+16:18:45.151 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201810IN6019P8NKsiQ9Ej3crxyoTW9T6
+16:18:45.163 INFO  library.BaseClass - The userId of 9986939965 is 87101
+16:18:45.279 INFO  library.BaseClass - OTP is 104113
+16:18:45.280 INFO  library.BaseClass - The DVC for 9986939965 logging in is 104113
+16:18:45.564 INFO  library.BaseClass - The complete login response : {"resCode":"000","resDesc":"SUCCESS","userId":"87101","userToken":"201810IN6019PZ2Nu8Jl6fHBCMu5fLtfg","tempToken":null,"firstName":"Prathyush","middleName":"Gopinath","lastName":"Paratddf","lastLoginTime":1538563482000,"userAccessDataType":0,"profilePicAuthKey":"0rU7jS5jL0lV","usersMobile":null,"hostDown":false,"userBankAc":[{"pcAccNumber":"IN062090334723","programId":"6019","accountKycLevel":100}],"unClaimedFunds":[],"availableBankListUpdateTime":null,"inflowUpdateTime":null,"outflowUpdateTime":null,"userSfLastUpdatedTime":"20312017093140","userDfLastUpdatedTime":"20312017093140","isForce":false,"forceAction":0,"forceActionMsg":null,"appUpdateUrl":null,"gcmRegistered":true,"gcmB64Hash":"O7aD3BcEAzJwNfzt8bFl2ZG7m+SFHvkp2LVS4jgVaMA=","deviceTrusted":true,"currentTrustedPhone":null,"simProofValidationStatus":null,"simValidationEnabled":true,"simValidationToPhoneNumbers":null,"publicKeyForDevice":"MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIo62iOqrGKkjVOv2Xjch/sLeAFhFyemNTxt4l5Ku2tHNZt3r9tiQXiwNh5u9U+pboqi9lU467ZA/2e1esliFj0CAwEAAQ==","aesKeyForDevice":"NsjXpr+//Y5d3zmeg/tEhg==","fingerprintRegistered":false,"fingerprintB64Hash":null,"customerId":null,"customerIdSetStatus":0,"p2MerchantStatus":4,"customOfferAvailable":true,"accountKycLevel":100,"kycParamVersion":"18.06.21","walletStatus":1,"bankKycUrl":null}
+16:18:45.581 INFO  library.BaseClass - Logging 9986939965 out
+16:18:45.589 INFO  library.BaseClass - user ID to logout :87101
+16:18:45.597 INFO  library.BaseClass - userAuthToken to logout :201810IN6019PZ2Nu8Jl6fHBCMu5fLtfg
+16:18:45.597 INFO  library.BaseClass - DC for logging out : https://api-pdc.pc.enstage-sas.com/
+16:18:45.736 INFO  library.BaseClass - Logout response : {"status":true}
+16:18:57.080 INFO  library.BaseClass - === Starting getSalt ===
+16:18:57.083 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:18:58.799 INFO  library.BaseClass - Salt of 1144778861 is 1vR1yH6sH0fT7gD4fC0l
+16:18:58.808 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n1","version":"4.13.3.2"},"salt":"1vR1yH6sH0fT7gD4fC0l"}
+16:18:58.816 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:18:58.824 INFO  library.BaseClass - The salt for 1144778861 is 1vR1yH6sH0fT7gD4fC0l
+16:18:59.374 INFO  library.BaseClass - 
+
+{"pwd":"4crxCH/4QP8PhD6nsqOvY2kS6X8=", "key":"1vR1yH6sH0fT7gD4fC0l", "encPwd":"4crxCH%2F4QP8PhD6nsqOvY2kS6X8%3D"}
+
+16:18:59.375 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"4crxCH/4QP8PhD6nsqOvY2kS6X8=", "key":"1vR1yH6sH0fT7gD4fC0l", "encPwd":"4crxCH%2F4QP8PhD6nsqOvY2kS6X8%3D"}
+
+16:18:59.382 INFO  library.BaseClass - The encrypted PIN is 4crxCH/4QP8PhD6nsqOvY2kS6X8=
+16:19:31.529 INFO  library.BaseClass - === Starting getSalt ===
+16:19:31.531 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:19:32.858 INFO  library.BaseClass - Salt of 1144778861 is 4dL8qE7gK6sF2tC9dQ3m
+16:19:32.869 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n1","version":"4.13.3.2"},"salt":"4dL8qE7gK6sF2tC9dQ3m"}
+16:19:32.878 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:19:32.888 INFO  library.BaseClass - The salt for 1144778861 is 4dL8qE7gK6sF2tC9dQ3m
+16:19:33.033 INFO  library.BaseClass - 
+
+{"pwd":"6pA9vO5ySfMxNHoHLlrRIAFRhlk=", "key":"4dL8qE7gK6sF2tC9dQ3m", "encPwd":"6pA9vO5ySfMxNHoHLlrRIAFRhlk%3D"}
+
+16:19:33.033 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"6pA9vO5ySfMxNHoHLlrRIAFRhlk=", "key":"4dL8qE7gK6sF2tC9dQ3m", "encPwd":"6pA9vO5ySfMxNHoHLlrRIAFRhlk%3D"}
+
+16:19:33.040 INFO  library.BaseClass - The encrypted PIN is 6pA9vO5ySfMxNHoHLlrRIAFRhlk=
+16:19:33.249 INFO  library.BaseClass - The start login response is {"resCode":"100","resDesc":"BAD_PWD","userId":null,"userToken":null,"tempToken":null,"firstName":null,"middleName":null,"lastName":null,"lastLoginTime":null,"userAccessDataType":0,"profilePicAuthKey":null,"usersMobile":null,"hostDown":false,"userBankAc":null,"unClaimedFunds":null,"availableBankListUpdateTime":null,"inflowUpdateTime":null,"outflowUpdateTime":null,"userSfLastUpdatedTime":null,"userDfLastUpdatedTime":null,"isForce":false,"forceAction":0,"forceActionMsg":null,"appUpdateUrl":null,"gcmRegistered":false,"gcmB64Hash":null,"deviceTrusted":false,"currentTrustedPhone":null,"simProofValidationStatus":null,"simValidationEnabled":false,"simValidationToPhoneNumbers":null,"publicKeyForDevice":null,"aesKeyForDevice":null,"fingerprintRegistered":false,"fingerprintB64Hash":null,"customerId":null,"customerIdSetStatus":0,"p2MerchantStatus":0,"customOfferAvailable":false,"accountKycLevel":0,"kycParamVersion":null,"walletStatus":0,"bankKycUrl":null}
+16:19:33.257 INFO  library.BaseClass - The temp token for 1144778861 logging in is null
+16:19:33.265 INFO  library.BaseClass - The userId of 1144778861 is null
+16:19:33.392 INFO  library.BaseClass - OTP is 580510
+16:19:33.392 INFO  library.BaseClass - The DVC for 1144778861 logging in is 580510
+16:19:33.533 INFO  library.BaseClass - The complete login response : {"resCode":"051","resDesc":"INTERNAL ERROR","userId":null,"userToken":null,"tempToken":null,"firstName":null,"middleName":null,"lastName":null,"lastLoginTime":null,"userAccessDataType":0,"profilePicAuthKey":null,"usersMobile":null,"hostDown":false,"userBankAc":null,"unClaimedFunds":null,"availableBankListUpdateTime":null,"inflowUpdateTime":null,"outflowUpdateTime":null,"userSfLastUpdatedTime":null,"userDfLastUpdatedTime":null,"isForce":false,"forceAction":0,"forceActionMsg":null,"appUpdateUrl":null,"gcmRegistered":false,"gcmB64Hash":null,"deviceTrusted":false,"currentTrustedPhone":null,"simProofValidationStatus":null,"simValidationEnabled":false,"simValidationToPhoneNumbers":null,"publicKeyForDevice":null,"aesKeyForDevice":null,"fingerprintRegistered":false,"fingerprintB64Hash":null,"customerId":null,"customerIdSetStatus":0,"p2MerchantStatus":0,"customOfferAvailable":false,"accountKycLevel":0,"kycParamVersion":null,"walletStatus":0,"bankKycUrl":null}
+16:22:12.722 INFO  library.BaseClass - === Starting getSalt ===
+16:22:12.724 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:22:13.967 INFO  library.BaseClass - Salt of 1144778862 is 8bL3tD4rE4wC1gU7dV9y
+16:22:13.978 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n1","version":"4.13.3.2"},"salt":"8bL3tD4rE4wC1gU7dV9y"}
+16:22:13.987 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:22:13.997 INFO  library.BaseClass - The salt for 1144778862 is 8bL3tD4rE4wC1gU7dV9y
+16:22:14.211 INFO  library.BaseClass - 
+
+{"pwd":"vYVmy2fJ0Tv3fHaGnzSPDjhCqCo=", "key":"8bL3tD4rE4wC1gU7dV9y", "encPwd":"vYVmy2fJ0Tv3fHaGnzSPDjhCqCo%3D"}
+
+16:22:14.211 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"vYVmy2fJ0Tv3fHaGnzSPDjhCqCo=", "key":"8bL3tD4rE4wC1gU7dV9y", "encPwd":"vYVmy2fJ0Tv3fHaGnzSPDjhCqCo%3D"}
+
+16:22:14.218 INFO  library.BaseClass - The encrypted PIN is vYVmy2fJ0Tv3fHaGnzSPDjhCqCo=
+16:22:14.509 INFO  library.BaseClass - The start login response is {"resCode":"100","resDesc":"BAD_PWD","userId":null,"userToken":null,"tempToken":null,"firstName":null,"middleName":null,"lastName":null,"lastLoginTime":null,"userAccessDataType":0,"profilePicAuthKey":null,"usersMobile":null,"hostDown":false,"userBankAc":null,"unClaimedFunds":null,"availableBankListUpdateTime":null,"inflowUpdateTime":null,"outflowUpdateTime":null,"userSfLastUpdatedTime":null,"userDfLastUpdatedTime":null,"isForce":false,"forceAction":0,"forceActionMsg":null,"appUpdateUrl":null,"gcmRegistered":false,"gcmB64Hash":null,"deviceTrusted":false,"currentTrustedPhone":null,"simProofValidationStatus":null,"simValidationEnabled":false,"simValidationToPhoneNumbers":null,"publicKeyForDevice":null,"aesKeyForDevice":null,"fingerprintRegistered":false,"fingerprintB64Hash":null,"customerId":null,"customerIdSetStatus":0,"p2MerchantStatus":0,"customOfferAvailable":false,"accountKycLevel":0,"kycParamVersion":null,"walletStatus":0,"bankKycUrl":null}
+16:22:14.518 INFO  library.BaseClass - The temp token for 1144778862 logging in is null
+16:22:14.527 INFO  library.BaseClass - The userId of 1144778862 is null
+16:22:14.664 INFO  library.BaseClass - OTP is 485805
+16:22:14.664 INFO  library.BaseClass - The DVC for 1144778862 logging in is 485805
+16:22:14.805 INFO  library.BaseClass - The complete login response : {"resCode":"051","resDesc":"INTERNAL ERROR","userId":null,"userToken":null,"tempToken":null,"firstName":null,"middleName":null,"lastName":null,"lastLoginTime":null,"userAccessDataType":0,"profilePicAuthKey":null,"usersMobile":null,"hostDown":false,"userBankAc":null,"unClaimedFunds":null,"availableBankListUpdateTime":null,"inflowUpdateTime":null,"outflowUpdateTime":null,"userSfLastUpdatedTime":null,"userDfLastUpdatedTime":null,"isForce":false,"forceAction":0,"forceActionMsg":null,"appUpdateUrl":null,"gcmRegistered":false,"gcmB64Hash":null,"deviceTrusted":false,"currentTrustedPhone":null,"simProofValidationStatus":null,"simValidationEnabled":false,"simValidationToPhoneNumbers":null,"publicKeyForDevice":null,"aesKeyForDevice":null,"fingerprintRegistered":false,"fingerprintB64Hash":null,"customerId":null,"customerIdSetStatus":0,"p2MerchantStatus":0,"customOfferAvailable":false,"accountKycLevel":0,"kycParamVersion":null,"walletStatus":0,"bankKycUrl":null}
+16:22:50.499 INFO  library.BaseClass - === Starting getSalt ===
+16:22:50.501 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:22:51.795 INFO  library.BaseClass - Salt of 9986939965 is 9gF0rK5uX9tR5rU3cY4z
+16:22:51.807 INFO  library.BaseClass - === Starting getSalt ===
+16:22:51.807 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:23:21.714 INFO  library.BaseClass - === Starting getSalt ===
+16:23:21.716 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:23:22.969 INFO  library.BaseClass - Salt of 9986939965 is 2wA3qT9lZ3xQ1kY6aQ3z
+16:23:22.981 INFO  library.BaseClass - === Starting getSalt ===
+16:23:22.982 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:23:23.117 INFO  library.BaseClass - Salt of 1144778863 is 6gP0yR7sA2iX0wH7gX2r
+16:23:23.397 INFO  library.BaseClass - 
+
+{"pwd":"HWOliZgxnRQ8ffEol6jLYC+pT2M=", "key":"2wA3qT9lZ3xQ1kY6aQ3z", "encPwd":"HWOliZgxnRQ8ffEol6jLYC%2BpT2M%3D"}
+
+16:23:33.917 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+16:23:33.920 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+16:50:18.286 INFO  library.BaseClass - Started
+16:50:18.548 INFO  library.BaseClass - === Starting getSalt ===
+16:50:18.548 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:50:19.930 INFO  library.BaseClass - Salt of 9986939965 is 7gQ4xD9dH2eW0bH8fV2h
+16:50:19.943 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n1","version":"4.13.3.2"},"salt":"7gQ4xD9dH2eW0bH8fV2h"}
+16:50:19.954 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:50:19.962 INFO  library.BaseClass - The salt for 9986939965 is 7gQ4xD9dH2eW0bH8fV2h
+16:50:20.176 INFO  library.BaseClass - 
+
+{"pwd":"O2ovevQ5XkAyhWK2vpiWhZ/6lwA=", "key":"7gQ4xD9dH2eW0bH8fV2h", "encPwd":"O2ovevQ5XkAyhWK2vpiWhZ%2F6lwA%3D"}
+
+16:50:20.176 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"O2ovevQ5XkAyhWK2vpiWhZ/6lwA=", "key":"7gQ4xD9dH2eW0bH8fV2h", "encPwd":"O2ovevQ5XkAyhWK2vpiWhZ%2F6lwA%3D"}
+
+16:50:20.182 INFO  library.BaseClass - The encrypted PIN is O2ovevQ5XkAyhWK2vpiWhZ/6lwA=
+16:50:20.675 INFO  library.BaseClass - The start login response is {"resCode":"000","resDesc":"SUCCESS","userId":"87101","userToken":null,"tempToken":"201810IN6019Prjv8ME268lRbvS3Hbwvg","firstName":null,"middleName":null,"lastName":null,"lastLoginTime":null,"userAccessDataType":0,"profilePicAuthKey":null,"usersMobile":["7338190532","9986939965"],"hostDown":false,"userBankAc":null,"unClaimedFunds":[],"availableBankListUpdateTime":null,"inflowUpdateTime":"1370935498378","outflowUpdateTime":"1370935498375","userSfLastUpdatedTime":null,"userDfLastUpdatedTime":null,"isForce":true,"forceAction":21,"forceActionMsg":"This device is not in your trusted list. Please provide requested information to continue accessing from this device.","appUpdateUrl":null,"gcmRegistered":false,"gcmB64Hash":null,"deviceTrusted":false,"currentTrustedPhone":null,"simProofValidationStatus":null,"simValidationEnabled":true,"simValidationToPhoneNumbers":"+919220092200,+919243762535","publicKeyForDevice":null,"aesKeyForDevice":null,"fingerprintRegistered":false,"fingerprintB64Hash":null,"customerId":null,"customerIdSetStatus":0,"p2MerchantStatus":4,"customOfferAvailable":false,"accountKycLevel":0,"kycParamVersion":null,"walletStatus":0,"bankKycUrl":null}
+16:50:20.692 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201810IN6019Prjv8ME268lRbvS3Hbwvg
+16:50:20.703 INFO  library.BaseClass - The userId of 9986939965 is 87101
+16:50:20.825 INFO  library.BaseClass - OTP is 493869
+16:50:20.825 INFO  library.BaseClass - The DVC for 9986939965 logging in is 493869
+16:50:21.049 INFO  library.BaseClass - The complete login response : {"resCode":"000","resDesc":"SUCCESS","userId":"87101","userToken":"201810IN6019P8vNo4heTJO4BP7WqZ5kW","tempToken":null,"firstName":"Prathyush","middleName":"Gopinath","lastName":"Paratddf","lastLoginTime":1538563685000,"userAccessDataType":0,"profilePicAuthKey":"0rU7jS5jL0lV","usersMobile":null,"hostDown":false,"userBankAc":[{"pcAccNumber":"IN062090334723","programId":"6019","accountKycLevel":100}],"unClaimedFunds":[],"availableBankListUpdateTime":null,"inflowUpdateTime":null,"outflowUpdateTime":null,"userSfLastUpdatedTime":"20312017093140","userDfLastUpdatedTime":"20312017093140","isForce":false,"forceAction":0,"forceActionMsg":null,"appUpdateUrl":null,"gcmRegistered":true,"gcmB64Hash":"O7aD3BcEAzJwNfzt8bFl2ZG7m+SFHvkp2LVS4jgVaMA=","deviceTrusted":true,"currentTrustedPhone":null,"simProofValidationStatus":null,"simValidationEnabled":true,"simValidationToPhoneNumbers":null,"publicKeyForDevice":"MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAL6ihAsm+IKGe5QfS+0ZjOoPYBp9LxrhwfQmz0mzjb7bzb47lKkxuK9a1euYniFbIZqFHsGaXjUNuI+fF4hjvSkCAwEAAQ==","aesKeyForDevice":"Rrma8fhiG+1vc/SgP95ZYg==","fingerprintRegistered":false,"fingerprintB64Hash":null,"customerId":null,"customerIdSetStatus":0,"p2MerchantStatus":4,"customOfferAvailable":true,"accountKycLevel":100,"kycParamVersion":"18.06.21","walletStatus":1,"bankKycUrl":null}
+16:50:21.065 INFO  library.BaseClass - Logging 9986939965 out
+16:50:21.073 INFO  library.BaseClass - user ID to logout :87101
+16:50:21.080 INFO  library.BaseClass - userAuthToken to logout :201810IN6019P8vNo4heTJO4BP7WqZ5kW
+16:50:21.080 INFO  library.BaseClass - DC for logging out : https://api-pdc.pc.enstage-sas.com/
+16:50:21.208 INFO  library.BaseClass - Logout response : {"status":true}
+16:50:52.471 INFO  library.BaseClass - === Starting getSalt ===
+16:50:52.473 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:50:53.685 INFO  library.BaseClass - Salt of 1144778861 is 5jC1hJ8wP9hJ3dA1pQ2a
+16:50:53.697 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n1","version":"4.13.3.2"},"salt":"5jC1hJ8wP9hJ3dA1pQ2a"}
+16:50:53.706 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:50:53.714 INFO  library.BaseClass - The salt for 1144778861 is 5jC1hJ8wP9hJ3dA1pQ2a
+16:50:53.863 INFO  library.BaseClass - 
+
+{"pwd":"W8YcO/bs2WHwE0fNibiETh50wXg=", "key":"5jC1hJ8wP9hJ3dA1pQ2a", "encPwd":"W8YcO%2Fbs2WHwE0fNibiETh50wXg%3D"}
+
+16:50:53.864 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"W8YcO/bs2WHwE0fNibiETh50wXg=", "key":"5jC1hJ8wP9hJ3dA1pQ2a", "encPwd":"W8YcO%2Fbs2WHwE0fNibiETh50wXg%3D"}
+
+16:50:53.870 INFO  library.BaseClass - The encrypted PIN is W8YcO/bs2WHwE0fNibiETh50wXg=
+16:50:54.128 INFO  library.BaseClass - The start login response is {"resCode":"100","resDesc":"BAD_PWD","userId":null,"userToken":null,"tempToken":null,"firstName":null,"middleName":null,"lastName":null,"lastLoginTime":null,"userAccessDataType":0,"profilePicAuthKey":null,"usersMobile":null,"hostDown":false,"userBankAc":null,"unClaimedFunds":null,"availableBankListUpdateTime":null,"inflowUpdateTime":null,"outflowUpdateTime":null,"userSfLastUpdatedTime":null,"userDfLastUpdatedTime":null,"isForce":false,"forceAction":0,"forceActionMsg":null,"appUpdateUrl":null,"gcmRegistered":false,"gcmB64Hash":null,"deviceTrusted":false,"currentTrustedPhone":null,"simProofValidationStatus":null,"simValidationEnabled":false,"simValidationToPhoneNumbers":null,"publicKeyForDevice":null,"aesKeyForDevice":null,"fingerprintRegistered":false,"fingerprintB64Hash":null,"customerId":null,"customerIdSetStatus":0,"p2MerchantStatus":0,"customOfferAvailable":false,"accountKycLevel":0,"kycParamVersion":null,"walletStatus":0,"bankKycUrl":null}
+16:50:54.143 INFO  library.BaseClass - The temp token for 1144778861 logging in is null
+16:50:54.153 INFO  library.BaseClass - The userId of 1144778861 is null
+16:50:54.272 INFO  library.BaseClass - OTP is 362208
+16:50:54.273 INFO  library.BaseClass - The DVC for 1144778861 logging in is 362208
+16:50:54.426 INFO  library.BaseClass - The complete login response : {"resCode":"051","resDesc":"INTERNAL ERROR","userId":null,"userToken":null,"tempToken":null,"firstName":null,"middleName":null,"lastName":null,"lastLoginTime":null,"userAccessDataType":0,"profilePicAuthKey":null,"usersMobile":null,"hostDown":false,"userBankAc":null,"unClaimedFunds":null,"availableBankListUpdateTime":null,"inflowUpdateTime":null,"outflowUpdateTime":null,"userSfLastUpdatedTime":null,"userDfLastUpdatedTime":null,"isForce":false,"forceAction":0,"forceActionMsg":null,"appUpdateUrl":null,"gcmRegistered":false,"gcmB64Hash":null,"deviceTrusted":false,"currentTrustedPhone":null,"simProofValidationStatus":null,"simValidationEnabled":false,"simValidationToPhoneNumbers":null,"publicKeyForDevice":null,"aesKeyForDevice":null,"fingerprintRegistered":false,"fingerprintB64Hash":null,"customerId":null,"customerIdSetStatus":0,"p2MerchantStatus":0,"customOfferAvailable":false,"accountKycLevel":0,"kycParamVersion":null,"walletStatus":0,"bankKycUrl":null}

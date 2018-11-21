@@ -1,0 +1,209 @@
+16:48:05.117 INFO  library.BaseClass - === Performing registration for 2233665546 ===
+16:49:13.266 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+16:49:13.268 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+16:49:13.485 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in.geo_user_reg_info where access_data='2233665546' and program_id=6019 ====
+16:49:13.485 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in.geo_user_reg_info where access_data='2233665546' and program_id=6019 ====
+16:50:51.834 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+16:50:51.837 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+16:50:52.024 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in.geo_user_reg_info where access_data='2233665546' and program_id=6019 ====
+16:50:52.024 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in.geo_user_reg_info where access_data='2233665546' and program_id=6019 ====
+16:51:36.361 INFO  library.BaseClass - === Performing registration for 2233665546 ===
+16:52:48.662 INFO  library.BaseClass - === Performing registration for 2233665546 ===
+16:54:29.971 INFO  library.BaseClass - === Performing registration for 2233665546 ===
+17:06:23.498 INFO  library.BaseClass - =====Registering 2233665546 from API =====
+17:07:56.361 INFO  library.BaseClass - =====Registering 2233665546 from API =====
+17:08:36.829 INFO  library.BaseClass - =====Registering 2233665546 from API =====
+17:10:42.134 INFO  library.BaseClass - =====Registering 2233665546 from API =====
+17:12:43.223 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+17:12:43.226 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+17:12:43.403 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in.geo_user_reg_info where access_data='2233665546' and program_id=6019 ====
+17:12:43.404 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in.geo_user_reg_info where access_data='2233665546' and program_id=6019 ====
+17:15:10.711 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+17:15:10.713 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+17:15:10.893 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in.geo_user_reg_info where access_data='2233665546' and program_id=6019 ====
+17:15:10.893 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in.geo_user_reg_info where access_data='2233665546' and program_id=6019 ====
+17:19:16.023 INFO  library.BaseClass - =====Registering 2233665546 from API =====
+17:20:10.788 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+17:20:10.791 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+17:20:10.969 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in.geo_user_reg_info where access_data='2233665546' and program_id=6019 ====
+17:20:10.969 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in.geo_user_reg_info where access_data='2233665546' and program_id=6019 ====
+17:20:21.951 INFO  library.BaseClass - =====Registering 2233665546 from API =====
+17:22:04.356 INFO  library.BaseClass - =====Registering 2233665546 from API =====
+17:26:27.282 INFO  library.BaseClass - === Starting getSalt ===
+17:26:27.284 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+17:26:28.393 INFO  library.BaseClass - The salt response is io.restassured.internal.RestAssuredResponseImpl@59c33386
+17:26:28.664 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+17:26:28.674 INFO  library.BaseClass - The salt for 9986939965 is 3zB7lP3tQ8sF0wE6pG4d
+17:26:28.800 INFO  library.BaseClass - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@6069dd38
+17:26:28.808 INFO  library.BaseClass - The encrypted PIN is H4cPG6wFgq3hY31moBP4v+jqe+U=
+17:26:29.314 INFO  library.BaseClass - The start login response is io.restassured.internal.RestAssuredResponseImpl@5484117b
+17:26:29.336 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019PRP6rT617dKlPtQW2a57K
+17:26:29.372 INFO  library.BaseClass - The userId of 9986939965 is87101
+17:26:29.594 INFO  library.BaseClass - The DVC for 9986939965 logging in is 039677
+17:26:30.108 INFO  library.BaseClass - Logging 9986939965out
+17:29:31.428 INFO  library.BaseClass - =====Registering 2233665546 from API =====
+17:32:46.659 INFO  library.BaseClass - =====Registering 2233665546 from API =====
+17:33:48.675 INFO  library.BaseClass - =====Registering 2233665546 from API =====
+17:36:12.389 INFO  library.BaseClass - =====Registering 2233665546 from API =====
+17:54:40.318 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+17:54:40.321 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+17:54:40.503 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in.geo_user_reg_info where access_data='2233665546' and program_id=6019 ====
+17:54:40.503 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in.geo_user_reg_info where access_data='2233665546' and program_id=6019 ====
+17:54:56.738 INFO  library.BaseClass - =====Registering 2233665546 from API =====
+18:13:59.913 INFO  library.BaseClass - =====Registering 2233665546 from API =====
+18:14:08.968 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+18:14:08.970 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+18:14:09.147 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in.geo_user_reg_info where access_data='2233665546' and program_id=6019 ====
+18:14:09.147 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in.geo_user_reg_info where access_data='2233665546' and program_id=6019 ====
+18:14:15.487 INFO  library.BaseClass - =====Registering 2233665546 from API =====
+18:14:31.484 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+18:14:31.487 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+18:14:31.668 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in.geo_user_reg_info where access_data='2233665546' and program_id=6019 ====
+18:14:31.668 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in.geo_user_reg_info where access_data='2233665546' and program_id=6019 ====
+18:14:48.618 INFO  library.BaseClass - =====Registering 2233665546 from API =====
+18:16:25.765 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+18:16:25.767 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+18:16:25.954 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in.geo_user_reg_info where access_data='2233665546' and program_id=6019 ====
+18:16:25.954 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in.geo_user_reg_info where access_data='2233665546' and program_id=6019 ====
+18:16:48.680 INFO  library.BaseClass - =====Registering 2233665546 from API =====
+18:18:54.818 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+18:18:54.820 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+18:18:54.997 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in.geo_user_reg_info where access_data='2233665546' and program_id=6019 ====
+18:18:54.997 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in.geo_user_reg_info where access_data='2233665546' and program_id=6019 ====
+18:21:08.812 INFO  library.BaseClass - =====Registering 2233665546 from API =====
+18:21:09.938 INFO  library.BaseClass - === Starting getSalt ===
+18:21:09.939 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+18:21:10.047 INFO  library.BaseClass - The salt response is io.restassured.internal.RestAssuredResponseImpl@3bfc6a5e
+18:21:10.310 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+18:21:10.318 INFO  library.BaseClass - The salt for 2233665546 is 9xE0nQ6bN1wW4oM2kB1n
+18:21:10.508 INFO  library.BaseClass - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@74174a23
+18:21:10.515 INFO  library.BaseClass - The encrypted PIN is vlF/aypBQGZvKrT6NOew0k+W8J0=
+18:21:10.892 INFO  library.BaseClass - The start login response is io.restassured.internal.RestAssuredResponseImpl@6e4f263e
+18:21:10.902 INFO  library.BaseClass - The temp token for 2233665546 logging in is 201809IN6019PQ7b5Ehm1740hEa8na6yG
+18:21:10.912 INFO  library.BaseClass - The userId of 2233665546 is729109
+18:21:11.029 INFO  library.BaseClass - The DVC for 2233665546 logging in is 772146
+18:21:11.383 INFO  library.BaseClass - {"code":400,"message":"Unable to process JSON"}
+18:21:11.404 INFO  library.BaseClass - txn ID & token is null null
+18:21:11.563 INFO  library.BaseClass - <html>
+<head>
+	<title>Error Page</title>
+	<style type="text/css">
+	BODY{ COLOR: #333333; FONT-FAMILY: verdana,sans-serif,Arial,Tahoma }
+	HR {  COLOR: #6699cc}TD { COLOR: #333333; FONT-FAMILY: verdana,sans-serif,Arial,Tahoma; font-size:8pt;}
+	</style>
+</head>
+<body topmargin="0" leftmargin="0" bgcolor="#ffffff" marginwidth="0" marginheight="0">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr><td bgcolor="#84C1FF" valign="middle"><p align="right">&nbsp;<font style="font-size:7pt;color:#FFFFFF"><b>&nbsp;</b>&nbsp;</font></p></td></tr>
+<tr><td>
+	<table cellpadding="5" cellspacing="0" border="0" width="100%">
+	<tr><td colspan="2">
+		<BR>&nbsp;<BR>
+		<font size="3"><CENTER><b>Service Unavailable</b></CENTER></font>
+		<BR>&nbsp;<BR>
+	</td></tr>
+	</table>
+</td></tr>
+</table>
+</body>
+</html>
+
+
+18:21:11.696 INFO  library.BaseClass - <html>
+<head>
+	<title>Error Page</title>
+	<style type="text/css">
+	BODY{ COLOR: #333333; FONT-FAMILY: verdana,sans-serif,Arial,Tahoma }
+	HR {  COLOR: #6699cc}TD { COLOR: #333333; FONT-FAMILY: verdana,sans-serif,Arial,Tahoma; font-size:8pt;}
+	</style>
+</head>
+<body topmargin="0" leftmargin="0" bgcolor="#ffffff" marginwidth="0" marginheight="0">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr><td bgcolor="#84C1FF" valign="middle"><p align="right">&nbsp;<font style="font-size:7pt;color:#FFFFFF"><b>&nbsp;</b>&nbsp;</font></p></td></tr>
+<tr><td>
+	<table cellpadding="5" cellspacing="0" border="0" width="100%">
+	<tr><td colspan="2">
+		<BR>&nbsp;<BR>
+		<font size="3"><CENTER><b>Service Unavailable</b></CENTER></font>
+		<BR>&nbsp;<BR>
+	</td></tr>
+	</table>
+</td></tr>
+</table>
+</body>
+</html>
+
+
+18:22:46.828 INFO  library.BaseClass - === Starting getSalt ===
+18:22:46.831 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+18:22:47.833 INFO  library.BaseClass - The salt response is io.restassured.internal.RestAssuredResponseImpl@59c33386
+18:22:48.185 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+18:22:48.194 INFO  library.BaseClass - The salt for 9986939965 is 3zO3jS2bK1yY0eD9vQ1p
+18:22:48.343 INFO  library.BaseClass - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@6069dd38
+18:22:48.351 INFO  library.BaseClass - The encrypted PIN is OVvl84CQ0r8WNzIrBRp2fxxpRWE=
+18:22:48.822 INFO  library.BaseClass - The start login response is io.restassured.internal.RestAssuredResponseImpl@5484117b
+18:22:48.832 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019PbdNhsT2Y0LkJeTE9cvQC
+18:22:48.843 INFO  library.BaseClass - The userId of 9986939965 is87101
+18:22:49.022 INFO  library.BaseClass - The DVC for 9986939965 logging in is 572850
+18:22:49.668 INFO  library.BaseClass - {"resCode":"000","resDesc":"SUCCESS","initRequest":{"merchantInfo":{"merId":"1273864627877702560","merName":"PayZapp Load Money","merCountryCode":"IN","merAppId":"9017","merProgramId":"6019"},"transactionInfo":{"supportedPaymentType":["*"],"restrictedPaymentType":null,"txnAmount":122,"txnCurrency":"356","txnDesc":null,"txnDate":null,"txnAmtKnown":true,"chargeLater":true,"merAppData":"N/A","merTxnId":"LOADMONEY20180927185l2vhM","merDataField":"1273864627877702560","txnFormattedAmount":"Rs. 1.22"},"customerInfo":{"custEmail":null,"custMobile":null,"custName":null,"custDob":null,"custPin":null,"forceRegister":false},"deviceInfo":{"wibmoSdkVersion":"2.2.0","wibmoAppVersion":"3.07.02.02","deviceID":"tdid:62Zm0zrjP80kOILv2YEE7xthhp1UhjWFpNbzm3PhcT4=:4900","deviceMake":"motorola","deviceModel":"XT1225","osType":"Android","osVersion":"6.0.1","appInstalled":true,"deviceIDType":3,"deviceType":3,"deviceIDProof":null,"simID":null,"simIDProof":null},"txnType":"WPay","cardInfo":null,"merchantReturnUrl":null,"msgHash":null,"billingAddressRequired":false,"shippingAddressRequired":false,"profileRequired":false,"pushGCM":true,"promoCodes":null,"cardFee":null},"initResponse":{"resCode":"000","resDesc":"SUCCESS","wibmoCustomer":false,"registeredUas":null,"accessStringType":0,"merchantInfo":{"merId":"1273864627877702560","merName":"PayZapp Load Money","merCountryCode":"IN","merAppId":"9017","merProgramId":"6019"},"transactionInfo":{"supportedPaymentType":["*"],"restrictedPaymentType":null,"txnAmount":122,"txnCurrency":"356","txnDesc":null,"txnDate":null,"txnAmtKnown":true,"chargeLater":true,"merAppData":"N/A","merTxnId":"LOADMONEY20180927185l2vhM","merDataField":"1273864627877702560","txnFormattedAmount":"Rs. 1.22"},"merchantReturnUrl":null,"merchantProgramId":null,"wibmoTxnId":"201809271822305646zO66rQ8","wibmoTxnToken":"2018098xQ0xQ7zS8","webUrl":null,"msgHash":"nNFQEJKeWTQULnitBWugAfl1cfMDB/QP32hWkLXNF98=","screenTitle":null,"messageForUser":null,"messageType":0,"onusCardRequired":false,"forceRegister":false,"isHalfRegistered":false,"isHalfRegistrationEnabled":false,"isBillingAddressAllowed":false,"isShippingAddressAllowed":false,"collectEmail":false},"mpToken":"bfa033280c3775d19502eac4a9041ca3"}
+18:22:49.691 INFO  library.BaseClass - txn ID & token is 201809271822305646zO66rQ8 2018098xQ0xQ7zS8
+18:22:49.967 INFO  library.BaseClass - {"resCode":"000","resDesc":"SUCCESS","actionCode":1,"additionalUserInputData":{"browserKeyValue":[{"id":"mpiErrorCode","value":"000"},{"id":"return-url","value":"https://app.pc.enstage-sas.com/wapi/redirectToWibmo"},{"id":"mpiErrorDesc","value":""},{"id":"s2s_id","value":"MjAxODA5Mjc3MzM3MDE"},{"id":"md","value":"201809271822305646zO66rQ8\n"},{"id":"merchant_id","value":"Wibmo_PayzappWFDW"}],"formInput":[{"id":"METHOD_IDENTIFIER","label":null,"minLength":0,"maxLength":0,"inputType":"HID","comment":null,"allowStore":false,"encryption":false,"editable":false,"inputValue":"RESPONSE_FROM_EXTERANL_SOURCE","mandatory":false}],"mdStr":null,"inflowTxnId":null,"redirectFormAction":"https://wibmompistg-dw.pc.enstage-sas.com/MultiMPI/MPIServer?perform=s2sProcessing","redirectFormMethod":"post","redirectPageText":"3DSecure Transaction is being processed, Please wait ...","returnUrl":"https://app.pc.enstage-sas.com/wapi/redirectToWibmo"},"msgHash":"v2:+IJV8bA6LKzkor9zuF3OrB1C+RF7nhIlIT8f5XZpKG4=","dataPickUpCode":null,"wibmoTxnId":"201809271822305646zO66rQ8","merTxnId":"LOADMONEY20180927185l2vhM","merAppData":"N/A","oneClickTxn":false}
+18:22:50.299 INFO  library.BaseClass - {"resCode":"000","resDesc":"SUCCESS","actionCode":0,"additionalUserInputData":{"browserKeyValue":null,"formInput":null,"mdStr":null,"inflowTxnId":null,"redirectFormAction":null,"redirectFormMethod":null,"redirectPageText":null,"returnUrl":null},"msgHash":"v2:3ThLwBURzHwsc5FH1hE7uX73WJUEI5Yz+BpQtSajs30=","dataPickUpCode":"201809271822305646zO66rQ8:4nC0zG7hI7","wibmoTxnId":"201809271822305646zO66rQ8","merTxnId":"LOADMONEY20180927185l2vhM","merAppData":"N/A","oneClickTxn":false}
+18:23:06.197 INFO  library.BaseClass - {"action":17,"addFundDetails":{"amount":"Rs. 1.22","date":"Thu, 27 Sep 2018 18:22:30","loadedFrom":"4329 xxxx xxxx 9785","referenceNumber":"201809271822305646zO66rQ8","headerMessage":"Funds have not been loaded","aliasName":"From Video","fundType":"Amount"},"browserPostKeyValuePairs":null,"displayMessages":{},"wibmoTxnId":"201809271822305646zO66rQ8","retryDateTime":"1538052810000","retryStatus":null,"retryTimeDelay":5,"fundsInputs":null}
+18:24:21.085 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+18:24:21.087 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+18:24:21.266 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in.geo_user_reg_info where access_data='2233665546' and program_id=6019 ====
+18:24:21.266 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in.geo_user_reg_info where access_data='2233665546' and program_id=6019 ====
+18:25:33.022 INFO  library.BaseClass - =====Registering 2233665546 from API =====
+18:25:34.285 INFO  library.BaseClass - === Starting getSalt ===
+18:25:34.285 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+18:25:34.398 INFO  library.BaseClass - The salt response is io.restassured.internal.RestAssuredResponseImpl@3bfc6a5e
+18:25:34.637 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+18:25:34.663 INFO  library.BaseClass - The salt for 2233665546 is 2lE3tG5cH4wD2iB1xX9f
+18:25:34.897 INFO  library.BaseClass - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@74174a23
+18:25:34.914 INFO  library.BaseClass - The encrypted PIN is RbsRIPrFDZaOuVonpHe923h9/Q8=
+18:25:35.255 INFO  library.BaseClass - The start login response is io.restassured.internal.RestAssuredResponseImpl@6e4f263e
+18:25:35.264 INFO  library.BaseClass - The temp token for 2233665546 logging in is 201809IN6019P0bV14bp81jA0358AKP34
+18:25:35.273 INFO  library.BaseClass - The userId of 2233665546 is729110
+18:25:35.378 INFO  library.BaseClass - The DVC for 2233665546 logging in is 884568
+18:25:35.756 INFO  library.BaseClass - <html>
+<head>
+	<title>Error Page</title>
+	<style type="text/css">
+	BODY{ COLOR: #333333; FONT-FAMILY: verdana,sans-serif,Arial,Tahoma }
+	HR {  COLOR: #6699cc}TD { COLOR: #333333; FONT-FAMILY: verdana,sans-serif,Arial,Tahoma; font-size:8pt;}
+	</style>
+</head>
+<body topmargin="0" leftmargin="0" bgcolor="#ffffff" marginwidth="0" marginheight="0">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr><td bgcolor="#84C1FF" valign="middle"><p align="right">&nbsp;<font style="font-size:7pt;color:#FFFFFF"><b>&nbsp;</b>&nbsp;</font></p></td></tr>
+<tr><td>
+	<table cellpadding="5" cellspacing="0" border="0" width="100%">
+	<tr><td colspan="2">
+		<BR>&nbsp;<BR>
+		<font size="3"><CENTER><b>Forbidden </b></CENTER></font>
+		<BR>&nbsp;<BR>
+	</td></tr>
+	</table>
+</td></tr>
+</table>
+</body>
+</html>
+
+
+18:32:15.871 INFO  library.BaseClass - === Starting getSalt ===
+18:32:15.873 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+18:32:16.926 INFO  library.BaseClass - The salt response is io.restassured.internal.RestAssuredResponseImpl@59c33386
+18:32:17.195 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+18:32:17.205 INFO  library.BaseClass - The salt for 9986939965 is 7jF5sI0uR7bF6zQ7rE6t
+18:32:17.623 INFO  library.BaseClass - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@6069dd38
+18:32:17.630 INFO  library.BaseClass - The encrypted PIN is q2tMNUD3d/w8waX19c+CjjY7yTw=
+18:32:18.309 INFO  library.BaseClass - The start login response is io.restassured.internal.RestAssuredResponseImpl@5484117b
+18:32:18.334 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019P7U4aVwS2h5WKrCFT08Ml
+18:32:18.364 INFO  library.BaseClass - The userId of 9986939965 is87101
+18:32:18.598 INFO  library.BaseClass - The DVC for 9986939965 logging in is 903696
+18:32:19.282 INFO  library.BaseClass - {"resCode":"000","resDesc":"SUCCESS","initRequest":{"merchantInfo":{"merId":"1273864627877702560","merName":"PayZapp Load Money","merCountryCode":"IN","merAppId":"9017","merProgramId":"6019"},"transactionInfo":{"supportedPaymentType":["*"],"restrictedPaymentType":null,"txnAmount":122,"txnCurrency":"356","txnDesc":null,"txnDate":null,"txnAmtKnown":true,"chargeLater":true,"merAppData":"N/A","merTxnId":"LOADMONEY2018092718o2y9dW","merDataField":"1273864627877702560","txnFormattedAmount":"Rs. 1.22"},"customerInfo":{"custEmail":null,"custMobile":null,"custName":null,"custDob":null,"custPin":null,"forceRegister":false},"deviceInfo":{"wibmoSdkVersion":"2.2.0","wibmoAppVersion":"3.07.02.02","deviceID":"tdid:62Zm0zrjP80kOILv2YEE7xthhp1UhjWFpNbzm3PhcT4=:4900","deviceMake":"motorola","deviceModel":"XT1225","osType":"Android","osVersion":"6.0.1","appInstalled":true,"deviceIDType":3,"deviceType":3,"deviceIDProof":null,"simID":null,"simIDProof":null},"txnType":"WPay","cardInfo":null,"merchantReturnUrl":null,"msgHash":null,"billingAddressRequired":false,"shippingAddressRequired":false,"profileRequired":false,"pushGCM":true,"promoCodes":null,"cardFee":null},"initResponse":{"resCode":"000","resDesc":"SUCCESS","wibmoCustomer":false,"registeredUas":null,"accessStringType":0,"merchantInfo":{"merId":"1273864627877702560","merName":"PayZapp Load Money","merCountryCode":"IN","merAppId":"9017","merProgramId":"6019"},"transactionInfo":{"supportedPaymentType":["*"],"restrictedPaymentType":null,"txnAmount":122,"txnCurrency":"356","txnDesc":null,"txnDate":null,"txnAmtKnown":true,"chargeLater":true,"merAppData":"N/A","merTxnId":"LOADMONEY2018092718o2y9dW","merDataField":"1273864627877702560","txnFormattedAmount":"Rs. 1.22"},"merchantReturnUrl":null,"merchantProgramId":null,"wibmoTxnId":"201809271832001723xA47uY5","wibmoTxnToken":"2018091lT8zF3dM4","webUrl":null,"msgHash":"FxkNdqB0bAa67Q8e5HdUNOv52+piLLryEYfLmqScO+E=","screenTitle":null,"messageForUser":null,"messageType":0,"onusCardRequired":false,"forceRegister":false,"isHalfRegistered":false,"isHalfRegistrationEnabled":false,"isBillingAddressAllowed":false,"isShippingAddressAllowed":false,"collectEmail":false},"mpToken":"bfa033280c3775d19502eac4a9041ca3"}
+18:32:19.313 INFO  library.BaseClass - txn ID & token is 201809271832001723xA47uY5 2018091lT8zF3dM4
+18:32:19.649 INFO  library.BaseClass - {"resCode":"000","resDesc":"SUCCESS","actionCode":1,"additionalUserInputData":{"browserKeyValue":[{"id":"mpiErrorCode","value":"000"},{"id":"return-url","value":"https://app.pc.enstage-sas.com/wapi/redirectToWibmo"},{"id":"mpiErrorDesc","value":""},{"id":"s2s_id","value":"MjAxODA5Mjc3MzM3MDk"},{"id":"md","value":"201809271832001723xA47uY5\n"},{"id":"merchant_id","value":"Wibmo_PayzappWFDW"}],"formInput":[{"id":"METHOD_IDENTIFIER","label":null,"minLength":0,"maxLength":0,"inputType":"HID","comment":null,"allowStore":false,"encryption":false,"editable":false,"inputValue":"RESPONSE_FROM_EXTERANL_SOURCE","mandatory":false}],"mdStr":null,"inflowTxnId":null,"redirectFormAction":"https://wibmompistg-dw.pc.enstage-sas.com/MultiMPI/MPIServer?perform=s2sProcessing","redirectFormMethod":"post","redirectPageText":"3DSecure Transaction is being processed, Please wait ...","returnUrl":"https://app.pc.enstage-sas.com/wapi/redirectToWibmo"},"msgHash":"v2:/HkLYdST5sDmaofh7qVO0TFdxX0jIG+pkE8Ki4roNUI=","dataPickUpCode":null,"wibmoTxnId":"201809271832001723xA47uY5","merTxnId":"LOADMONEY2018092718o2y9dW","merAppData":"N/A","oneClickTxn":false}
+18:32:20.052 INFO  library.BaseClass - {"resCode":"000","resDesc":"SUCCESS","actionCode":0,"additionalUserInputData":{"browserKeyValue":null,"formInput":null,"mdStr":null,"inflowTxnId":null,"redirectFormAction":null,"redirectFormMethod":null,"redirectPageText":null,"returnUrl":null},"msgHash":"v2:QdnXt7yjHVD1jOraZ8YoDhgeR/Hoq6ycHuU1X72TnNg=","dataPickUpCode":"201809271832001723xA47uY5:6gU5qY4sW6","wibmoTxnId":"201809271832001723xA47uY5","merTxnId":"LOADMONEY2018092718o2y9dW","merAppData":"N/A","oneClickTxn":false}
+18:32:33.460 INFO  library.BaseClass - {"action":17,"addFundDetails":{"amount":"Rs. 1.22","date":"Thu, 27 Sep 2018 18:32:00","loadedFrom":"4329 xxxx xxxx 9785","referenceNumber":"201809271832001723xA47uY5","headerMessage":"Funds have not been loaded","aliasName":"From Video","fundType":"Amount"},"browserPostKeyValuePairs":null,"displayMessages":{},"wibmoTxnId":"201809271832001723xA47uY5","retryDateTime":"1538053380000","retryStatus":null,"retryTimeDelay":5,"fundsInputs":null}

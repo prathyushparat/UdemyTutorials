@@ -1,0 +1,167 @@
+10:13:29.417 INFO  library.BaseClass - === Starting getSalt ===
+10:13:29.424 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+10:13:31.306 INFO  library.BaseClass - The salt response is io.restassured.internal.RestAssuredResponseImpl@4e93dcb9
+10:13:32.007 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+10:13:32.017 INFO  library.BaseClass - The salt for 9986939965 is 3wW7xX4hI9oO4aE9aF0s
+10:13:32.573 INFO  library.BaseClass - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@252dc8c4
+10:13:32.580 INFO  library.BaseClass - The encrypted PIN is LKWUsYxvBlOmvU7OqBg99/Tr8zw=
+10:13:33.386 INFO  library.BaseClass - The start login response is io.restassured.internal.RestAssuredResponseImpl@42b84286
+10:13:33.398 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019P9w7317muvfNl3mi08W90
+10:13:33.479 INFO  library.BaseClass - The userId of 9986939965 is87101
+10:13:33.599 INFO  library.BaseClass - The DVC for 9986939965 logging in is 181671
+10:13:34.467 INFO  library.BaseClass - Logging 9986939965out
+10:21:14.653 INFO  library.BaseClass - === Starting getSalt ===
+10:21:14.653 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+10:21:15.836 INFO  library.BaseClass - The salt response is io.restassured.internal.RestAssuredResponseImpl@59c33386
+10:21:16.163 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+10:21:16.173 INFO  library.BaseClass - The salt for 9986939965 is 5vN5yF2oC6dD4eU2bM8d
+10:21:16.557 INFO  library.BaseClass - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@6069dd38
+10:21:16.557 INFO  library.BaseClass - The encrypted PIN is 9WkKmizC/oEZrqt73ykKyNtq0Eo=
+10:21:17.005 INFO  library.BaseClass - The start login response is io.restassured.internal.RestAssuredResponseImpl@5484117b
+10:21:17.015 INFO  library.BaseClass - The temp token for 9986939965 logging in is null
+10:21:17.025 INFO  library.BaseClass - The userId of 9986939965 isnull
+10:21:17.217 INFO  library.BaseClass - The DVC for 9986939965 logging in is 880926
+10:22:01.946 INFO  library.BaseClass - === Starting getSalt ===
+10:22:01.949 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+10:22:03.305 INFO  library.BaseClass - The salt response is io.restassured.internal.RestAssuredResponseImpl@59c33386
+10:22:03.627 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+10:22:03.637 INFO  library.BaseClass - The salt for 9986939965 is 1kZ7xF2dH4gP1sQ4mU8g
+10:22:03.772 INFO  library.BaseClass - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@6069dd38
+10:22:03.782 INFO  library.BaseClass - The encrypted PIN is ZJCjUiD5sbEWrq9D/uIOD0FmLQQ=
+10:22:04.418 INFO  library.BaseClass - The start login response is io.restassured.internal.RestAssuredResponseImpl@5484117b
+10:22:04.431 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019PCE3699X86AE68Y0w7U4j
+10:22:04.444 INFO  library.BaseClass - The userId of 9986939965 is87101
+10:22:04.637 INFO  library.BaseClass - The DVC for 9986939965 logging in is 880926
+12:05:01.828 INFO  library.BaseClass - === Starting getSalt ===
+12:05:01.828 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+12:05:03.025 INFO  library.BaseClass - The salt response is io.restassured.internal.RestAssuredResponseImpl@59c33386
+12:05:03.331 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+12:05:03.341 INFO  library.BaseClass - The salt for 9986939965 is 6iF7xQ8eQ5zC7uD4zU9r
+12:05:03.791 INFO  library.BaseClass - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@6069dd38
+12:05:03.799 INFO  library.BaseClass - The encrypted PIN is pvpRxRRn8LN7fLMBfSO5HxQ17TA=
+12:05:04.298 INFO  library.BaseClass - The start login response is io.restassured.internal.RestAssuredResponseImpl@5484117b
+12:05:04.319 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019PW6oN6huyyUMv82gFna64
+12:05:04.433 INFO  library.BaseClass - The userId of 9986939965 is87101
+12:05:04.553 INFO  library.BaseClass - The DVC for 9986939965 logging in is 972188
+12:11:10.954 INFO  library.BaseClass - === Starting getSalt ===
+12:11:10.956 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+12:11:12.179 INFO  library.BaseClass - The salt response is io.restassured.internal.RestAssuredResponseImpl@59c33386
+12:11:12.537 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+12:11:12.547 INFO  library.BaseClass - The salt for 9986939965 is 1lT2zM5oH7jR8oH7bJ0a
+12:11:12.743 INFO  library.BaseClass - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@6069dd38
+12:11:12.743 INFO  library.BaseClass - The encrypted PIN is 5GtrDIEGzLbdYwN43rHrwABcCD8=
+12:11:13.213 INFO  library.BaseClass - The start login response is io.restassured.internal.RestAssuredResponseImpl@5484117b
+12:11:13.223 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019PtnUD41P4TuU3KK3G0vUz
+12:11:13.235 INFO  library.BaseClass - The userId of 9986939965 is87101
+12:11:13.443 INFO  library.BaseClass - The DVC for 9986939965 logging in is 485052
+12:15:58.837 INFO  library.BaseClass - === Starting getSalt ===
+12:15:58.839 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+12:16:00.302 INFO  library.BaseClass - The salt response is io.restassured.internal.RestAssuredResponseImpl@59c33386
+12:16:00.667 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+12:16:00.681 INFO  library.BaseClass - The salt for 9986939965 is 6hE1zP3iG1eF8oK0lS7o
+12:16:00.873 INFO  library.BaseClass - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@6069dd38
+12:16:00.873 INFO  library.BaseClass - The encrypted PIN is dgbzj7K4rnAyeCkad94PSBwdqVA=
+12:16:01.312 INFO  library.BaseClass - The start login response is io.restassured.internal.RestAssuredResponseImpl@5484117b
+12:16:01.396 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019PrKPQ45Iqdvfz8S1P3xr5
+12:16:01.409 INFO  library.BaseClass - The userId of 9986939965 is87101
+12:16:01.526 INFO  library.BaseClass - The DVC for 9986939965 logging in is 415164
+16:20:35.063 INFO  library.BaseClass - === Starting getSalt ===
+16:20:35.073 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:20:36.292 INFO  library.BaseClass - The salt response is io.restassured.internal.RestAssuredResponseImpl@59c33386
+16:20:36.534 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:20:36.534 INFO  library.BaseClass - The salt for 9986939965 is 4bN9dL4wA9xM1sK4oD7d
+16:20:36.769 INFO  library.BaseClass - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@6069dd38
+16:20:36.773 INFO  library.BaseClass - The encrypted PIN is hjqmp87n13ajBaG4Av6zNRTKIkA=
+16:20:37.192 INFO  library.BaseClass - The start login response is io.restassured.internal.RestAssuredResponseImpl@5484117b
+16:20:37.222 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019P1teP5xSAeb2TbS3834L1
+16:20:37.242 INFO  library.BaseClass - The userId of 9986939965 is87101
+16:20:37.362 INFO  library.BaseClass - The DVC for 9986939965 logging in is 080549
+16:23:03.026 INFO  library.BaseClass - === Starting getSalt ===
+16:23:03.026 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:23:04.127 INFO  library.BaseClass - The salt response is io.restassured.internal.RestAssuredResponseImpl@5cb042da
+16:23:04.499 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:23:04.508 INFO  library.BaseClass - The salt for 9986939965 is 3lS5jL1pW7hA4vZ7eG0w
+16:23:04.674 INFO  library.BaseClass - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@6069dd38
+16:23:04.674 INFO  library.BaseClass - The encrypted PIN is tNwKlZQNJL5miQUVKoO0O0EBflU=
+16:23:05.147 INFO  library.BaseClass - The start login response is io.restassured.internal.RestAssuredResponseImpl@5484117b
+16:23:05.177 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019PSFB25ZYCwqN04x7nlbrt
+16:23:05.187 INFO  library.BaseClass - The userId of 9986939965 is87101
+16:23:05.379 INFO  library.BaseClass - The DVC for 9986939965 logging in is 131539
+16:23:34.465 INFO  library.BaseClass - === Starting getSalt ===
+16:23:34.465 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:23:35.509 INFO  library.BaseClass - The salt response is io.restassured.internal.RestAssuredResponseImpl@59c33386
+16:23:35.779 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:23:35.789 INFO  library.BaseClass - The salt for 9986939965 is 7mV2hX7vM2yX0uI6gO6v
+16:23:36.017 INFO  library.BaseClass - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@6069dd38
+16:23:36.017 INFO  library.BaseClass - The encrypted PIN is mUDm0aR9axK2XEgeVgxPSczoKBg=
+16:23:36.486 INFO  library.BaseClass - The start login response is io.restassured.internal.RestAssuredResponseImpl@5484117b
+16:23:36.496 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019PaKnZ4ekk0aglZ5jGb4hB
+16:23:36.506 INFO  library.BaseClass - The userId of 9986939965 is87101
+16:23:36.699 INFO  library.BaseClass - The DVC for 9986939965 logging in is 012640
+16:24:15.198 INFO  library.BaseClass - === Starting getSalt ===
+16:24:15.208 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:24:16.218 INFO  library.BaseClass - The salt response is io.restassured.internal.RestAssuredResponseImpl@5cb042da
+16:24:16.510 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:24:16.530 INFO  library.BaseClass - The salt for 9986939965 is 0oS5jL0gH5fP9xA8mK0h
+16:24:16.699 INFO  library.BaseClass - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@6069dd38
+16:24:16.709 INFO  library.BaseClass - The encrypted PIN is qNJeJknqExlplEAZrHnl1IKzHx0=
+16:24:17.118 INFO  library.BaseClass - The start login response is io.restassured.internal.RestAssuredResponseImpl@5484117b
+16:24:17.129 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019PIW3rJ6lFZ8M190y93VZ3
+16:24:17.140 INFO  library.BaseClass - The userId of 9986939965 is87101
+16:24:17.258 INFO  library.BaseClass - The DVC for 9986939965 logging in is 509690
+16:25:00.596 INFO  library.BaseClass - === Starting getSalt ===
+16:25:00.596 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:25:01.763 INFO  library.BaseClass - The salt response is io.restassured.internal.RestAssuredResponseImpl@5cb042da
+16:25:02.003 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:25:02.013 INFO  library.BaseClass - The salt for 9986939965 is 1aJ7rX9vS1wD3aW2tF1g
+16:25:02.239 INFO  library.BaseClass - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@6920614
+16:25:02.249 INFO  library.BaseClass - The encrypted PIN is psNDnmJX0S4aar8Wim7kdY8yqck=
+16:25:02.594 INFO  library.BaseClass - The start login response is io.restassured.internal.RestAssuredResponseImpl@5484117b
+16:25:02.604 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019Pw5734w30Jeeiw17cv5U2
+16:25:02.624 INFO  library.BaseClass - The userId of 9986939965 is87101
+16:25:02.982 INFO  library.BaseClass - The DVC for 9986939965 logging in is 835087
+16:26:17.400 INFO  library.BaseClass - === Starting getSalt ===
+16:26:17.400 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:26:18.788 INFO  library.BaseClass - The salt response is io.restassured.internal.RestAssuredResponseImpl@5cb042da
+16:26:19.031 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:26:19.045 INFO  library.BaseClass - The salt for 9986939965 is 2aX4mW6tS8pY0lP8dV5r
+16:26:19.283 INFO  library.BaseClass - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@6069dd38
+16:26:19.283 INFO  library.BaseClass - The encrypted PIN is Ej1S8waBKetdNZIRtg+uJEac6DA=
+16:26:19.720 INFO  library.BaseClass - The start login response is io.restassured.internal.RestAssuredResponseImpl@5484117b
+16:26:19.730 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019PZ8052q92tWI2uJPx9bY8
+16:26:19.740 INFO  library.BaseClass - The userId of 9986939965 is87101
+16:26:19.912 INFO  library.BaseClass - The DVC for 9986939965 logging in is 210565
+16:28:08.336 INFO  library.BaseClass - === Starting getSalt ===
+16:28:08.336 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:28:09.415 INFO  library.BaseClass - The salt response is io.restassured.internal.RestAssuredResponseImpl@59c33386
+16:28:09.696 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:28:09.706 INFO  library.BaseClass - The salt for 9986939965 is 5nY4uS5uR6mY4oO5rP9w
+16:28:09.857 INFO  library.BaseClass - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@6069dd38
+16:28:09.867 INFO  library.BaseClass - The encrypted PIN is TQmzP82zfF9ysa/hY8XZ06uNBbk=
+16:28:10.316 INFO  library.BaseClass - The start login response is io.restassured.internal.RestAssuredResponseImpl@5484117b
+16:28:10.326 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019PmoeWTM2r3R9etTMMlQGh
+16:28:10.336 INFO  library.BaseClass - The userId of 9986939965 is87101
+16:28:10.536 INFO  library.BaseClass - The DVC for 9986939965 logging in is 684830
+16:40:14.226 INFO  library.BaseClass - === Starting getSalt ===
+16:40:14.226 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:40:15.400 INFO  library.BaseClass - The salt response is io.restassured.internal.RestAssuredResponseImpl@59c33386
+16:40:15.648 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:40:15.658 INFO  library.BaseClass - The salt for 9986939965 is 0gH0qX8bU9kY8zO3hX5j
+16:40:15.859 INFO  library.BaseClass - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@6069dd38
+16:40:15.869 INFO  library.BaseClass - The encrypted PIN is 3pIOIhRvOEdZF8BB487LWxojIgc=
+16:40:16.296 INFO  library.BaseClass - The start login response is io.restassured.internal.RestAssuredResponseImpl@5484117b
+16:40:16.336 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019P338XD4548Uh42F0u39ey
+16:40:16.346 INFO  library.BaseClass - The userId of 9986939965 is87101
+16:40:16.467 INFO  library.BaseClass - The DVC for 9986939965 logging in is 587514
+16:40:49.589 INFO  library.BaseClass - === Starting getSalt ===
+16:40:49.589 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:40:50.637 INFO  library.BaseClass - The salt response is io.restassured.internal.RestAssuredResponseImpl@5cb042da
+16:40:50.877 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:40:50.886 INFO  library.BaseClass - The salt for 9986939965 is 0cM4nF6rV1tI2wM6sF5c
+16:40:51.037 INFO  library.BaseClass - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@6069dd38
+16:40:51.047 INFO  library.BaseClass - The encrypted PIN is h2Ym2H0XcdB/MUN3yUKUP2G75YA=
+16:40:51.438 INFO  library.BaseClass - The start login response is io.restassured.internal.RestAssuredResponseImpl@5484117b
+16:40:51.448 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019PWw54S7a50a2VCG2CSUcD
+16:40:51.458 INFO  library.BaseClass - The userId of 9986939965 is87101
+16:40:51.699 INFO  library.BaseClass - The DVC for 9986939965 logging in is 063507
+16:40:52.168 INFO  library.BaseClass - Logging 9986939965out

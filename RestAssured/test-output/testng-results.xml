@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" ignored="8" total="17" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Functional Test Suite" duration-ms="31293" started-at="2018-11-06T09:33:56Z" finished-at="2018-11-06T09:34:27Z">
+    <groups>
+    </groups>
+    <test name="Functional Test" duration-ms="31293" started-at="2018-11-06T09:33:56Z" finished-at="2018-11-06T09:34:27Z">
+      <class name="com.wibmo.LoginAPI.tests.LGN_004">
+        <test-method status="PASS" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.wibmo.LoginAPI.tests.LGN_004@7d3d101b]" name="testStart" is-config="true" duration-ms="1" started-at="2018-11-06T09:34:07Z" finished-at="2018-11-06T09:34:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.wibmo.LoginAPI.tests.LGN_004.LGN_004()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method status="PASS" signature="LGN_004()[pri:0, instance:com.wibmo.LoginAPI.tests.LGN_004@7d3d101b]" name="LGN_004" duration-ms="1468" started-at="2018-11-06T09:34:07Z" finished-at="2018-11-06T09:34:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LGN_004 -->
+        <test-method status="PASS" signature="updateResults(org.testng.ITestResult)[pri:0, instance:com.wibmo.LoginAPI.tests.LGN_004@7d3d101b]" name="updateResults" is-config="true" duration-ms="37" started-at="2018-11-06T09:34:08Z" finished-at="2018-11-06T09:34:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LGN_004 status=SUCCESS method=LGN_004.LGN_004()[pri:0, instance:com.wibmo.LoginAPI.tests.LGN_004@7d3d101b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResults -->
+      </class> <!-- com.wibmo.LoginAPI.tests.LGN_004 -->
+      <class name="com.wibmo.IAPV2.tests.IAPV2_003">
+        <test-method status="FAIL" signature="IAPV2_003()[pri:0, instance:com.wibmo.IAPV2.tests.IAPV2_003@6d026701]" name="IAPV2_003" duration-ms="61" started-at="2018-11-06T09:34:20Z" finished-at="2018-11-06T09:34:20Z">
+          <exception class="io.restassured.path.json.exception.JsonPathException">
+            <message>
+              <![CDATA[Failed to parse the JSON document]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:930)
+at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:895)
+at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:975)
+at io.restassured.path.json.JsonPath.get(JsonPath.java:201)
+at library.Generic.getJsonPathValue(Generic.java:27)
+at com.wibmo.API.LoginAPI.getSalt(LoginAPI.java:94)
+at com.wibmo.API.LoginAPI.Login(LoginAPI.java:36)
+at com.wibmo.IAPV2.tests.IAPV2_003.IAPV2_003(IAPV2_003.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.
+at groovy.json.JsonLexer.nextToken(JsonLexer.java:83)
+at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:893)
+at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:928)
+... 32 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.restassured.path.json.exception.JsonPathException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IAPV2_003 -->
+        <test-method status="PASS" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.wibmo.IAPV2.tests.IAPV2_003@6d026701]" name="testStart" is-config="true" duration-ms="0" started-at="2018-11-06T09:34:20Z" finished-at="2018-11-06T09:34:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wibmo.IAPV2.tests.IAPV2_003.IAPV2_003()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method status="PASS" signature="updateResults(org.testng.ITestResult)[pri:0, instance:com.wibmo.IAPV2.tests.IAPV2_003@6d026701]" name="updateResults" is-config="true" duration-ms="21" started-at="2018-11-06T09:34:20Z" finished-at="2018-11-06T09:34:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=IAPV2_003 status=FAILURE method=IAPV2_003.IAPV2_003()[pri:0, instance:com.wibmo.IAPV2.tests.IAPV2_003@6d026701] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResults -->
+      </class> <!-- com.wibmo.IAPV2.tests.IAPV2_003 -->
+      <class name="com.wibmo.SendMoneyAPI.tests.SM_001">
+        <test-method status="PASS" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.wibmo.SendMoneyAPI.tests.SM_001@1f75a668]" name="testStart" is-config="true" duration-ms="0" started-at="2018-11-06T09:34:23Z" finished-at="2018-11-06T09:34:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wibmo.SendMoneyAPI.tests.SM_001.SM_001()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method status="PASS" signature="SM_001()[pri:0, instance:com.wibmo.SendMoneyAPI.tests.SM_001@1f75a668]" name="SM_001" duration-ms="4433" started-at="2018-11-06T09:34:23Z" finished-at="2018-11-06T09:34:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SM_001 -->
+        <test-method status="PASS" signature="updateResults(org.testng.ITestResult)[pri:0, instance:com.wibmo.SendMoneyAPI.tests.SM_001@1f75a668]" name="updateResults" is-config="true" duration-ms="51" started-at="2018-11-06T09:34:27Z" finished-at="2018-11-06T09:34:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SM_001 status=SUCCESS method=SM_001.SM_001()[pri:0, instance:com.wibmo.SendMoneyAPI.tests.SM_001@1f75a668] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResults -->
+      </class> <!-- com.wibmo.SendMoneyAPI.tests.SM_001 -->
+      <class name="com.wibmo.LoadMoneyIAP.tests.LM_001">
+        <test-method status="PASS" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.wibmo.LoadMoneyIAP.tests.LM_001@78aa1f72]" name="testStart" is-config="true" duration-ms="0" started-at="2018-11-06T09:34:20Z" finished-at="2018-11-06T09:34:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wibmo.LoadMoneyIAP.tests.LM_001.LM_001()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method status="FAIL" signature="LM_001()[pri:0, instance:com.wibmo.LoadMoneyIAP.tests.LM_001@78aa1f72]" name="LM_001" duration-ms="2974" started-at="2018-11-06T09:34:20Z" finished-at="2018-11-06T09:34:23Z">
+          <exception class="io.restassured.path.json.exception.JsonPathException">
+            <message>
+              <![CDATA[Failed to parse the JSON document]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:930)
+at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:895)
+at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:975)
+at io.restassured.path.json.JsonPath.get(JsonPath.java:201)
+at io.restassured.path.json.JsonPath.getString(JsonPath.java:351)
+at com.wibmo.API.LoadMoneyAPI.loadMoney(LoadMoneyAPI.java:26)
+at com.wibmo.LoadMoneyIAP.tests.LM_001.LM_001(LM_001.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.
+at groovy.json.JsonLexer.nextToken(JsonLexer.java:83)
+at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:893)
+at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:928)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.restassured.path.json.exception.JsonPathException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LM_001 -->
+        <test-method status="PASS" signature="updateResults(org.testng.ITestResult)[pri:0, instance:com.wibmo.LoadMoneyIAP.tests.LM_001@78aa1f72]" name="updateResults" is-config="true" duration-ms="30" started-at="2018-11-06T09:34:23Z" finished-at="2018-11-06T09:34:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LM_001 status=FAILURE method=LM_001.LM_001()[pri:0, instance:com.wibmo.LoadMoneyIAP.tests.LM_001@78aa1f72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResults -->
+      </class> <!-- com.wibmo.LoadMoneyIAP.tests.LM_001 -->
+      <class name="com.wibmo.LoginAPI.tests.LGN_003">
+        <test-method status="PASS" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.wibmo.LoginAPI.tests.LGN_003@6cdba6dc]" name="testStart" is-config="true" duration-ms="0" started-at="2018-11-06T09:34:04Z" finished-at="2018-11-06T09:34:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wibmo.LoginAPI.tests.LGN_003.LGN_003()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method status="FAIL" signature="LGN_003()[pri:0, instance:com.wibmo.LoginAPI.tests.LGN_003@6cdba6dc]" name="LGN_003" duration-ms="2767" started-at="2018-11-06T09:34:04Z" finished-at="2018-11-06T09:34:07Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [BAD_PWD] but found [BLOCKED]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [BAD_PWD] but found [BLOCKED]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.wibmo.LoginAPI.tests.LGN_003.LGN_003(LGN_003.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LGN_003 -->
+        <test-method status="PASS" signature="updateResults(org.testng.ITestResult)[pri:0, instance:com.wibmo.LoginAPI.tests.LGN_003@6cdba6dc]" name="updateResults" is-config="true" duration-ms="36" started-at="2018-11-06T09:34:07Z" finished-at="2018-11-06T09:34:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LGN_003 status=FAILURE method=LGN_003.LGN_003()[pri:0, instance:com.wibmo.LoginAPI.tests.LGN_003@6cdba6dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResults -->
+      </class> <!-- com.wibmo.LoginAPI.tests.LGN_003 -->
+      <class name="com.wibmo.LoginAPI.tests.LGN_002">
+        <test-method status="PASS" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.wibmo.LoginAPI.tests.LGN_002@1ae8bcbc]" name="testStart" is-config="true" duration-ms="0" started-at="2018-11-06T09:34:01Z" finished-at="2018-11-06T09:34:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wibmo.LoginAPI.tests.LGN_002.LGN_002()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method status="PASS" signature="LGN_002()[pri:0, instance:com.wibmo.LoginAPI.tests.LGN_002@1ae8bcbc]" name="LGN_002" duration-ms="2671" started-at="2018-11-06T09:34:01Z" finished-at="2018-11-06T09:34:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LGN_002 -->
+        <test-method status="PASS" signature="updateResults(org.testng.ITestResult)[pri:0, instance:com.wibmo.LoginAPI.tests.LGN_002@1ae8bcbc]" name="updateResults" is-config="true" duration-ms="43" started-at="2018-11-06T09:34:04Z" finished-at="2018-11-06T09:34:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LGN_002 status=SUCCESS method=LGN_002.LGN_002()[pri:0, instance:com.wibmo.LoginAPI.tests.LGN_002@1ae8bcbc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResults -->
+      </class> <!-- com.wibmo.LoginAPI.tests.LGN_002 -->
+      <class name="com.wibmo.LoginAPI.tests.LGN_001">
+        <test-method status="PASS" signature="initializeReports()[pri:0, instance:com.wibmo.LoginAPI.tests.LGN_001@3eb81efb]" name="initializeReports" is-config="true" duration-ms="106" started-at="2018-11-06T09:33:56Z" finished-at="2018-11-06T09:33:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeReports -->
+        <test-method status="PASS" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.wibmo.LoginAPI.tests.LGN_001@3eb81efb]" name="testStart" is-config="true" duration-ms="4" started-at="2018-11-06T09:33:56Z" finished-at="2018-11-06T09:33:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wibmo.LoginAPI.tests.LGN_001.LGN_001()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method status="PASS" signature="LGN_001()[pri:0, instance:com.wibmo.LoginAPI.tests.LGN_001@3eb81efb]" name="LGN_001" duration-ms="5076" started-at="2018-11-06T09:33:56Z" finished-at="2018-11-06T09:34:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LGN_001 -->
+        <test-method status="PASS" signature="updateResults(org.testng.ITestResult)[pri:0, instance:com.wibmo.LoginAPI.tests.LGN_001@3eb81efb]" name="updateResults" is-config="true" duration-ms="206" started-at="2018-11-06T09:34:01Z" finished-at="2018-11-06T09:34:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LGN_001 status=SUCCESS method=LGN_001.LGN_001()[pri:0, instance:com.wibmo.LoginAPI.tests.LGN_001@3eb81efb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResults -->
+      </class> <!-- com.wibmo.LoginAPI.tests.LGN_001 -->
+      <class name="com.wibmo.IAPV2.tests.IAPV2_001">
+        <test-method status="PASS" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.wibmo.IAPV2.tests.IAPV2_001@30c8681]" name="testStart" is-config="true" duration-ms="0" started-at="2018-11-06T09:34:08Z" finished-at="2018-11-06T09:34:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wibmo.IAPV2.tests.IAPV2_001.IAPV2_001()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method status="FAIL" signature="IAPV2_001()[pri:0, instance:com.wibmo.IAPV2.tests.IAPV2_001@30c8681]" name="IAPV2_001" duration-ms="5803" started-at="2018-11-06T09:34:08Z" finished-at="2018-11-06T09:34:14Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [50020] but found [null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [50020] but found [null]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.wibmo.IAPV2.tests.IAPV2_001.IAPV2_001(IAPV2_001.java:46)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IAPV2_001 -->
+        <test-method status="PASS" signature="updateResults(org.testng.ITestResult)[pri:0, instance:com.wibmo.IAPV2.tests.IAPV2_001@30c8681]" name="updateResults" is-config="true" duration-ms="27" started-at="2018-11-06T09:34:14Z" finished-at="2018-11-06T09:34:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=IAPV2_001 status=FAILURE method=IAPV2_001.IAPV2_001()[pri:0, instance:com.wibmo.IAPV2.tests.IAPV2_001@30c8681] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResults -->
+      </class> <!-- com.wibmo.IAPV2.tests.IAPV2_001 -->
+      <class name="com.wibmo.IAPV2.tests.IAPV2_002">
+        <test-method status="PASS" signature="IAPV2_002()[pri:0, instance:com.wibmo.IAPV2.tests.IAPV2_002@5cdec700]" name="IAPV2_002" duration-ms="5505" started-at="2018-11-06T09:34:14Z" finished-at="2018-11-06T09:34:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IAPV2_002 -->
+        <test-method status="PASS" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.wibmo.IAPV2.tests.IAPV2_002@5cdec700]" name="testStart" is-config="true" duration-ms="0" started-at="2018-11-06T09:34:14Z" finished-at="2018-11-06T09:34:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.wibmo.IAPV2.tests.IAPV2_002.IAPV2_002()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method status="PASS" signature="updateResults(org.testng.ITestResult)[pri:0, instance:com.wibmo.IAPV2.tests.IAPV2_002@5cdec700]" name="updateResults" is-config="true" duration-ms="42" started-at="2018-11-06T09:34:19Z" finished-at="2018-11-06T09:34:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=IAPV2_002 status=SUCCESS method=IAPV2_002.IAPV2_002()[pri:0, instance:com.wibmo.IAPV2.tests.IAPV2_002@5cdec700] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResults -->
+      </class> <!-- com.wibmo.IAPV2.tests.IAPV2_002 -->
+    </test> <!-- Functional Test -->
+  </suite> <!-- Functional Test Suite -->
+</testng-results>

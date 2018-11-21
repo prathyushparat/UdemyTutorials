@@ -24,7 +24,7 @@ public class Payload {
       "\"latitude\":0.0,"+
       "\"longitude\":0.0"+
    "},"+
-   "\"password\":\""+AllInOneLogin.pwd+"\","+ 
+   //"\"password\":\""+AllInOneLogin.pwd+"\","+ 
    "\"salt\":\""+getSalt.salt+"\","+
    "\"simAndDeviceData\":{"+  
       "\"deviceData1\":\"zoklBWqgx5agU+s5I7mDMiCFqIKbHgszRuUuJAQ8CXs=\","+

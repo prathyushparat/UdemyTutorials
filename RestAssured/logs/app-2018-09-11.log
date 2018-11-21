@@ -1,0 +1,24 @@
+14:57:00.194 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@75361cf6
+14:57:00.217 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+14:57:00.225 INFO  API.LoginAPI - The salt for 9986939965 is 8aU4uO4mR9vM8wS3cU4g
+14:57:00.350 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@1702830d
+14:57:00.358 INFO  API.LoginAPI - The encrypted PIN is EEs88ItmTOCUpeOvlU3BMLOUrWk=
+14:57:00.850 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@f91da5e
+14:57:00.860 INFO  API.LoginAPI - The temp token for 9986939965 logging in is 201809IN6019Pg6V85GR6hlK721n9RZ4c
+14:57:00.869 INFO  API.LoginAPI - The userId of 9986939965 is87101
+14:57:00.987 INFO  API.LoginAPI - The DVC for 9986939965 logging in is 206923
+15:01:34.233 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@75361cf6
+15:01:34.245 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+15:01:34.253 INFO  API.LoginAPI - The salt for 9986939965 is 8kL6eI7eO2sI3cF9mL0j
+15:01:34.376 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@1702830d
+15:01:34.385 INFO  API.LoginAPI - The encrypted PIN is q7AJVWhJ8APKiTFzUdqjYfi8eCA=
+15:01:34.932 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@10643593
+15:01:34.962 INFO  API.LoginAPI - The temp token for 9986939965 logging in is 201809IN6019P8CHLin675624aqNLH90h
+15:01:34.976 INFO  API.LoginAPI - The userId of 9986939965 is87101
+15:01:35.103 INFO  API.LoginAPI - The DVC for 9986939965 logging in is 311290
+18:23:29.281 INFO  API.LoginAPI - === Starting getSalt ===
+18:23:29.283 INFO  API.LoginAPI - http://api.pc.enstage-sas.com
+18:26:02.114 INFO  API.LoginAPI - === Starting getSalt ===
+18:26:02.116 INFO  API.LoginAPI - http://api.pc.enstage-sas.com
+18:26:11.778 INFO  API.LoginAPI - === Starting getSalt ===
+18:26:11.779 INFO  API.LoginAPI - http://api.pc.enstage-sas.com

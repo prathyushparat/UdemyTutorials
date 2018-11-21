@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Test Suite" thread-count="2"  parallel="classes">
+  <test  name="Regression Test">
+    <classes>
+      <class name="com.wibmo.LoginAPI.tests.TC_001"/>
+      <class name="com.wibmo.LoginAPI.tests.TC_002"/>
+      <class name="com.wibmo.IAP.tests.IAP_001"/>
+      <class name="com.wibmo.IAP.tests.IAP_002"/>
+      <class name="com.wibmo.LoadMoneyIAPTests.LM_001"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

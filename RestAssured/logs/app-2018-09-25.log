@@ -1,0 +1,30 @@
+16:26:14.421 INFO  library.BaseClass - ==== Executing Query : select * from wibmo_in.geo_user_reg_info where access_data = '9986939965' and program_id=6019 ====
+16:49:45.605 INFO  library.BaseClass - ==== Executing Query : select * from wibmo_in.geo_user_reg_info where access_data = '9986939965' and program_id=6019 ====
+17:03:26.439 INFO  library.BaseClass - ==== Executing Query : select * from wibmo_in.geo_user_reg_info where access_data = '9986939965' and program_id=6019 ====
+17:13:28.882 INFO  library.BaseClass - ==== Executing Query : select * from wibmo_in.geo_user_reg_info where access_data = '9986939965' and program_id=6019 ====
+18:46:34.056 INFO  library.BaseClass - ==== Executing Query : select * from wibmo_in.geo_user_reg_info where access_data = '9986939965' and program_id=6019 ====
+18:48:54.595 INFO  library.BaseClass - ==== Executing Query : select * from wibmo_in.geo_user_reg_info where access_data = '9986939965' and program_id=6019 ====
+18:51:25.816 INFO  library.BaseClass - ==== Executing Query : select * from wibmo_in.geo_user_reg_info where access_data = '9986939965' and program_id=6019 ====
+18:53:42.481 INFO  library.BaseClass - ==== Executing Query : select * from wibmo_in.geo_user_reg_info where access_data = '9986939965' and program_id=6019 ====
+18:53:42.719 INFO  library.BaseClass - === PC AC number of 9986939965 is ===IN062090334723
+18:53:42.719 INFO  library.BaseClass - ==== Executing Query : UPDATE `wibmo_in_6019_data`.`pc_ac_master` SET `KYC_AUTO_UPGRADE`='1', `KYC_AUTO_UPGRADE_LEVEL`='30' WHERE `PC_AC_NUMBER`='IN062090334723' ====
+18:53:42.719 INFO  library.BaseClass - ==== Executing Update Query : UPDATE `wibmo_in_6019_data`.`pc_ac_master` SET `KYC_AUTO_UPGRADE`='1', `KYC_AUTO_UPGRADE_LEVEL`='30' WHERE `PC_AC_NUMBER`='IN062090334723' ====
+18:55:20.716 INFO  library.BaseClass - ==== Executing Query : select * from wibmo_in.geo_user_reg_info where access_data = '9986939965' and program_id=6019 ====
+18:55:20.904 INFO  library.BaseClass - === PC AC number of 9986939965 is ===IN062090334723
+18:55:20.904 INFO  library.BaseClass - ==== Executing Query : UPDATE `wibmo_in_6019_data`.`pc_ac_master` SET `KYC_AUTO_UPGRADE`='1', `KYC_AUTO_UPGRADE_LEVEL`='30' WHERE `PC_AC_NUMBER`='IN062090334723' ====
+18:55:20.904 INFO  library.BaseClass - ==== Executing Update Query : UPDATE `wibmo_in_6019_data`.`pc_ac_master` SET `KYC_AUTO_UPGRADE`='1', `KYC_AUTO_UPGRADE_LEVEL`='30' WHERE `PC_AC_NUMBER`='IN062090334723' ====
+19:09:04.939 INFO  library.BaseClass - ==== Executing Query : select * from wibmo_in.geo_user_reg_info where access_data = '9986939965' and program_id=6019 ====
+19:09:05.125 INFO  library.BaseClass - === PC AC number of 9986939965 is ===IN062090334723
+19:09:05.125 INFO  library.BaseClass - ==== Executing Query : UPDATE `wibmo_in_6019_data`.`pc_ac_master` SET `KYC_AUTO_UPGRADE`='1', `KYC_AUTO_UPGRADE_LEVEL`='30' WHERE `PC_AC_NUMBER`='IN062090334723' ====
+19:09:05.125 INFO  library.BaseClass - ==== Executing Update Query : UPDATE `wibmo_in_6019_data`.`pc_ac_master` SET `KYC_AUTO_UPGRADE`='1', `KYC_AUTO_UPGRADE_LEVEL`='30' WHERE `PC_AC_NUMBER`='IN062090334723' ====
+19:09:06.691 INFO  library.BaseClass - ======== Response of KYCAutoUpgradeQuartzJob job API ======== {"code":500,"message":"There was an error processing your request. It has been logged (ID 368167706383518f)."}
+19:46:16.401 INFO  library.BaseClass - ==== Executing Query : select * from wibmo_in.geo_user_reg_info where access_data = '9986939965' and program_id=6019 ====
+19:46:16.593 INFO  library.BaseClass - === PC AC number of 9986939965 is ===IN062090334723
+19:46:16.593 INFO  library.BaseClass - ==== Executing Query : UPDATE `wibmo_in_6019_data`.`pc_ac_master` SET `KYC_AUTO_UPGRADE`='1', `KYC_AUTO_UPGRADE_LEVEL`='30' WHERE `PC_AC_NUMBER`='IN062090334723' ====
+19:46:16.593 INFO  library.BaseClass - ==== Executing Update Query : UPDATE `wibmo_in_6019_data`.`pc_ac_master` SET `KYC_AUTO_UPGRADE`='1', `KYC_AUTO_UPGRADE_LEVEL`='30' WHERE `PC_AC_NUMBER`='IN062090334723' ====
+19:46:18.512 INFO  library.BaseClass - ======== Response of KYCAutoUpgradeQuartzJob job API ======== true
+19:47:23.940 INFO  library.BaseClass - ==== Executing Query : select * from wibmo_in.geo_user_reg_info where access_data = '9986939965' and program_id=6019 ====
+19:47:24.151 INFO  library.BaseClass - === PC AC number of 9986939965 is ===IN062090334723
+19:47:24.151 INFO  library.BaseClass - ==== Executing Query : UPDATE `wibmo_in_6019_data`.`pc_ac_master` SET `KYC_AUTO_UPGRADE`='1', `KYC_AUTO_UPGRADE_LEVEL`='100' WHERE `PC_AC_NUMBER`='IN062090334723' ====
+19:47:24.151 INFO  library.BaseClass - ==== Executing Update Query : UPDATE `wibmo_in_6019_data`.`pc_ac_master` SET `KYC_AUTO_UPGRADE`='1', `KYC_AUTO_UPGRADE_LEVEL`='100' WHERE `PC_AC_NUMBER`='IN062090334723' ====
+19:47:25.791 INFO  library.BaseClass - ======== Response of KYCAutoUpgradeQuartzJob job API ======== true

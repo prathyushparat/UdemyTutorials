@@ -1,0 +1,532 @@
+10:22:00.433 INFO  library.BaseClass - === Starting getSalt ===
+10:22:00.440 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+10:22:01.455 INFO  library.BaseClass - The salt response is io.restassured.internal.RestAssuredResponseImpl@4e93dcb9
+10:22:01.751 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+10:22:01.760 INFO  library.BaseClass - The salt for 9986939965 is 5uD4vD1zQ0dF1dQ3rT8h
+10:22:01.915 INFO  library.BaseClass - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@252dc8c4
+10:22:01.923 INFO  library.BaseClass - The encrypted PIN is jA7Jm922LgXP+Nkc1QCdkIBwdFs=
+10:22:02.609 INFO  library.BaseClass - The start login response is io.restassured.internal.RestAssuredResponseImpl@42b84286
+10:22:02.644 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019P55x9hImJMnqedG5Ws3d9
+10:22:02.662 INFO  library.BaseClass - The userId of 9986939965 is87101
+10:22:02.878 INFO  library.BaseClass - The DVC for 9986939965 logging in is 861767
+10:22:03.183 INFO  library.BaseClass - === Starting load money init ===
+10:22:03.779 INFO  library.BaseClass - {"resCode":"000","resDesc":"SUCCESS","initRequest":{"merchantInfo":{"merId":"1273864627877702560","merName":"PayZapp Load Money","merCountryCode":"IN","merAppId":"9017","merProgramId":"6019"},"transactionInfo":{"supportedPaymentType":["*"],"restrictedPaymentType":null,"txnAmount":122,"txnCurrency":"356","txnDesc":null,"txnDate":null,"txnAmtKnown":true,"chargeLater":true,"merAppData":"N/A","merTxnId":"LOADMONEY20180928106dN08h","merDataField":"1273864627877702560","txnFormattedAmount":"Rs. 1.22"},"customerInfo":{"custEmail":null,"custMobile":null,"custName":null,"custDob":null,"custPin":null,"forceRegister":false},"deviceInfo":{"wibmoSdkVersion":"2.2.0","wibmoAppVersion":"3.07.02.02","deviceID":"tdid:62Zm0zrjP80kOILv2YEE7xthhp1UhjWFpNbzm3PhcT4=:4900","deviceMake":"motorola","deviceModel":"XT1225","osType":"Android","osVersion":"6.0.1","appInstalled":true,"deviceIDType":3,"deviceType":3,"deviceIDProof":null,"simID":null,"simIDProof":null},"txnType":"WPay","cardInfo":null,"merchantReturnUrl":null,"msgHash":null,"billingAddressRequired":false,"shippingAddressRequired":false,"profileRequired":false,"pushGCM":true,"promoCodes":null,"cardFee":null},"initResponse":{"resCode":"000","resDesc":"SUCCESS","wibmoCustomer":false,"registeredUas":null,"accessStringType":0,"merchantInfo":{"merId":"1273864627877702560","merName":"PayZapp Load Money","merCountryCode":"IN","merAppId":"9017","merProgramId":"6019"},"transactionInfo":{"supportedPaymentType":["*"],"restrictedPaymentType":null,"txnAmount":122,"txnCurrency":"356","txnDesc":null,"txnDate":null,"txnAmtKnown":true,"chargeLater":true,"merAppData":"N/A","merTxnId":"LOADMONEY20180928106dN08h","merDataField":"1273864627877702560","txnFormattedAmount":"Rs. 1.22"},"merchantReturnUrl":null,"merchantProgramId":null,"wibmoTxnId":"201809281021433780wH14zJ8","wibmoTxnToken":"2018099iY1rP3dA4","webUrl":null,"msgHash":"yxXE/JxG0u66Nl6718IYrkbMvmVX4TiY06bs2jkGBQE=","screenTitle":null,"messageForUser":null,"messageType":0,"onusCardRequired":false,"forceRegister":false,"isHalfRegistered":false,"isHalfRegistrationEnabled":false,"isBillingAddressAllowed":false,"isShippingAddressAllowed":false,"collectEmail":false},"mpToken":"bfa033280c3775d19502eac4a9041ca3"}
+10:22:03.808 INFO  library.BaseClass - txn ID & token is 201809281021433780wH14zJ8 2018099iY1rP3dA4
+10:22:03.826 INFO  library.BaseClass - === Starting MPI leg ===
+10:22:04.211 INFO  library.BaseClass - {"resCode":"000","resDesc":"SUCCESS","actionCode":1,"additionalUserInputData":{"browserKeyValue":[{"id":"mpiErrorCode","value":"000"},{"id":"return-url","value":"https://app.pc.enstage-sas.com/wapi/redirectToWibmo"},{"id":"mpiErrorDesc","value":""},{"id":"s2s_id","value":"MjAxODA5Mjg3MzM3NjY"},{"id":"md","value":"201809281021433780wH14zJ8\n"},{"id":"merchant_id","value":"Wibmo_PayzappWFDW"}],"formInput":[{"id":"METHOD_IDENTIFIER","label":null,"minLength":0,"maxLength":0,"inputType":"HID","comment":null,"allowStore":false,"encryption":false,"editable":false,"inputValue":"RESPONSE_FROM_EXTERANL_SOURCE","mandatory":false}],"mdStr":null,"inflowTxnId":null,"redirectFormAction":"https://wibmompistg-dw.pc.enstage-sas.com/MultiMPI/MPIServer?perform=s2sProcessing","redirectFormMethod":"post","redirectPageText":"3DSecure Transaction is being processed, Please wait ...","returnUrl":"https://app.pc.enstage-sas.com/wapi/redirectToWibmo"},"msgHash":"v2:Bg/zE2qehfzZJ6KmHCAzUVQKfBUG7mGWRZkhBg5PlT4=","dataPickUpCode":null,"wibmoTxnId":"201809281021433780wH14zJ8","merTxnId":"LOADMONEY20180928106dN08h","merAppData":"N/A","oneClickTxn":false}
+10:22:04.240 INFO  library.BaseClass - === Mocking MPI response to wibmo post 3ds ===
+10:22:04.632 INFO  library.BaseClass - {"resCode":"000","resDesc":"SUCCESS","actionCode":0,"additionalUserInputData":{"browserKeyValue":null,"formInput":null,"mdStr":null,"inflowTxnId":null,"redirectFormAction":null,"redirectFormMethod":null,"redirectPageText":null,"returnUrl":null},"msgHash":"v2:vNZa1dvjwBIB7iBhoc0SHb0QE0Y+v6bNeAhPV5wHG18=","dataPickUpCode":"201809281021433780wH14zJ8:9tZ0kU9wC5","wibmoTxnId":"201809281021433780wH14zJ8","merTxnId":"LOADMONEY20180928106dN08h","merAppData":"N/A","oneClickTxn":false}
+10:22:28.461 INFO  library.BaseClass - {"action":17,"addFundDetails":{"amount":"Rs. 1.22","date":"Fri, 28 Sep 2018 10:21:43","loadedFrom":"4329 xxxx xxxx 9785","referenceNumber":"201809281021433780wH14zJ8","headerMessage":"Funds have not been loaded","aliasName":"From Video","fundType":"Amount"},"browserPostKeyValuePairs":null,"displayMessages":{},"wibmoTxnId":"201809281021433780wH14zJ8","retryDateTime":"1538110363000","retryStatus":null,"retryTimeDelay":5,"fundsInputs":null}
+11:47:18.449 INFO  library.BaseClass - Started
+11:47:18.722 INFO  library.BaseClass - === Starting getSalt ===
+11:47:18.722 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+11:47:20.011 INFO  library.BaseClass - Salt of 9986939965 is 2hT6nJ9aC7tT1jW6zP2g
+11:47:20.021 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n1","version":"4.13.2.8"},"salt":"2hT6nJ9aC7tT1jW6zP2g"}
+11:47:20.030 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+11:47:20.038 INFO  library.BaseClass - The salt for 9986939965 is 2hT6nJ9aC7tT1jW6zP2g
+11:48:28.735 INFO  library.BaseClass - Started
+11:48:29.013 INFO  library.BaseClass - === Starting getSalt ===
+11:48:29.013 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+11:48:30.485 INFO  library.BaseClass - Salt of 9986939965 is 1xG7yH4xB8gK7vU1vZ1m
+11:48:30.496 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n1","version":"4.13.2.8"},"salt":"1xG7yH4xB8gK7vU1vZ1m"}
+11:48:30.505 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+11:48:30.514 INFO  library.BaseClass - The salt for 9986939965 is 1xG7yH4xB8gK7vU1vZ1m
+15:07:50.405 INFO  library.BaseClass - Started
+15:07:50.681 INFO  library.BaseClass - === Starting getSalt ===
+15:07:50.681 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+15:07:51.937 INFO  library.BaseClass - Salt of 9986939965 is 2pR0iQ1iB9xT4wW4mF4c
+15:07:51.947 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n1","version":"4.13.2.8"},"salt":"2pR0iQ1iB9xT4wW4mF4c"}
+15:07:51.955 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+15:07:51.963 INFO  library.BaseClass - The salt for 9986939965 is 2pR0iQ1iB9xT4wW4mF4c
+15:07:52.098 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"vZnM4kZJatUnyf5xkADk4mBGQfs=", "key":"2pR0iQ1iB9xT4wW4mF4c", "encPwd":"vZnM4kZJatUnyf5xkADk4mBGQfs%3D"}
+
+15:07:52.105 INFO  library.BaseClass - The encrypted PIN is vZnM4kZJatUnyf5xkADk4mBGQfs=
+15:07:52.810 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019P634tC314kGW9y5W61Da6
+15:07:52.821 INFO  library.BaseClass - The userId of 9986939965 is 87101
+15:07:53.025 INFO  library.BaseClass - The DVC for 9986939965 logging in is 793723
+15:07:53.254 INFO  library.BaseClass - Logging 9986939965out
+15:09:28.573 INFO  library.BaseClass - Started
+15:09:28.849 INFO  library.BaseClass - === Starting getSalt ===
+15:09:28.849 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+15:09:30.164 INFO  library.BaseClass - Salt of 9986939965 is 0uP0rV1yZ7nY9sY0jI7x
+15:09:30.175 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n3","version":"4.13.2.8"},"salt":"0uP0rV1yZ7nY9sY0jI7x"}
+15:09:30.184 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+15:09:30.192 INFO  library.BaseClass - The salt for 9986939965 is 0uP0rV1yZ7nY9sY0jI7x
+15:09:30.322 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"ZjfJq/uY6hWqmD7zjMrQC+PAwnY=", "key":"0uP0rV1yZ7nY9sY0jI7x", "encPwd":"ZjfJq%2FuY6hWqmD7zjMrQC%2BPAwnY%3D"}
+
+15:09:30.330 INFO  library.BaseClass - The encrypted PIN is ZjfJq/uY6hWqmD7zjMrQC+PAwnY=
+15:09:30.670 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019PzIq5U8HCb2QGTHN30x19
+15:09:30.680 INFO  library.BaseClass - The userId of 9986939965 is 87101
+15:09:30.931 INFO  library.BaseClass - The DVC for 9986939965 logging in is 079029
+15:09:31.178 INFO  library.BaseClass - Logging 9986939965out
+15:17:04.504 INFO  library.BaseClass - Started
+15:17:04.789 INFO  library.BaseClass - === Starting getSalt ===
+15:17:04.789 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+15:17:06.080 INFO  library.BaseClass - Salt of 9986939965 is 1wH2xY2xF3uR7vG8eL5t
+15:17:06.090 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n3","version":"4.13.2.8"},"salt":"1wH2xY2xF3uR7vG8eL5t"}
+15:17:06.099 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+15:17:06.107 INFO  library.BaseClass - The salt for 9986939965 is 1wH2xY2xF3uR7vG8eL5t
+15:17:06.244 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"a+tuj4C+zPBUgaINtoATtpDYtqQ=", "key":"1wH2xY2xF3uR7vG8eL5t", "encPwd":"a%2Btuj4C%2BzPBUgaINtoATtpDYtqQ%3D"}
+
+15:17:06.252 INFO  library.BaseClass - The encrypted PIN is a+tuj4C+zPBUgaINtoATtpDYtqQ=
+15:17:06.723 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019P86dj3Mysi588hFlrd3aY
+15:17:06.734 INFO  library.BaseClass - The userId of 9986939965 is 87101
+15:17:06.859 INFO  library.BaseClass - The DVC for 9986939965 logging in is 547467
+15:17:07.058 INFO  library.BaseClass - Logging 9986939965 out
+15:26:07.494 INFO  library.BaseClass - Started
+15:26:07.779 INFO  library.BaseClass - === Starting getSalt ===
+15:26:07.779 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+15:26:09.032 INFO  library.BaseClass - Salt of 9986939965 is 1vZ9rY1yA9bG8qD4wP7o
+15:26:09.043 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n1","version":"4.13.2.8"},"salt":"1vZ9rY1yA9bG8qD4wP7o"}
+15:26:09.051 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+15:26:09.059 INFO  library.BaseClass - The salt for 9986939965 is 1vZ9rY1yA9bG8qD4wP7o
+15:26:09.264 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"yqh+SEcQnuH0Wb//1XU7bLcDWTQ=", "key":"1vZ9rY1yA9bG8qD4wP7o", "encPwd":"yqh%2BSEcQnuH0Wb%2F%2F1XU7bLcDWTQ%3D"}
+
+15:26:09.275 INFO  library.BaseClass - The encrypted PIN is yqh+SEcQnuH0Wb//1XU7bLcDWTQ=
+15:26:09.693 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019P0pl50k2kE5rJ77hh76ft
+15:26:09.705 INFO  library.BaseClass - The userId of 9986939965 is 87101
+15:26:09.839 INFO  library.BaseClass - The DVC for 9986939965 logging in is 660749
+15:26:10.049 INFO  library.BaseClass - Logging 9986939965 out
+15:26:35.496 INFO  library.BaseClass - Started
+15:26:35.781 INFO  library.BaseClass - === Starting getSalt ===
+15:26:35.781 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+15:26:37.057 INFO  library.BaseClass - Salt of 9986939965 is 3wW6cX9uA3hO5tG3kJ3a
+15:26:37.067 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n1","version":"4.13.2.8"},"salt":"3wW6cX9uA3hO5tG3kJ3a"}
+15:26:37.076 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+15:26:37.085 INFO  library.BaseClass - The salt for 9986939965 is 3wW6cX9uA3hO5tG3kJ3a
+15:26:37.221 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"FRFsUMbtsVhae914ojKwKko2yg0=", "key":"3wW6cX9uA3hO5tG3kJ3a", "encPwd":"FRFsUMbtsVhae914ojKwKko2yg0%3D"}
+
+15:26:37.229 INFO  library.BaseClass - The encrypted PIN is FRFsUMbtsVhae914ojKwKko2yg0=
+15:26:37.619 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019PcGmG3PAvfEcU6c8wOLF7
+15:26:37.631 INFO  library.BaseClass - The userId of 9986939965 is 87101
+15:26:37.856 INFO  library.BaseClass - The DVC for 9986939965 logging in is 381475
+15:26:38.063 INFO  library.BaseClass - Logging 9986939965 out
+15:34:44.580 INFO  library.BaseClass - Started
+15:34:44.879 INFO  library.BaseClass - === Starting getSalt ===
+15:34:44.879 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+15:34:46.200 INFO  library.BaseClass - Salt of 9986939965 is 1bB8dS2uE6kL2vO2vR6g
+15:34:46.214 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n1","version":"4.13.2.8"},"salt":"1bB8dS2uE6kL2vO2vR6g"}
+15:34:46.226 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+15:34:46.236 INFO  library.BaseClass - The salt for 9986939965 is 1bB8dS2uE6kL2vO2vR6g
+15:34:46.555 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"if/BpU52LkLGSCD1EZtdRatl9GY=", "key":"1bB8dS2uE6kL2vO2vR6g", "encPwd":"if%2FBpU52LkLGSCD1EZtdRatl9GY%3D"}
+
+15:34:46.562 INFO  library.BaseClass - The encrypted PIN is if/BpU52LkLGSCD1EZtdRatl9GY=
+15:34:47.179 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019Pf3Wcyq7kDRm1MyotB6yE
+15:34:47.268 INFO  library.BaseClass - The userId of 9986939965 is 87101
+15:34:47.513 INFO  library.BaseClass - The DVC for 9986939965 logging in is 497579
+15:34:47.904 INFO  library.BaseClass - Logging 9986939965 out
+15:37:49.419 INFO  library.BaseClass - Started
+15:37:49.699 INFO  library.BaseClass - === Starting getSalt ===
+15:37:49.699 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+15:37:50.935 INFO  library.BaseClass - Salt of 9986939965 is 2cR7hP9mQ4rS6yU8eE5p
+15:37:50.947 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n1","version":"4.13.2.8"},"salt":"2cR7hP9mQ4rS6yU8eE5p"}
+15:37:50.955 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+15:37:50.963 INFO  library.BaseClass - The salt for 9986939965 is 2cR7hP9mQ4rS6yU8eE5p
+15:37:51.329 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"Z0RjfnJBeRf5HSV9bq6hb71M2A8=", "key":"2cR7hP9mQ4rS6yU8eE5p", "encPwd":"Z0RjfnJBeRf5HSV9bq6hb71M2A8%3D"}
+
+15:37:51.335 INFO  library.BaseClass - The encrypted PIN is Z0RjfnJBeRf5HSV9bq6hb71M2A8=
+15:37:51.861 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019P2452hj0hzx4IKaGIW3BL
+15:37:51.869 INFO  library.BaseClass - The userId of 9986939965 is 87101
+15:37:52.007 INFO  library.BaseClass - The DVC for 9986939965 logging in is 047406
+15:37:52.257 INFO  library.BaseClass - Logging 9986939965 out
+16:28:14.620 INFO  library.BaseClass - Started
+16:28:14.887 INFO  library.BaseClass - === Starting getSalt ===
+16:28:14.887 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:28:16.159 INFO  library.BaseClass - Salt of 9986939965 is 2tK7fR2yG1kQ9aH0dE0e
+16:28:16.169 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n3","version":"4.13.2.8"},"salt":"2tK7fR2yG1kQ9aH0dE0e"}
+16:28:16.178 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:28:16.185 INFO  library.BaseClass - The salt for 9986939965 is 2tK7fR2yG1kQ9aH0dE0e
+16:28:16.418 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"A3lIoUWW6ZsvrjsuFVXfDH/+p9Y=", "key":"2tK7fR2yG1kQ9aH0dE0e", "encPwd":"A3lIoUWW6ZsvrjsuFVXfDH%2F%2Bp9Y%3D"}
+
+16:28:16.426 INFO  library.BaseClass - The encrypted PIN is A3lIoUWW6ZsvrjsuFVXfDH/+p9Y=
+16:28:16.880 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019Pf13vi9xaw14lr4PZ1sVd
+16:28:16.889 INFO  library.BaseClass - The userId of 9986939965 is 87101
+16:28:17.084 INFO  library.BaseClass - The DVC for 9986939965 logging in is 872020
+16:28:17.286 INFO  library.BaseClass - Logging 9986939965 out
+16:28:53.325 INFO  library.BaseClass - Started
+16:28:53.609 INFO  library.BaseClass - === Starting getSalt ===
+16:28:53.609 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:28:54.900 INFO  library.BaseClass - Salt of 9986939965 is 3gK6jQ5rS8nJ4aB0oM5m
+16:28:54.910 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n3","version":"4.13.2.8"},"salt":"3gK6jQ5rS8nJ4aB0oM5m"}
+16:28:54.918 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:28:54.926 INFO  library.BaseClass - The salt for 9986939965 is 3gK6jQ5rS8nJ4aB0oM5m
+16:28:55.076 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"sDlGEywXpZsu9+InX2yhYLvDDEM=", "key":"3gK6jQ5rS8nJ4aB0oM5m", "encPwd":"sDlGEywXpZsu9%2BInX2yhYLvDDEM%3D"}
+
+16:28:55.083 INFO  library.BaseClass - The encrypted PIN is sDlGEywXpZsu9+InX2yhYLvDDEM=
+16:28:55.515 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019PrKsDGvt4V58Ku5f3rv9T
+16:28:55.525 INFO  library.BaseClass - The userId of 9986939965 is 87101
+16:28:55.645 INFO  library.BaseClass - The DVC for 9986939965 logging in is 962464
+16:28:55.894 INFO  library.BaseClass - Logging 9986939965 out
+16:34:31.923 INFO  library.BaseClass - Started
+16:34:32.215 INFO  library.BaseClass - === Starting getSalt ===
+16:34:32.215 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:34:33.714 INFO  library.BaseClass - Salt of 9986939965 is 9nQ3mY9vM1yQ2tK0gT3m
+16:34:33.726 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n3","version":"4.13.2.8"},"salt":"9nQ3mY9vM1yQ2tK0gT3m"}
+16:34:33.735 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:34:33.744 INFO  library.BaseClass - The salt for 9986939965 is 9nQ3mY9vM1yQ2tK0gT3m
+16:34:34.033 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"DiB2dApRdOmucMmOEx/Uw0PAshI=", "key":"9nQ3mY9vM1yQ2tK0gT3m", "encPwd":"DiB2dApRdOmucMmOEx%2FUw0PAshI%3D"}
+
+16:34:34.041 INFO  library.BaseClass - The encrypted PIN is DiB2dApRdOmucMmOEx/Uw0PAshI=
+16:34:35.057 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019Py2qwBLBqtObf802KK82u
+16:34:35.134 INFO  library.BaseClass - The userId of 9986939965 is 87101
+16:34:35.437 INFO  library.BaseClass - The DVC for 9986939965 logging in is 146680
+16:34:36.327 INFO  library.BaseClass - Logging 9986939965 out
+16:36:06.924 INFO  library.BaseClass - Started
+16:36:07.202 INFO  library.BaseClass - === Starting getSalt ===
+16:36:07.202 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:36:08.485 INFO  library.BaseClass - Salt of 9986939965 is 4kR7oK1fA8bH4dY1pJ5o
+16:36:08.495 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n1","version":"4.13.2.8"},"salt":"4kR7oK1fA8bH4dY1pJ5o"}
+16:36:08.504 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:36:08.513 INFO  library.BaseClass - The salt for 9986939965 is 4kR7oK1fA8bH4dY1pJ5o
+16:36:08.689 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"N3W2MXqDuenQEtBR/GY2kvccI9U=", "key":"4kR7oK1fA8bH4dY1pJ5o", "encPwd":"N3W2MXqDuenQEtBR%2FGY2kvccI9U%3D"}
+
+16:36:08.696 INFO  library.BaseClass - The encrypted PIN is N3W2MXqDuenQEtBR/GY2kvccI9U=
+16:36:09.193 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019Pen8oqEtodjXLtC7kyODl
+16:36:09.202 INFO  library.BaseClass - The userId of 9986939965 is 87101
+16:36:09.322 INFO  library.BaseClass - The DVC for 9986939965 logging in is 237041
+16:36:09.574 INFO  library.BaseClass - Logging 9986939965 out
+16:37:38.282 INFO  library.BaseClass - Started
+16:37:38.561 INFO  library.BaseClass - === Starting getSalt ===
+16:37:38.561 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:37:39.829 INFO  library.BaseClass - Salt of 9986939965 is 1kG0iJ7tO9pL8qE6qN5x
+16:37:39.844 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n1","version":"4.13.2.8"},"salt":"1kG0iJ7tO9pL8qE6qN5x"}
+16:37:39.855 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:37:39.863 INFO  library.BaseClass - The salt for 9986939965 is 1kG0iJ7tO9pL8qE6qN5x
+16:37:40.087 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"9hzVEUaIKK4oohA7vvfgbGTv06Y=", "key":"1kG0iJ7tO9pL8qE6qN5x", "encPwd":"9hzVEUaIKK4oohA7vvfgbGTv06Y%3D"}
+
+16:37:40.101 INFO  library.BaseClass - The encrypted PIN is 9hzVEUaIKK4oohA7vvfgbGTv06Y=
+16:37:40.719 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019PC09o37Pal1KQFM73Iya8
+16:37:40.727 INFO  library.BaseClass - The userId of 9986939965 is 87101
+16:37:40.846 INFO  library.BaseClass - The DVC for 9986939965 logging in is 289670
+16:37:41.056 INFO  library.BaseClass - Logging 9986939965 out
+16:40:22.229 INFO  library.BaseClass - Started
+16:40:22.504 INFO  library.BaseClass - === Starting getSalt ===
+16:40:22.504 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:40:24.038 INFO  library.BaseClass - Salt of 9986939965 is 1qQ9mB6oO5vJ2yG1sA6a
+16:40:24.048 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n3","version":"4.13.2.8"},"salt":"1qQ9mB6oO5vJ2yG1sA6a"}
+16:40:24.057 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:40:24.065 INFO  library.BaseClass - The salt for 9986939965 is 1qQ9mB6oO5vJ2yG1sA6a
+16:40:24.212 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"Jyu2Bh8UuRvDpvpUgunV2y2IPYU=", "key":"1qQ9mB6oO5vJ2yG1sA6a", "encPwd":"Jyu2Bh8UuRvDpvpUgunV2y2IPYU%3D"}
+
+16:40:24.219 INFO  library.BaseClass - The encrypted PIN is Jyu2Bh8UuRvDpvpUgunV2y2IPYU=
+16:40:25.386 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019P2VoB754H33075G9v2D26
+16:40:25.395 INFO  library.BaseClass - The userId of 9986939965 is 87101
+16:40:25.536 INFO  library.BaseClass - The DVC for 9986939965 logging in is 351255
+16:40:25.763 INFO  library.BaseClass - Logging 9986939965 out
+16:40:58.141 INFO  library.BaseClass - Started
+16:40:58.412 INFO  library.BaseClass - === Starting getSalt ===
+16:40:58.413 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:40:59.745 INFO  library.BaseClass - Salt of 9986939965 is 9eW1xV5hA0jH6jL1rG0h
+16:40:59.754 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n3","version":"4.13.2.8"},"salt":"9eW1xV5hA0jH6jL1rG0h"}
+16:40:59.763 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:40:59.771 INFO  library.BaseClass - The salt for 9986939965 is 9eW1xV5hA0jH6jL1rG0h
+16:41:00.112 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"HYS0+NtYRKefggw5sxGNZSfdGWw=", "key":"9eW1xV5hA0jH6jL1rG0h", "encPwd":"HYS0%2BNtYRKefggw5sxGNZSfdGWw%3D"}
+
+16:41:00.120 INFO  library.BaseClass - The encrypted PIN is HYS0+NtYRKefggw5sxGNZSfdGWw=
+16:41:00.913 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019PaaK4gB7w5hV9T5vC7pvJ
+16:41:00.921 INFO  library.BaseClass - The userId of 9986939965 is 87101
+16:41:01.195 INFO  library.BaseClass - The DVC for 9986939965 logging in is 182810
+16:41:01.600 INFO  library.BaseClass - Logging 9986939965 out
+16:52:53.539 INFO  library.BaseClass - Started
+16:52:53.828 INFO  library.BaseClass - === Starting getSalt ===
+16:52:53.828 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:52:55.144 INFO  library.BaseClass - Salt of 9986939965 is 9mU3xJ7gG0uF3iU0jV1l
+16:52:55.153 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n3","version":"4.13.2.8"},"salt":"9mU3xJ7gG0uF3iU0jV1l"}
+16:52:55.162 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:52:55.170 INFO  library.BaseClass - The salt for 9986939965 is 9mU3xJ7gG0uF3iU0jV1l
+16:52:55.303 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"vkiJ2qAcH6bicWRIrRq3tYhXnMk=", "key":"9mU3xJ7gG0uF3iU0jV1l", "encPwd":"vkiJ2qAcH6bicWRIrRq3tYhXnMk%3D"}
+
+16:52:55.311 INFO  library.BaseClass - The encrypted PIN is vkiJ2qAcH6bicWRIrRq3tYhXnMk=
+16:53:15.989 INFO  library.BaseClass - Started
+16:53:16.264 INFO  library.BaseClass - === Starting getSalt ===
+16:53:16.264 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:53:17.521 INFO  library.BaseClass - Salt of 9986939965 is 1rC6kO3uD9cH3yT1dM4u
+16:53:17.531 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n3","version":"4.13.2.8"},"salt":"1rC6kO3uD9cH3yT1dM4u"}
+16:53:17.541 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:53:17.549 INFO  library.BaseClass - The salt for 9986939965 is 1rC6kO3uD9cH3yT1dM4u
+16:53:17.703 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"ykTAfDFuZoulzL123MWzSRh5MFE=", "key":"1rC6kO3uD9cH3yT1dM4u", "encPwd":"ykTAfDFuZoulzL123MWzSRh5MFE%3D"}
+
+16:53:17.712 INFO  library.BaseClass - The encrypted PIN is ykTAfDFuZoulzL123MWzSRh5MFE=
+16:53:18.226 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019PGN2DmW8k68Fc198D8OcV
+16:53:18.242 INFO  library.BaseClass - The userId of 9986939965 is 87101
+16:53:18.355 INFO  library.BaseClass - The DVC for 9986939965 logging in is 280739
+16:53:18.560 INFO  library.BaseClass - Logging 9986939965 out
+16:55:55.102 INFO  library.BaseClass - Started
+16:55:55.390 INFO  library.BaseClass - === Starting getSalt ===
+16:55:55.390 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:55:56.722 INFO  library.BaseClass - Salt of 9986939965 is 6aO2uP6wW7fR8rW5vY9e
+16:55:56.733 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n1","version":"4.13.2.8"},"salt":"6aO2uP6wW7fR8rW5vY9e"}
+16:55:56.742 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:55:56.750 INFO  library.BaseClass - The salt for 9986939965 is 6aO2uP6wW7fR8rW5vY9e
+16:55:56.899 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"zuhtgSF6tK//ey5wKniiWbzGVyY=", "key":"6aO2uP6wW7fR8rW5vY9e", "encPwd":"zuhtgSF6tK%2F%2Fey5wKniiWbzGVyY%3D"}
+
+16:55:56.905 INFO  library.BaseClass - The encrypted PIN is zuhtgSF6tK//ey5wKniiWbzGVyY=
+16:55:57.501 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019PXcPjz929R8r08iw8F02o
+16:55:57.509 INFO  library.BaseClass - The userId of 9986939965 is 87101
+16:55:57.630 INFO  library.BaseClass - The DVC for 9986939965 logging in is 369031
+16:55:57.887 INFO  library.BaseClass - Logging 9986939965 out
+16:57:31.095 INFO  library.BaseClass - Started
+16:57:31.362 INFO  library.BaseClass - === Starting getSalt ===
+16:57:31.362 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+16:57:32.767 INFO  library.BaseClass - Salt of 9986939965 is 9zI9qV6cL1hP7eV7iV5e
+16:57:32.777 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n1","version":"4.13.2.8"},"salt":"9zI9qV6cL1hP7eV7iV5e"}
+16:57:32.785 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:57:32.793 INFO  library.BaseClass - The salt for 9986939965 is 9zI9qV6cL1hP7eV7iV5e
+16:57:32.959 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"5XprRpwNZbxwNk/U0SPgYLjnu6c=", "key":"9zI9qV6cL1hP7eV7iV5e", "encPwd":"5XprRpwNZbxwNk%2FU0SPgYLjnu6c%3D"}
+
+16:57:32.965 INFO  library.BaseClass - The encrypted PIN is 5XprRpwNZbxwNk/U0SPgYLjnu6c=
+16:57:33.520 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019PM01dmy1aqS29yXbJ4r7i
+16:57:33.528 INFO  library.BaseClass - The userId of 9986939965 is 87101
+16:57:33.649 INFO  library.BaseClass - The DVC for 9986939965 logging in is 133846
+16:57:33.848 INFO  library.BaseClass - Logging 9986939965 out
+17:12:51.205 INFO  library.BaseClass - Started
+17:12:51.478 INFO  library.BaseClass - === Starting getSalt ===
+17:12:51.478 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+17:12:52.821 INFO  library.BaseClass - Salt of 9986939965 is 4uO6vJ5oU4qT4pL6fX3t
+17:12:52.832 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n3","version":"4.13.2.8"},"salt":"4uO6vJ5oU4qT4pL6fX3t"}
+17:12:52.841 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+17:12:52.850 INFO  library.BaseClass - The salt for 9986939965 is 4uO6vJ5oU4qT4pL6fX3t
+17:12:53.019 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"+4dnK5LKdQ4wSKgoROSzpCDwE+c=", "key":"4uO6vJ5oU4qT4pL6fX3t", "encPwd":"%2B4dnK5LKdQ4wSKgoROSzpCDwE%2Bc%3D"}
+
+17:12:53.026 INFO  library.BaseClass - The encrypted PIN is +4dnK5LKdQ4wSKgoROSzpCDwE+c=
+17:12:53.591 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019PrP5wjZAbsND7bJdpElW2
+17:12:53.613 INFO  library.BaseClass - The userId of 9986939965 is 87101
+17:12:53.753 INFO  library.BaseClass - The DVC for 9986939965 logging in is 597862
+17:12:54.012 INFO  library.BaseClass - Logging 9986939965 out
+17:17:29.458 INFO  library.BaseClass - Started
+17:17:29.730 INFO  library.BaseClass - === Starting getSalt ===
+17:17:29.730 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+17:17:31.013 INFO  library.BaseClass - Salt of 9986939965 is 0zE0fR7yP4tL8uD1tB3a
+17:17:31.024 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n1","version":"4.13.2.8"},"salt":"0zE0fR7yP4tL8uD1tB3a"}
+17:17:31.034 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+17:17:31.042 INFO  library.BaseClass - The salt for 9986939965 is 0zE0fR7yP4tL8uD1tB3a
+17:17:31.279 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"jn688Kzf2vXByolMydG6mHZUmzM=", "key":"0zE0fR7yP4tL8uD1tB3a", "encPwd":"jn688Kzf2vXByolMydG6mHZUmzM%3D"}
+
+17:17:31.286 INFO  library.BaseClass - The encrypted PIN is jn688Kzf2vXByolMydG6mHZUmzM=
+17:17:31.967 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019P45PAfrcHoDwPdm3kcGAJ
+17:17:31.976 INFO  library.BaseClass - The userId of 9986939965 is 87101
+17:17:32.205 INFO  library.BaseClass - The DVC for 9986939965 logging in is 218849
+17:17:32.458 INFO  library.BaseClass - Logging 9986939965 out
+17:18:59.143 INFO  library.BaseClass - Started
+17:18:59.415 INFO  library.BaseClass - === Starting getSalt ===
+17:18:59.415 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+17:19:00.790 INFO  library.BaseClass - Salt of 9986939965 is 2wO4dJ0rC5jR5jL3cI1o
+17:19:00.804 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n3","version":"4.13.2.8"},"salt":"2wO4dJ0rC5jR5jL3cI1o"}
+17:19:00.814 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+17:19:00.824 INFO  library.BaseClass - The salt for 9986939965 is 2wO4dJ0rC5jR5jL3cI1o
+17:19:01.225 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"DFrCnCBRRZAavJomu7XB+QofQN0=", "key":"2wO4dJ0rC5jR5jL3cI1o", "encPwd":"DFrCnCBRRZAavJomu7XB%2BQofQN0%3D"}
+
+17:19:01.232 INFO  library.BaseClass - The encrypted PIN is DFrCnCBRRZAavJomu7XB+QofQN0=
+17:19:02.163 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019P36z51GmOB536XU5IuUqz
+17:19:02.177 INFO  library.BaseClass - The userId of 9986939965 is 87101
+17:19:02.587 INFO  library.BaseClass - The DVC for 9986939965 logging in is 484788
+17:19:03.032 INFO  library.BaseClass - Logging 9986939965 out
+18:19:13.938 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+18:19:13.940 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+18:19:14.121 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in.geo_user_reg_info where access_data='2233665546' and program_id=6019 ====
+18:19:14.122 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in.geo_user_reg_info where access_data='2233665546' and program_id=6019 ====
+18:19:39.329 INFO  library.BaseClass - =====Registering 2233665546 from API =====
+18:19:40.686 INFO  library.BaseClass - Offline reg response : {"registered":true}
+18:19:40.687 INFO  library.BaseClass - 2233665546 Registration complete 
+
+18:19:40.689 INFO  library.BaseClass - === Starting getSalt ===
+18:19:40.689 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+18:19:41.109 INFO  library.BaseClass - Salt of 2233665546 is 7jS9tI7kP1pX7iR8yT5h
+18:19:41.117 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n3","version":"4.13.2.8"},"salt":"7jS9tI7kP1pX7iR8yT5h"}
+18:19:41.125 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+18:19:41.133 INFO  library.BaseClass - The salt for 2233665546 is 7jS9tI7kP1pX7iR8yT5h
+18:19:41.273 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"YzHwAivOXAfTGK1+o80qzSHl9RA=", "key":"7jS9tI7kP1pX7iR8yT5h", "encPwd":"YzHwAivOXAfTGK1%2Bo80qzSHl9RA%3D"}
+
+18:19:41.281 INFO  library.BaseClass - The encrypted PIN is YzHwAivOXAfTGK1+o80qzSHl9RA=
+18:19:41.819 INFO  library.BaseClass - The temp token for 2233665546 logging in is 201809IN6019PC5r05un5Y5l092qqx0Ae
+18:19:41.829 INFO  library.BaseClass - The userId of 2233665546 is 728918
+18:19:41.964 INFO  library.BaseClass - The DVC for 2233665546 logging in is 498487
+18:19:42.257 INFO  library.BaseClass - === Starting load money init ===
+18:19:42.375 INFO  library.BaseClass - <html>
+<head>
+	<title>Error Page</title>
+	<style type="text/css">
+	BODY{ COLOR: #333333; FONT-FAMILY: verdana,sans-serif,Arial,Tahoma }
+	HR {  COLOR: #6699cc}TD { COLOR: #333333; FONT-FAMILY: verdana,sans-serif,Arial,Tahoma; font-size:8pt;}
+	</style>
+</head>
+<body topmargin="0" leftmargin="0" bgcolor="#ffffff" marginwidth="0" marginheight="0">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr><td bgcolor="#84C1FF" valign="middle"><p align="right">&nbsp;<font style="font-size:7pt;color:#FFFFFF"><b>&nbsp;</b>&nbsp;</font></p></td></tr>
+<tr><td>
+	<table cellpadding="5" cellspacing="0" border="0" width="100%">
+	<tr><td colspan="2">
+		<BR>&nbsp;<BR>
+		<font size="3"><CENTER><b>Forbidden </b></CENTER></font>
+		<BR>&nbsp;<BR>
+	</td></tr>
+	</table>
+</td></tr>
+</table>
+</body>
+</html>
+
+
+18:27:12.101 INFO  library.BaseClass - === Starting getSalt ===
+18:27:12.104 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+18:27:13.389 INFO  library.BaseClass - Salt of 9986939965 is 5bR0vQ2lX0zE2gZ1vG1j
+18:27:13.399 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n1","version":"4.13.2.8"},"salt":"5bR0vQ2lX0zE2gZ1vG1j"}
+18:27:13.408 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+18:27:13.416 INFO  library.BaseClass - The salt for 9986939965 is 5bR0vQ2lX0zE2gZ1vG1j
+18:27:13.578 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"3dCcOdtiYYX7WSwFVQpLUl1JBMc=", "key":"5bR0vQ2lX0zE2gZ1vG1j", "encPwd":"3dCcOdtiYYX7WSwFVQpLUl1JBMc%3D"}
+
+18:27:13.585 INFO  library.BaseClass - The encrypted PIN is 3dCcOdtiYYX7WSwFVQpLUl1JBMc=
+18:27:14.045 INFO  library.BaseClass - The temp token for 9986939965 logging in is 201809IN6019PzY8s3VHpmVHh96ZNxrKW
+18:27:14.056 INFO  library.BaseClass - The userId of 9986939965 is 87101
+18:27:14.253 INFO  library.BaseClass - The DVC for 9986939965 logging in is 379858
+18:27:14.519 INFO  library.BaseClass - === Starting load money init ===
+18:27:14.952 INFO  library.BaseClass - {"resCode":"000","resDesc":"SUCCESS","initRequest":{"merchantInfo":{"merId":"1273864627877702560","merName":"PayZapp Load Money","merCountryCode":"IN","merAppId":"9017","merProgramId":"6019"},"transactionInfo":{"supportedPaymentType":["*"],"restrictedPaymentType":null,"txnAmount":122,"txnCurrency":"356","txnDesc":null,"txnDate":null,"txnAmtKnown":true,"chargeLater":true,"merAppData":"N/A","merTxnId":"LOADMONEY2018092818q7863U","merDataField":"1273864627877702560","txnFormattedAmount":"Rs. 1.22"},"customerInfo":{"custEmail":null,"custMobile":null,"custName":null,"custDob":null,"custPin":null,"forceRegister":false},"deviceInfo":{"wibmoSdkVersion":"2.2.0","wibmoAppVersion":"3.07.02.02","deviceID":"tdid:62Zm0zrjP80kOILv2YEE7xthhp1UhjWFpNbzm3PhcT4=:4900","deviceMake":"motorola","deviceModel":"XT1225","osType":"Android","osVersion":"6.0.1","appInstalled":true,"deviceIDType":3,"deviceType":3,"deviceIDProof":null,"simID":null,"simIDProof":null},"txnType":"WPay","cardInfo":null,"merchantReturnUrl":null,"msgHash":null,"billingAddressRequired":false,"shippingAddressRequired":false,"profileRequired":false,"pushGCM":true,"promoCodes":null,"cardFee":null},"initResponse":{"resCode":"000","resDesc":"SUCCESS","wibmoCustomer":false,"registeredUas":null,"accessStringType":0,"merchantInfo":{"merId":"1273864627877702560","merName":"PayZapp Load Money","merCountryCode":"IN","merAppId":"9017","merProgramId":"6019"},"transactionInfo":{"supportedPaymentType":["*"],"restrictedPaymentType":null,"txnAmount":122,"txnCurrency":"356","txnDesc":null,"txnDate":null,"txnAmtKnown":true,"chargeLater":true,"merAppData":"N/A","merTxnId":"LOADMONEY2018092818q7863U","merDataField":"1273864627877702560","txnFormattedAmount":"Rs. 1.22"},"merchantReturnUrl":null,"merchantProgramId":null,"wibmoTxnId":"201809281826539610eP89mZ7","wibmoTxnToken":"2018090nA2wX5zO0","webUrl":null,"msgHash":"IVOCZ/SCJDVWLhfX2DZSKumyJFrqgRF7z0B56K3bKB8=","screenTitle":null,"messageForUser":null,"messageType":0,"onusCardRequired":false,"forceRegister":false,"isHalfRegistered":false,"isHalfRegistrationEnabled":false,"isBillingAddressAllowed":false,"isShippingAddressAllowed":false,"collectEmail":false},"mpToken":"bfa033280c3775d19502eac4a9041ca3"}
+18:27:15.009 INFO  library.BaseClass - txn ID & token is 201809281826539610eP89mZ7 2018090nA2wX5zO0
+18:27:15.009 INFO  library.BaseClass - === Load money init is success ===
+18:27:15.039 INFO  library.BaseClass - === Starting MPI leg ===
+18:27:15.404 INFO  library.BaseClass - {"resCode":"000","resDesc":"SUCCESS","actionCode":1,"additionalUserInputData":{"browserKeyValue":[{"id":"mpiErrorCode","value":"000"},{"id":"return-url","value":"https://app.pc.enstage-sas.com/wapi/redirectToWibmo"},{"id":"mpiErrorDesc","value":""},{"id":"s2s_id","value":"MjAxODA5Mjg3MzM5NzU"},{"id":"md","value":"201809281826539610eP89mZ7\n"},{"id":"merchant_id","value":"Wibmo_PayzappWFDW"}],"formInput":[{"id":"METHOD_IDENTIFIER","label":null,"minLength":0,"maxLength":0,"inputType":"HID","comment":null,"allowStore":false,"encryption":false,"editable":false,"inputValue":"RESPONSE_FROM_EXTERANL_SOURCE","mandatory":false}],"mdStr":null,"inflowTxnId":null,"redirectFormAction":"https://wibmompistg-dw.pc.enstage-sas.com/MultiMPI/MPIServer?perform=s2sProcessing","redirectFormMethod":"post","redirectPageText":"3DSecure Transaction is being processed, Please wait ...","returnUrl":"https://app.pc.enstage-sas.com/wapi/redirectToWibmo"},"msgHash":"v2:w1DsbP+xDSUTKBO8mjS21APGAMd7+w6uctSjFE3ebaw=","dataPickUpCode":null,"wibmoTxnId":"201809281826539610eP89mZ7","merTxnId":"LOADMONEY2018092818q7863U","merAppData":"N/A","oneClickTxn":false}
+18:27:15.435 INFO  library.BaseClass - === Mocking MPI response to wibmo post 3ds ===
+18:27:15.914 INFO  library.BaseClass - {"resCode":"000","resDesc":"SUCCESS","actionCode":0,"additionalUserInputData":{"browserKeyValue":null,"formInput":null,"mdStr":null,"inflowTxnId":null,"redirectFormAction":null,"redirectFormMethod":null,"redirectPageText":null,"returnUrl":null},"msgHash":"v2:rPYvxi+A1dk3bKSayob1ak9ysi9ExUcnhDQ3poXpHiI=","dataPickUpCode":"201809281826539610eP89mZ7:8oN4sS6pE8","wibmoTxnId":"201809281826539610eP89mZ7","merTxnId":"LOADMONEY2018092818q7863U","merAppData":"N/A","oneClickTxn":false}
+18:27:18.994 INFO  library.BaseClass - {"action":17,"addFundDetails":{"amount":"Rs. 1.22","date":"Fri, 28 Sep 2018 18:26:53","loadedFrom":"4329 xxxx xxxx 9785","referenceNumber":"201809281826539610eP89mZ7","headerMessage":"Funds have been loaded successfully","aliasName":"From Video","fundType":"Amount"},"browserPostKeyValuePairs":null,"displayMessages":{},"wibmoTxnId":"201809281826539610eP89mZ7","retryDateTime":null,"retryStatus":null,"retryTimeDelay":5,"fundsInputs":null}
+18:31:08.743 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+18:31:08.746 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+18:31:08.922 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in.geo_user_reg_info where access_data='2233665546' and program_id=6019 ====
+18:31:08.922 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in.geo_user_reg_info where access_data='2233665546' and program_id=6019 ====
+18:36:52.507 INFO  library.BaseClass - =====Registering 2233665546 from API =====
+18:36:54.022 INFO  library.BaseClass - Offline reg response : {"registered":true}
+18:36:54.023 INFO  library.BaseClass - 2233665546 Registration complete 
+
+18:36:54.024 INFO  library.BaseClass - === Starting getSalt ===
+18:36:54.024 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+18:36:54.387 INFO  library.BaseClass - Salt of 2233665546 is 6sD3pQ1kN4aF3tI5nN0c
+18:36:54.399 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n1","version":"4.13.2.8"},"salt":"6sD3pQ1kN4aF3tI5nN0c"}
+18:36:54.407 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+18:36:54.415 INFO  library.BaseClass - The salt for 2233665546 is 6sD3pQ1kN4aF3tI5nN0c
+18:36:54.590 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"lUCyP5r+/to2E8kcx8h8SV1gLtA=", "key":"6sD3pQ1kN4aF3tI5nN0c", "encPwd":"lUCyP5r%2B%2Fto2E8kcx8h8SV1gLtA%3D"}
+
+18:36:54.597 INFO  library.BaseClass - The encrypted PIN is lUCyP5r+/to2E8kcx8h8SV1gLtA=
+18:36:55.296 INFO  library.BaseClass - The temp token for 2233665546 logging in is 201809IN6019PWO48wbY55NzxBIs6b72Z
+18:36:55.306 INFO  library.BaseClass - The userId of 2233665546 is 729115
+18:36:55.479 INFO  library.BaseClass - The DVC for 2233665546 logging in is 333394
+18:36:55.821 INFO  library.BaseClass - === Starting load money init ===
+18:36:55.972 INFO  library.BaseClass - <html>
+<head>
+	<title>Error Page</title>
+	<style type="text/css">
+	BODY{ COLOR: #333333; FONT-FAMILY: verdana,sans-serif,Arial,Tahoma }
+	HR {  COLOR: #6699cc}TD { COLOR: #333333; FONT-FAMILY: verdana,sans-serif,Arial,Tahoma; font-size:8pt;}
+	</style>
+</head>
+<body topmargin="0" leftmargin="0" bgcolor="#ffffff" marginwidth="0" marginheight="0">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr><td bgcolor="#84C1FF" valign="middle"><p align="right">&nbsp;<font style="font-size:7pt;color:#FFFFFF"><b>&nbsp;</b>&nbsp;</font></p></td></tr>
+<tr><td>
+	<table cellpadding="5" cellspacing="0" border="0" width="100%">
+	<tr><td colspan="2">
+		<BR>&nbsp;<BR>
+		<font size="3"><CENTER><b>Forbidden </b></CENTER></font>
+		<BR>&nbsp;<BR>
+	</td></tr>
+	</table>
+</td></tr>
+</table>
+</body>
+</html>
+
+
+18:41:11.737 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+18:41:11.740 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in_6019_usr_data.user_mobile_info where mobile='2233665546' ====
+18:41:11.924 INFO  library.BaseClass - ==== Executing Query : delete from wibmo_in.geo_user_reg_info where access_data='2233665546' and program_id=6019 ====
+18:41:11.924 INFO  library.BaseClass - ==== Executing Update Query : delete from wibmo_in.geo_user_reg_info where access_data='2233665546' and program_id=6019 ====
+18:42:44.269 INFO  library.BaseClass - =====Registering 2233665546 from API =====
+18:42:45.662 INFO  library.BaseClass - Offline reg response : {"registered":true}
+18:42:45.663 INFO  library.BaseClass - 2233665546 Registration complete 
+
+18:42:45.665 INFO  library.BaseClass - === Starting getSalt ===
+18:42:45.665 INFO  library.BaseClass - https://api.pc.enstage-sas.com
+18:42:46.230 INFO  library.BaseClass - Salt of 2233665546 is 9wT4wU3kO2bN5xK6zZ7j
+18:42:46.237 INFO  library.BaseClass - The salt response is {"clusterInfo":{"urls":{"api":"https://api-pdc.pc.enstage-sas.com/","mpi":"https://wibmompistg-dw.pc.enstage-sas.com/","retailRecharge":"https://retailapi.pc.enstage-sas.com/","webSdk":"https://app-pdc.pc.enstage-sas.com/checkout/#!/payment/","retailUtility":"https://retail.pc.enstage-sas.com/","walletWebRoot":"https://wallet.pc.enstage-sas.com/","nbBilldesk":"http://103.74.180.6:9090/"},"csrTokenValidityMinutes":300,"nodeId":"blr_n1","version":"4.13.2.8"},"salt":"9wT4wU3kO2bN5xK6zZ7j"}
+18:42:46.245 INFO  library.BaseClass - The data centre is https://api-pdc.pc.enstage-sas.com/
+18:42:46.253 INFO  library.BaseClass - The salt for 2233665546 is 9wT4wU3kO2bN5xK6zZ7j
+18:42:46.852 INFO  library.BaseClass - The generate encrypted pin response is 
+
+{"pwd":"XredoqpPTNvNaEcixB65VSXpXtw=", "key":"9wT4wU3kO2bN5xK6zZ7j", "encPwd":"XredoqpPTNvNaEcixB65VSXpXtw%3D"}
+
+18:42:46.859 INFO  library.BaseClass - The encrypted PIN is XredoqpPTNvNaEcixB65VSXpXtw=
+18:42:47.738 INFO  library.BaseClass - The temp token for 2233665546 logging in is 201809IN6019PnDV8Qn298XbP58yJhsO6
+18:42:47.748 INFO  library.BaseClass - The userId of 2233665546 is 729116
+18:42:48.015 INFO  library.BaseClass - The DVC for 2233665546 logging in is 335844
+18:42:48.488 INFO  library.BaseClass - === Starting load money init ===
+18:42:48.798 INFO  library.BaseClass - <html>
+<head>
+	<title>Error Page</title>
+	<style type="text/css">
+	BODY{ COLOR: #333333; FONT-FAMILY: verdana,sans-serif,Arial,Tahoma }
+	HR {  COLOR: #6699cc}TD { COLOR: #333333; FONT-FAMILY: verdana,sans-serif,Arial,Tahoma; font-size:8pt;}
+	</style>
+</head>
+<body topmargin="0" leftmargin="0" bgcolor="#ffffff" marginwidth="0" marginheight="0">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr><td bgcolor="#84C1FF" valign="middle"><p align="right">&nbsp;<font style="font-size:7pt;color:#FFFFFF"><b>&nbsp;</b>&nbsp;</font></p></td></tr>
+<tr><td>
+	<table cellpadding="5" cellspacing="0" border="0" width="100%">
+	<tr><td colspan="2">
+		<BR>&nbsp;<BR>
+		<font size="3"><CENTER><b>Forbidden </b></CENTER></font>
+		<BR>&nbsp;<BR>
+	</td></tr>
+	</table>
+</td></tr>
+</table>
+</body>
+</html>
+
+

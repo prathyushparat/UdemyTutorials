@@ -1,0 +1,443 @@
+11:02:31.955 INFO  API.LoginAPI - === Starting getSalt ===
+11:02:31.971 INFO  API.LoginAPI - http://api.pc.enstage-sas.com
+11:02:33.025 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@3d43fe
+11:04:43.545 INFO  API.LoginAPI - === Starting getSalt ===
+11:04:43.546 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+11:04:44.869 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@58b67519
+11:04:45.165 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+11:04:45.175 INFO  API.LoginAPI - The salt for 9986939965 is 1jU9sH2uI3mB7tC8uW1t
+11:04:45.487 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@a0f53fc
+11:04:45.495 INFO  API.LoginAPI - The encrypted PIN is An7q8v8mUMHNuq7ICx4aqDq2qbc=
+11:04:47.087 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@4edef76c
+11:04:47.116 INFO  API.LoginAPI - The temp token for 9986939965 logging in is 201809IN6019PVv5S2qmobku71I5FcO7s
+11:04:47.126 INFO  API.LoginAPI - The userId of 9986939965 is87101
+11:04:47.304 INFO  API.LoginAPI - The DVC for 9986939965 logging in is 142842
+11:06:41.958 INFO  API.LoginAPI - === Starting getSalt ===
+11:06:41.959 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+11:06:42.988 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@58b67519
+11:06:43.244 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+11:06:43.254 INFO  API.LoginAPI - The salt for 9986939965 is 0cW1yT1eG6eI3hM6tP5g
+11:06:43.457 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@a0f53fc
+11:06:43.465 INFO  API.LoginAPI - The encrypted PIN is mgRlolIiU+HhbM+1RXYgQ/79jq0=
+11:06:43.935 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@4edef76c
+11:06:43.946 INFO  API.LoginAPI - The temp token for 9986939965 logging in is 201809IN6019P1gE6VS2eQcm5ZDE98Jlo
+11:06:43.956 INFO  API.LoginAPI - The userId of 9986939965 is87101
+11:06:44.062 INFO  API.LoginAPI - The DVC for 9986939965 logging in is 261701
+15:06:55.895 INFO  API.LoginAPI - === Starting getSalt ===
+15:06:55.905 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+15:06:58.362 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@7eb6b6b6
+15:06:58.602 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+15:06:58.612 INFO  API.LoginAPI - The salt for 9986939965 is 5rX8wB7oX7gD6rB7rD8q
+15:06:59.295 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@51c959a4
+15:06:59.305 INFO  API.LoginAPI - The encrypted PIN is P8/9mz98vTNh2SgcYr4rGUIPyaI=
+15:06:59.825 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@6342d610
+15:06:59.846 INFO  API.LoginAPI - The temp token for 9986939965 logging in is 201809IN6019Po9c2JB9R99O999TQ29oI
+15:06:59.866 INFO  API.LoginAPI - The userId of 9986939965 is87101
+15:07:00.086 INFO  API.LoginAPI - The DVC for 9986939965 logging in is 995824
+15:54:24.411 INFO  library.BaseClass - Started
+15:54:24.635 INFO  API.LoginAPI - === Starting getSalt ===
+15:54:24.635 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+15:54:24.635 INFO  API.LoginAPI - === Starting getSalt ===
+15:54:24.635 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+15:54:25.819 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@680ba069
+15:54:25.819 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@74190577
+15:54:26.151 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+15:54:26.151 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+15:54:26.161 INFO  API.LoginAPI - The salt for 9986939965 is 4zN3fR8eO3oT4hZ8nA6a
+15:54:26.171 INFO  API.LoginAPI - The salt for 1144778861 is 5iY0vO8nM1nM6dD3hW1v
+15:54:26.387 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@6c88b98d
+15:54:26.397 INFO  API.LoginAPI - The encrypted PIN is 2yOQeP00ZOop+Y6pO0qJiBMuSvc=
+15:54:26.407 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@3b000e6a
+15:54:26.407 INFO  API.LoginAPI - The encrypted PIN is ZEqAJxVb6z3IrLeOgQWd9E3lygM=
+15:54:26.689 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@66c12f86
+15:54:26.709 INFO  API.LoginAPI - The temp token for 1144778861 logging in is null
+15:54:26.729 INFO  API.LoginAPI - The userId of 1144778861 isnull
+15:54:26.859 INFO  API.LoginAPI - The DVC for 1144778861 logging in is 996684
+15:54:26.929 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@64ca20fb
+15:54:26.939 INFO  API.LoginAPI - The temp token for 9986939965 logging in is 201809IN6019Pl2iDFpm77fnwqgvlIc69
+15:54:26.959 INFO  API.LoginAPI - The userId of 9986939965 is87101
+15:54:27.149 INFO  API.LoginAPI - The DVC for 9986939965 logging in is 937795
+15:54:27.259 INFO  API.LoginAPI - === Starting getSalt ===
+15:54:27.259 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+15:54:27.421 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@43f8de17
+15:54:27.421 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+15:54:27.431 INFO  API.LoginAPI - The salt for 1144778862 is 3kH7xB6aO1zC1xQ7rF6n
+15:54:27.578 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@33c90a0d
+15:54:27.578 INFO  API.LoginAPI - The encrypted PIN is wsP7fsGdnjw5KvK+FvUh2abXcw0=
+15:54:27.718 INFO  API.LoginAPI - === Starting getSalt ===
+15:54:27.718 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+15:54:27.779 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@5458619b
+15:54:27.789 INFO  API.LoginAPI - The temp token for 1144778862 logging in is null
+15:54:27.789 INFO  API.LoginAPI - The userId of 1144778862 isnull
+15:54:27.879 INFO  API.LoginAPI - === Starting getSalt ===
+15:54:27.879 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+15:54:27.979 INFO  API.LoginAPI - The DVC for 1144778862 logging in is 222019
+15:54:28.151 INFO  API.LoginAPI - === Starting getSalt ===
+15:54:28.151 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+15:54:28.293 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@378179f3
+15:54:28.303 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+15:54:28.303 INFO  API.LoginAPI - The salt for 1144778865 is 3xR6gG0xV6lR2xV3lP6p
+15:54:28.364 INFO  API.LoginAPI - === Starting getSalt ===
+15:54:28.364 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+15:54:28.457 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@75b3cd33
+15:54:28.463 INFO  API.LoginAPI - The encrypted PIN is cTKzrsS1XlD0+9E2Uo/ifp2S98A=
+15:54:28.482 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@112b77ec
+15:54:28.482 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+15:54:28.492 INFO  API.LoginAPI - The salt for 1144778865 is 4vC4aD8aW3mJ4fL3yF3u
+15:54:28.612 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@1ff93e26
+15:54:28.612 INFO  API.LoginAPI - The temp token for 1144778865 logging in is null
+15:54:28.622 INFO  API.LoginAPI - The userId of 1144778865 isnull
+15:54:28.632 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@7bf561ac
+15:54:28.642 INFO  API.LoginAPI - The encrypted PIN is +iXYGXpVVacn7xDWTRFZFzBedU8=
+15:54:28.972 INFO  API.LoginAPI - The DVC for 1144778865 logging in is 216115
+15:54:29.154 INFO  library.BaseClass - IAP API method executing
+15:54:29.272 INFO  API.LoginAPI - === Starting getSalt ===
+15:54:29.272 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+15:54:29.376 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@5a09d3fe
+15:54:29.386 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+15:54:29.386 INFO  API.LoginAPI - The salt for 1144778866 is 2oI3pL0qW1gJ7rQ2fO6h
+15:54:29.988 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@622d3433
+15:54:30.008 INFO  API.LoginAPI - The temp token for 1144778865 logging in is 201809IN6019P1yx0V5YgWJKgyjq4727l
+15:54:30.018 INFO  API.LoginAPI - The userId of 1144778865 is601301
+15:54:30.139 INFO  API.LoginAPI - The DVC for 1144778865 logging in is 216115
+15:54:30.500 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@4d34c017
+15:54:30.510 INFO  API.LoginAPI - The encrypted PIN is +th79aqOb5LB4jtoUDREzfP7B+A=
+15:54:30.660 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@591037c4
+15:54:30.680 INFO  API.LoginAPI - The temp token for 1144778866 logging in is null
+15:54:30.690 INFO  API.LoginAPI - The userId of 1144778866 isnull
+15:54:30.840 INFO  API.LoginAPI - The DVC for 1144778866 logging in is 651771
+15:58:04.121 INFO  API.LoginAPI - === Starting getSalt ===
+15:58:04.121 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+15:58:05.373 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@35cd68d4
+15:58:05.615 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+15:58:05.625 INFO  API.LoginAPI - The salt for 1144778866 is 2nC1wT4iB2xP0aQ4pX9d
+15:58:06.357 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@6e041285
+15:58:06.367 INFO  API.LoginAPI - The encrypted PIN is v3gT36bgNFdF2DiyormNqb/PTwQ=
+15:58:06.739 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@6ae62c7e
+15:58:06.749 INFO  API.LoginAPI - The temp token for 1144778866 logging in is null
+15:58:06.759 INFO  API.LoginAPI - The userId of 1144778866 isnull
+15:58:06.969 INFO  API.LoginAPI - The DVC for 1144778866 logging in is 651771
+16:00:33.738 INFO  library.BaseClass - Started
+16:00:33.959 INFO  API.LoginAPI - === Starting getSalt ===
+16:00:33.959 INFO  API.LoginAPI - === Starting getSalt ===
+16:00:33.959 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+16:00:33.959 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+16:00:35.233 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@3197c440
+16:00:35.233 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@75c5ae4e
+16:00:35.545 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:00:35.545 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:00:35.545 INFO  API.LoginAPI - The salt for 9986939965 is 7mD1dK4uW9cW7aY8bP4e
+16:00:35.555 INFO  API.LoginAPI - The salt for 1144778861 is 5hC4kZ4jN0bA2oQ7gC5s
+16:00:35.877 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@62b56dfe
+16:00:35.887 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@2c906e72
+16:00:35.899 INFO  API.LoginAPI - The encrypted PIN is i0rd8W/lkjBAtpD1tZMlKWbVddI=
+16:00:35.909 INFO  API.LoginAPI - The encrypted PIN is ko73uhnJ+1QSxzFWl4nJXoyGjRk=
+16:00:36.307 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@31429b25
+16:00:36.327 INFO  API.LoginAPI - The temp token for 1144778861 logging in is null
+16:00:36.347 INFO  API.LoginAPI - The userId of 1144778861 isnull
+16:00:36.519 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@558387ec
+16:00:36.519 INFO  API.LoginAPI - The temp token for 9986939965 logging in is 201809IN6019PzOV60DdYjN4C9Bt067mI
+16:00:36.529 INFO  API.LoginAPI - The userId of 9986939965 is87101
+16:00:36.569 INFO  API.LoginAPI - The DVC for 1144778861 logging in is 996684
+16:00:36.880 INFO  API.LoginAPI - The DVC for 9986939965 logging in is 708959
+16:00:37.050 INFO  API.LoginAPI - === Starting getSalt ===
+16:00:37.050 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+16:00:37.290 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@579fbbcf
+16:00:37.290 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:00:37.300 INFO  API.LoginAPI - The salt for 1144778862 is 2kZ5oL7lY6sP3jC5aG7e
+16:00:37.540 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@533fe9ae
+16:00:37.550 INFO  API.LoginAPI - The encrypted PIN is yQoLH2hzJdRolvGvJfZ8gXbrGNk=
+16:00:37.600 INFO  API.LoginAPI - === Starting getSalt ===
+16:00:37.600 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+16:00:37.803 INFO  API.LoginAPI - === Starting getSalt ===
+16:00:37.803 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+16:00:37.843 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@333e25de
+16:00:37.853 INFO  API.LoginAPI - The temp token for 1144778862 logging in is null
+16:00:37.863 INFO  API.LoginAPI - The userId of 1144778862 isnull
+16:00:38.116 INFO  API.LoginAPI - The DVC for 1144778862 logging in is 222019
+16:00:38.416 INFO  API.LoginAPI - === Starting getSalt ===
+16:00:38.416 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+16:00:38.705 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@7af07884
+16:00:38.715 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:00:38.725 INFO  API.LoginAPI - The salt for 1144778865 is 0kN2nZ8vC7pU2uD3dN0a
+16:00:38.725 INFO  API.LoginAPI - === Starting getSalt ===
+16:00:38.725 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+16:00:38.965 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@288e0ee0
+16:00:38.975 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@2ce7469c
+16:00:38.985 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:00:38.985 INFO  API.LoginAPI - The encrypted PIN is HBf1QirR646/P7HY8ZI6cA91/2k=
+16:00:38.995 INFO  API.LoginAPI - The salt for 1144778865 is 7qB6yX2tJ6oM5sC2aT7e
+16:00:39.255 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@4f1bc92
+16:00:39.255 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@b4c5a6d
+16:00:39.255 INFO  API.LoginAPI - The temp token for 1144778865 logging in is null
+16:00:39.265 INFO  API.LoginAPI - The encrypted PIN is ER3rS2SJ4hiJtfz+Yn9jvwWJAKk=
+16:00:39.265 INFO  API.LoginAPI - The userId of 1144778865 isnull
+16:00:39.519 INFO  API.LoginAPI - The DVC for 1144778865 logging in is 555731
+16:00:39.739 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@2539764b
+16:00:39.749 INFO  API.LoginAPI - The temp token for 1144778865 logging in is 201809IN6019Pk0kSXH1HBPq4i6A7KD15
+16:00:39.759 INFO  API.LoginAPI - The userId of 1144778865 is601301
+16:00:39.790 INFO  library.BaseClass - IAP API method executing
+16:00:39.850 INFO  API.LoginAPI - === Starting getSalt ===
+16:00:39.850 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+16:00:40.022 INFO  API.LoginAPI - The DVC for 1144778865 logging in is 555731
+16:00:40.102 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@1720b361
+16:00:40.113 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:00:40.113 INFO  API.LoginAPI - The salt for 1144778866 is 1cC8zM2qO0uQ8sU9iY7s
+16:00:40.393 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@6c4041e
+16:00:40.403 INFO  API.LoginAPI - The encrypted PIN is jaeWfq6l0QTTVVlsLkiBNwGrM8A=
+16:00:40.703 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@5aee7f50
+16:00:40.723 INFO  API.LoginAPI - The temp token for 1144778866 logging in is null
+16:00:40.733 INFO  API.LoginAPI - The userId of 1144778866 isnull
+16:00:40.993 INFO  API.LoginAPI - The DVC for 1144778866 logging in is 651771
+16:02:38.266 INFO  library.BaseClass - Started
+16:02:38.527 INFO  API.LoginAPI - === Starting getSalt ===
+16:02:38.527 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+16:02:38.527 INFO  API.LoginAPI - === Starting getSalt ===
+16:02:38.527 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+16:02:39.729 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@5130e13b
+16:02:39.729 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@1e3b0c6b
+16:02:40.123 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:02:40.123 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:02:40.133 INFO  API.LoginAPI - The salt for 1144778861 is 3hW2iS9sE1bW5eA4cK5q
+16:02:40.143 INFO  API.LoginAPI - The salt for 9986939965 is 6yS8gQ4aI6dC2mB4qE7v
+16:02:40.554 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@7a95d01d
+16:02:40.554 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@425d7420
+16:02:40.554 INFO  API.LoginAPI - The encrypted PIN is 3yzU6GatcHD8FAqOfaDj/74UcIM=
+16:02:40.564 INFO  API.LoginAPI - The encrypted PIN is gWvyziYOoYwchi3wm2M1KdOOF5I=
+16:02:40.954 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@7a58f218
+16:02:40.994 INFO  API.LoginAPI - The temp token for 1144778861 logging in is null
+16:02:41.004 INFO  API.LoginAPI - The userId of 1144778861 isnull
+16:02:41.114 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@25d09aed
+16:02:41.124 INFO  API.LoginAPI - The temp token for 9986939965 logging in is 201809IN6019P39E4QFpj8ZcxoH31VFQF
+16:02:41.124 INFO  API.LoginAPI - The userId of 9986939965 is87101
+16:02:41.294 INFO  API.LoginAPI - The DVC for 1144778861 logging in is 996684
+16:02:41.447 INFO  API.LoginAPI - The DVC for 9986939965 logging in is 946969
+16:02:41.809 INFO  API.LoginAPI - === Starting getSalt ===
+16:02:41.809 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+16:02:42.049 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@8187507
+16:02:42.069 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:02:42.069 INFO  API.LoginAPI - The salt for 1144778862 is 1qV6rO6kU7cA1aI9uR6l
+16:02:42.320 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@5200f99b
+16:02:42.330 INFO  API.LoginAPI - The encrypted PIN is CYWXnDMN3QwlruUdPdv4bn01lkM=
+16:02:42.375 INFO  API.LoginAPI - === Starting getSalt ===
+16:02:42.375 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+16:02:42.632 INFO  API.LoginAPI - === Starting getSalt ===
+16:02:42.632 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+16:02:42.672 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@75fe1038
+16:02:42.682 INFO  API.LoginAPI - The temp token for 1144778862 logging in is null
+16:02:42.692 INFO  API.LoginAPI - The userId of 1144778862 isnull
+16:02:42.952 INFO  API.LoginAPI - The DVC for 1144778862 logging in is 222019
+16:02:43.529 INFO  API.LoginAPI - === Starting getSalt ===
+16:02:43.529 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+16:02:43.681 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@aa38266
+16:02:43.691 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:02:43.701 INFO  API.LoginAPI - The salt for 1144778865 is 1nD0zG0xE0uG6wF0rB1t
+16:02:43.731 INFO  API.LoginAPI - === Starting getSalt ===
+16:02:43.731 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+16:02:43.883 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@606bb643
+16:02:43.893 INFO  API.LoginAPI - The encrypted PIN is 5H9Hskc+xJePyu7A/3JpI2fDKv4=
+16:02:43.923 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@4bd68ba3
+16:02:43.923 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:02:43.933 INFO  API.LoginAPI - The salt for 1144778865 is 8mI9kK8nC1zY6oP1yV0q
+16:02:44.053 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@387a8550
+16:02:44.063 INFO  API.LoginAPI - The temp token for 1144778865 logging in is null
+16:02:44.063 INFO  API.LoginAPI - The userId of 1144778865 isnull
+16:02:44.114 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@7fc2b6a0
+16:02:44.124 INFO  API.LoginAPI - The encrypted PIN is V0Uz6HGXQq4TS422RKgFOUdwvjM=
+16:02:44.234 INFO  API.LoginAPI - The DVC for 1144778865 logging in is 828338
+16:02:44.414 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@1acfcbfd
+16:02:44.424 INFO  library.BaseClass - IAP API method executing
+16:02:44.434 INFO  API.LoginAPI - The temp token for 1144778865 logging in is 201809IN6019P2e2XL3F4btdIid00h91E
+16:02:44.444 INFO  API.LoginAPI - The userId of 1144778865 is601301
+16:02:44.504 INFO  API.LoginAPI - === Starting getSalt ===
+16:02:44.504 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+16:02:44.666 INFO  API.LoginAPI - The DVC for 1144778865 logging in is 828338
+16:02:44.696 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@62fc9056
+16:02:44.706 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:02:44.716 INFO  API.LoginAPI - The salt for 1144778866 is 6oG1xS5zV0lZ1vR3yI2z
+16:02:44.926 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@153f8bb3
+16:02:44.936 INFO  API.LoginAPI - The encrypted PIN is siUR96T/R27r6s6s2drBSzNnWks=
+16:02:45.126 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@bf22b41
+16:02:45.136 INFO  API.LoginAPI - The temp token for 1144778866 logging in is null
+16:02:45.146 INFO  API.LoginAPI - The userId of 1144778866 isnull
+16:02:45.346 INFO  API.LoginAPI - The DVC for 1144778866 logging in is 651771
+16:05:56.681 INFO  library.BaseClass - Started
+16:05:56.942 INFO  API.LoginAPI - === Starting getSalt ===
+16:05:56.942 INFO  API.LoginAPI - === Starting getSalt ===
+16:05:56.942 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+16:05:56.942 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+16:05:58.138 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@5a8e104d
+16:05:58.138 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@75ef7ab3
+16:05:58.532 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:05:58.532 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:05:58.542 INFO  API.LoginAPI - The salt for 9986939965 is 0bE0bO4pP9xE0hF2kX8y
+16:05:58.552 INFO  API.LoginAPI - The salt for 1144778861 is 3wB5yT4eB9uN6hY0dF1e
+16:05:58.843 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@3c942d4c
+16:05:58.853 INFO  API.LoginAPI - The encrypted PIN is NhoKxGVlIsfLoPHn6qPNYqiCGg8=
+16:05:58.863 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@9e06448
+16:05:58.873 INFO  API.LoginAPI - The encrypted PIN is n6k5ruPtTuTC2rEdRLa9TAO9mJ0=
+16:05:59.186 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@3e73a534
+16:05:59.206 INFO  API.LoginAPI - The temp token for 1144778861 logging in is null
+16:05:59.226 INFO  API.LoginAPI - The userId of 1144778861 isnull
+16:05:59.356 INFO  API.LoginAPI - The DVC for 1144778861 logging in is 996684
+16:05:59.356 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@6e69d0ab
+16:05:59.366 INFO  API.LoginAPI - The temp token for 9986939965 logging in is 201809IN6019Pu5XQTI0iRN6mH0FwEGtV
+16:05:59.376 INFO  API.LoginAPI - The userId of 9986939965 is87101
+16:05:59.556 INFO  API.LoginAPI - The DVC for 9986939965 logging in is 905014
+16:05:59.769 INFO  API.LoginAPI - === Starting getSalt ===
+16:05:59.769 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+16:05:59.929 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@8881c9f
+16:05:59.939 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:05:59.959 INFO  API.LoginAPI - The salt for 1144778862 is 1zY0bT0dV0iB7sL7vT9z
+16:06:00.139 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@4001fc11
+16:06:00.159 INFO  API.LoginAPI - The encrypted PIN is 7FJyAEPwc4P8qrEqzDZOZfM/d5s=
+16:06:00.199 INFO  API.LoginAPI - === Starting getSalt ===
+16:06:00.199 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+16:06:00.359 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@26dd3a62
+16:06:00.369 INFO  API.LoginAPI - === Starting getSalt ===
+16:06:00.369 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+16:06:00.399 INFO  API.LoginAPI - The temp token for 1144778862 logging in is null
+16:06:00.409 INFO  API.LoginAPI - The userId of 1144778862 isnull
+16:06:00.619 INFO  API.LoginAPI - The DVC for 1144778862 logging in is 222019
+16:06:00.830 INFO  API.LoginAPI - === Starting getSalt ===
+16:06:00.830 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+16:06:01.000 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@354e669
+16:06:01.010 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:06:01.060 INFO  API.LoginAPI - === Starting getSalt ===
+16:06:01.060 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+16:06:01.069 INFO  API.LoginAPI - The salt for 1144778865 is 3vW3lR2zO2vQ1oL8jH7c
+16:06:01.182 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@45202b95
+16:06:01.192 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:06:01.202 INFO  API.LoginAPI - The salt for 1144778865 is 4wA4rM5vV5mZ4fQ3iF4b
+16:06:01.212 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@7a02598f
+16:06:01.222 INFO  API.LoginAPI - The encrypted PIN is TgIOK+KPYNe/gz2wRK8+OE4gTq0=
+16:06:01.332 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@1d90ba8a
+16:06:01.342 INFO  API.LoginAPI - The encrypted PIN is T429mgs7ArACPVm5XlrPJhrerQw=
+16:06:01.362 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@464a7413
+16:06:01.362 INFO  API.LoginAPI - The temp token for 1144778865 logging in is null
+16:06:01.372 INFO  API.LoginAPI - The userId of 1144778865 isnull
+16:06:01.552 INFO  API.LoginAPI - The DVC for 1144778865 logging in is 591950
+16:06:01.712 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@2fbe7f20
+16:06:01.732 INFO  API.LoginAPI - The temp token for 1144778865 logging in is 201809IN6019P7X2Swo5kepOPRjV1JoiZ
+16:06:01.742 INFO  API.LoginAPI - The userId of 1144778865 is601301
+16:06:01.742 INFO  library.BaseClass - IAP API method executing
+16:06:01.811 INFO  API.LoginAPI - === Starting getSalt ===
+16:06:01.811 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+16:06:01.913 INFO  API.LoginAPI - The DVC for 1144778865 logging in is 591950
+16:06:01.957 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@1300eee6
+16:06:01.960 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:06:01.960 INFO  API.LoginAPI - The salt for 1144778866 is 6mY1hX1pL2mF5pV2kD2m
+16:06:02.140 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@5580a8c9
+16:06:02.150 INFO  API.LoginAPI - The encrypted PIN is 4W4e7N3WMYUuqa+HN97WBLVN2y4=
+16:06:02.330 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@7fc850f1
+16:06:02.330 INFO  API.LoginAPI - The temp token for 1144778866 logging in is null
+16:06:02.340 INFO  API.LoginAPI - The userId of 1144778866 isnull
+16:06:02.540 INFO  API.LoginAPI - The DVC for 1144778866 logging in is 651771
+16:06:28.634 INFO  API.LoginAPI - === Starting getSalt ===
+16:06:28.634 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+16:06:29.782 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@7ed9499e
+16:06:30.040 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:06:30.050 INFO  API.LoginAPI - The salt for 1144778865 is 4uK0vI1bJ1xW5rF1pT4u
+16:06:30.311 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@4fc3c165
+16:06:30.311 INFO  API.LoginAPI - The encrypted PIN is b7sXk6x4EX5mZbQBNsJfO43/gbA=
+16:06:30.723 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@dc4a691
+16:06:30.743 INFO  API.LoginAPI - The temp token for 1144778865 logging in is 201809IN6019Pl8w6HC0GHA5sL5lg4oLa
+16:06:30.763 INFO  API.LoginAPI - The userId of 1144778865 is601301
+16:06:30.963 INFO  API.LoginAPI - The DVC for 1144778865 logging in is 753492
+16:06:31.335 INFO  library.BaseClass - IAP API method executing
+16:06:41.856 INFO  API.LoginAPI - === Starting getSalt ===
+16:06:41.866 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+16:06:43.130 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@7ed9499e
+16:06:43.380 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+16:06:43.380 INFO  API.LoginAPI - The salt for 1144778866 is 4fV4wD5pP7rF5kZ1bB9h
+16:06:43.671 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@4fc3c165
+16:06:43.681 INFO  API.LoginAPI - The encrypted PIN is 9dwAqaZtHWxEYYnvG0dtqcVZOdU=
+16:06:43.952 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@dc4a691
+16:06:43.972 INFO  API.LoginAPI - The temp token for 1144778866 logging in is null
+16:06:43.982 INFO  API.LoginAPI - The userId of 1144778866 isnull
+16:06:44.452 INFO  API.LoginAPI - The DVC for 1144778866 logging in is 651771
+17:10:56.987 INFO  API.LoginAPI - === Starting getSalt ===
+17:10:56.987 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+17:10:58.027 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@7eb6b6b6
+17:10:58.291 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+17:10:58.301 INFO  API.LoginAPI - The salt for 1144778866 is 7iV6oV3bT6wM6cW4lC4s
+17:10:58.522 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@51c959a4
+17:10:58.532 INFO  API.LoginAPI - The encrypted PIN is e1c1yY+YNaeFLs5R7LudruZ08Zs=
+17:10:59.153 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@dc4a691
+17:10:59.183 INFO  API.LoginAPI - The temp token for 1144778866 logging in is 201809IN6019P0OB37l27AfMHI89icP49
+17:10:59.193 INFO  API.LoginAPI - The userId of 1144778866 is601002
+17:10:59.383 INFO  API.LoginAPI - The DVC for 1144778866 logging in is 899284
+17:10:59.786 INFO  library.BaseClass - IAP API method executing
+17:12:15.778 INFO  library.BaseClass - Started
+17:12:16.039 INFO  API.LoginAPI - === Starting getSalt ===
+17:12:16.039 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+17:12:17.350 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@14d8444b
+17:12:17.580 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+17:12:17.590 INFO  API.LoginAPI - The salt for 9986939965 is 7tK4nN8rI8wE7sG0bE5k
+17:12:17.801 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@4f0f7849
+17:12:17.801 INFO  API.LoginAPI - The encrypted PIN is /I7AtLcSi92UY+qtJbl+kNKwELQ=
+17:12:18.439 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@4228bf58
+17:12:18.469 INFO  API.LoginAPI - The temp token for 9986939965 logging in is 201809IN6019PtckdpayLpt4b5Ax68gNL
+17:12:18.479 INFO  API.LoginAPI - The userId of 9986939965 is87101
+17:12:18.579 INFO  API.LoginAPI - The DVC for 9986939965 logging in is 847857
+17:12:19.151 INFO  API.LoginAPI - === Starting getSalt ===
+17:12:19.151 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+17:12:19.291 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@5807efad
+17:12:19.291 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+17:12:19.301 INFO  API.LoginAPI - The salt for 1144778861 is 4lN9cB0zU1wC8aO9gH8y
+17:12:19.481 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@6bcc3f27
+17:12:19.481 INFO  API.LoginAPI - The encrypted PIN is 5LOfQJmMv78KU9Hicqge/wlwtgM=
+17:12:19.731 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@2db2a05f
+17:12:19.751 INFO  API.LoginAPI - The temp token for 1144778861 logging in is null
+17:12:19.761 INFO  API.LoginAPI - The userId of 1144778861 isnull
+17:12:19.921 INFO  API.LoginAPI - The DVC for 1144778861 logging in is 111457
+17:12:20.122 INFO  API.LoginAPI - === Starting getSalt ===
+17:12:20.122 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+17:12:20.252 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@3408f695
+17:12:20.272 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+17:12:20.282 INFO  API.LoginAPI - The salt for 1144778862 is 8rL8zL6rX8uE9kF0iM7v
+17:12:20.392 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@78ec89a6
+17:12:20.402 INFO  API.LoginAPI - The encrypted PIN is oCUrjuVet016xqkQFQ0pryWVku8=
+17:12:20.544 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@7b5b5bfe
+17:12:20.564 INFO  API.LoginAPI - The temp token for 1144778862 logging in is null
+17:12:20.584 INFO  API.LoginAPI - The userId of 1144778862 isnull
+17:12:20.774 INFO  API.LoginAPI - The DVC for 1144778862 logging in is 099260
+17:12:21.165 INFO  API.LoginAPI - === Starting getSalt ===
+17:12:21.165 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+17:12:21.405 INFO  API.LoginAPI - === Starting getSalt ===
+17:12:21.405 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+17:12:22.015 INFO  API.LoginAPI - === Starting getSalt ===
+17:12:22.015 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+17:12:22.175 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@59498d94
+17:12:22.175 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+17:12:22.185 INFO  API.LoginAPI - The salt for 1144778865 is 2sD8fK7tK4iX3cB4dX7k
+17:12:22.306 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@1a1ccaaf
+17:12:22.316 INFO  API.LoginAPI - The encrypted PIN is 6UMLDQGEqfRFpFxihSyN3OKFuk4=
+17:12:22.656 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@739265f1
+17:12:22.666 INFO  API.LoginAPI - The temp token for 1144778865 logging in is 201809IN6019PlADLh0vvY5vU9nVx7SPs
+17:12:22.686 INFO  API.LoginAPI - The userId of 1144778865 is601301
+17:12:22.816 INFO  API.LoginAPI - The DVC for 1144778865 logging in is 698069
+17:12:23.036 INFO  library.BaseClass - IAP API method executing
+17:12:24.875 INFO  API.LoginAPI - === Starting getSalt ===
+17:12:24.875 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+17:12:25.005 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@52ba685a
+17:12:25.025 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+17:12:25.035 INFO  API.LoginAPI - The salt for 1144778865 is 2hD8dE8xK7iQ1fC8sT9e
+17:12:25.175 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@6aea99e7
+17:12:25.185 INFO  API.LoginAPI - The encrypted PIN is yyupQoyN1Mjgopxt6x8B1Dr/FMQ=
+17:12:25.405 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@20cff21e
+17:12:25.425 INFO  API.LoginAPI - The temp token for 1144778865 logging in is 201809IN6019P144o5V9mO4bQaG7ogkB9
+17:12:25.432 INFO  API.LoginAPI - The userId of 1144778865 is601301
+17:12:25.562 INFO  API.LoginAPI - The DVC for 1144778865 logging in is 776029
+17:12:26.994 INFO  API.LoginAPI - === Starting getSalt ===
+17:12:26.994 INFO  API.LoginAPI - https://api.pc.enstage-sas.com
+17:12:27.114 INFO  API.LoginAPI - The salt response is io.restassured.internal.RestAssuredResponseImpl@7fc7152e
+17:12:27.124 INFO  API.LoginAPI - The data centre is https://api-pdc.pc.enstage-sas.com/
+17:12:27.134 INFO  API.LoginAPI - The salt for 1144778866 is 8aC5rX0yF7zN0kF2hP0k
+17:12:27.244 INFO  API.LoginAPI - The generate encrypted pin response is io.restassured.internal.RestAssuredResponseImpl@762bf32d
+17:12:27.254 INFO  API.LoginAPI - The encrypted PIN is wI1joPoD7blmGnQdFLtMFuShh8I=
+17:12:27.504 INFO  API.LoginAPI - The start login response is io.restassured.internal.RestAssuredResponseImpl@1f179f51
+17:12:27.524 INFO  API.LoginAPI - The temp token for 1144778866 logging in is 201809IN6019POajadi76vl74C7oKUxgP
+17:12:27.534 INFO  API.LoginAPI - The userId of 1144778866 is601002
+17:12:27.684 INFO  API.LoginAPI - The DVC for 1144778866 logging in is 969086
+17:12:27.935 INFO  library.BaseClass - IAP API method executing

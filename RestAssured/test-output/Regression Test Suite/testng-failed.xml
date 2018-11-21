@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Regression Test Suite]" parallel="tests">
+  <test thread-count="2" name="test 2(failed)" parallel="tests">
+    <classes>
+      <class name="com.wibmo.LoginAPI.tests.TC_002">
+        <methods>
+          <include name="TC_002"/>
+        </methods>
+      </class> <!-- com.wibmo.LoginAPI.tests.TC_002 -->
+    </classes>
+  </test> <!-- test 2(failed) -->
+</suite> <!-- Failed suite [Regression Test Suite] -->
