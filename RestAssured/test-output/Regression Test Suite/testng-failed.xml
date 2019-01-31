@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Regression Test Suite]" parallel="tests">
-  <test thread-count="2" name="test 2(failed)" parallel="tests">
+  <test name="test 3(failed)" parallel="tests">
     <classes>
-      <class name="com.wibmo.LoginAPI.tests.TC_002">
+      <class name="com.wibmo.IAPV2.tests.IAPV2_001">
         <methods>
-          <include name="TC_002"/>
+          <include name="testStart"/>
+          <include name="updateResults"/>
+          <include name="IAPV2_001"/>
+          <include name="initializeReports"/>
         </methods>
-      </class> <!-- com.wibmo.LoginAPI.tests.TC_002 -->
+      </class> <!-- com.wibmo.IAPV2.tests.IAPV2_001 -->
     </classes>
-  </test> <!-- test 2(failed) -->
+  </test> <!-- test 3(failed) -->
+  <test name="test 4(failed)" parallel="tests">
+    <classes>
+      <class name="com.wibmo.IAPV2.tests.IAPV2_002">
+        <methods>
+          <include name="testStart"/>
+          <include name="updateResults"/>
+          <include name="IAPV2_002"/>
+          <include name="initializeReports"/>
+        </methods>
+      </class> <!-- com.wibmo.IAPV2.tests.IAPV2_002 -->
+    </classes>
+  </test> <!-- test 4(failed) -->
 </suite> <!-- Failed suite [Regression Test Suite] -->

@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.Properties;
 import static io.restassured.RestAssured.given;
 
-import scala.sys.process.ProcessBuilderImpl.FileInput;
+//import scala.sys.process.ProcessBuilderImpl.FileInput;
 
 public class getSalt4 {
 	static Properties prop = new Properties();

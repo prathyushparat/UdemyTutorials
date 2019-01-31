@@ -1,40 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Functional Test Suite]">
-  <test thread-count="5" name="Functional Test(failed)">
+  <test name="Functional Test(failed)">
     <classes>
-      <class name="com.wibmo.LoginAPI.tests.LGN_003">
-        <methods>
-          <include name="testStart"/>
-          <include name="updateResults"/>
-          <include name="LGN_003"/>
-          <include name="initializeReports"/>
-        </methods>
-      </class> <!-- com.wibmo.LoginAPI.tests.LGN_003 -->
-      <class name="com.wibmo.IAPV2.tests.IAPV2_003">
-        <methods>
-          <include name="testStart"/>
-          <include name="updateResults"/>
-          <include name="IAPV2_003"/>
-          <include name="initializeReports"/>
-        </methods>
-      </class> <!-- com.wibmo.IAPV2.tests.IAPV2_003 -->
       <class name="com.wibmo.IAPV2.tests.IAPV2_001">
         <methods>
-          <include name="testStart"/>
           <include name="updateResults"/>
+          <include name="testStart"/>
           <include name="IAPV2_001"/>
           <include name="initializeReports"/>
         </methods>
       </class> <!-- com.wibmo.IAPV2.tests.IAPV2_001 -->
+      <class name="com.wibmo.IAPV2.tests.IAPV2_003">
+        <methods>
+          <include name="updateResults"/>
+          <include name="testStart"/>
+          <include name="IAPV2_003"/>
+          <include name="initializeReports"/>
+        </methods>
+      </class> <!-- com.wibmo.IAPV2.tests.IAPV2_003 -->
+      <class name="com.wibmo.SendMoneyAPI.tests.SM_001">
+        <methods>
+          <include name="updateResults"/>
+          <include name="testStart"/>
+          <include name="SM_001"/>
+          <include name="initializeReports"/>
+        </methods>
+      </class> <!-- com.wibmo.SendMoneyAPI.tests.SM_001 -->
+      <class name="com.wibmo.IAPV2.tests.IAPV2_002">
+        <methods>
+          <include name="updateResults"/>
+          <include name="testStart"/>
+          <include name="IAPV2_002"/>
+          <include name="initializeReports"/>
+        </methods>
+      </class> <!-- com.wibmo.IAPV2.tests.IAPV2_002 -->
       <class name="com.wibmo.LoadMoneyIAP.tests.LM_001">
         <methods>
-          <include name="testStart"/>
           <include name="updateResults"/>
+          <include name="testStart"/>
           <include name="LM_001"/>
           <include name="initializeReports"/>
         </methods>
       </class> <!-- com.wibmo.LoadMoneyIAP.tests.LM_001 -->
+      <class name="com.wibmo.LoginAPI.tests.LGN_002">
+        <methods>
+          <include name="updateResults"/>
+          <include name="testStart"/>
+          <include name="LGN_002"/>
+          <include name="initializeReports"/>
+        </methods>
+      </class> <!-- com.wibmo.LoginAPI.tests.LGN_002 -->
     </classes>
   </test> <!-- Functional Test(failed) -->
 </suite> <!-- Failed suite [Functional Test Suite] -->

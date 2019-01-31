@@ -1,40 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Functional Test Suite]">
-  <test thread-count="5" name="Functional Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.wibmo.LoginAPI.tests.LGN_003">
+      <class name="com.wibmo.KYC.tests.KYC_002">
         <methods>
+          <include name="deleteUser"/>
           <include name="testStart"/>
           <include name="updateResults"/>
-          <include name="LGN_003"/>
+          <include name="KYC_002"/>
           <include name="initializeReports"/>
         </methods>
-      </class> <!-- com.wibmo.LoginAPI.tests.LGN_003 -->
-      <class name="com.wibmo.IAPV2.tests.IAPV2_003">
-        <methods>
-          <include name="testStart"/>
-          <include name="updateResults"/>
-          <include name="IAPV2_003"/>
-          <include name="initializeReports"/>
-        </methods>
-      </class> <!-- com.wibmo.IAPV2.tests.IAPV2_003 -->
-      <class name="com.wibmo.IAPV2.tests.IAPV2_001">
-        <methods>
-          <include name="testStart"/>
-          <include name="updateResults"/>
-          <include name="IAPV2_001"/>
-          <include name="initializeReports"/>
-        </methods>
-      </class> <!-- com.wibmo.IAPV2.tests.IAPV2_001 -->
-      <class name="com.wibmo.LoadMoneyIAP.tests.LM_001">
-        <methods>
-          <include name="testStart"/>
-          <include name="updateResults"/>
-          <include name="LM_001"/>
-          <include name="initializeReports"/>
-        </methods>
-      </class> <!-- com.wibmo.LoadMoneyIAP.tests.LM_001 -->
+      </class> <!-- com.wibmo.KYC.tests.KYC_002 -->
     </classes>
-  </test> <!-- Functional Test(failed) -->
-</suite> <!-- Failed suite [Functional Test Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
